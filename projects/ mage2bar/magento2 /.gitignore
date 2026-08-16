@@ -1,10 +1,25 @@
-# Estrutura Magento 2
+# =====================================================================
+# Magento 2 - Arquivos Gerados e Específicos da Aplicação (Plataforma)
+# =====================================================================
+
+# Configuração local do Magento
 /app/etc/env.php
+
+# Arquivos gerados
 /generated/
+
+# Conteúdo estático gerado
 /pub/static/
+
+# Cache de imagens de produtos
 /pub/media/catalog/product/cache/
+
+# Cache, sessões e arquivos temporários
 /var/
+
+# Dependências instaladas pelo Composer
 /vendor/
 
-# Chave Privada (SSL private keys)
-docker/magento2/nginx/ssl/*.key
+# =====================================================================
+# Fim
+# =====================================================================
