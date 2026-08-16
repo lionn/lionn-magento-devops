@@ -1,45 +1,52 @@
-#--------------------------#
-# Magento Default Files    #
-#--------------------------#
+# ============================================================
+# Lionn Magento DevOps
+# Arquivos locais, temporários e sensíveis
+# ============================================================
 
-/PATCH_*.sh
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+!.env.sample
 
-/app/etc/local.xml
+# Chaves privadas e certificados
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
 
-/media/*
-!/media/.htaccess
+# Logs
+*.log
+logs/
 
-!/media/customer
-/media/customer/*
-!/media/customer/.htaccess
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
 
-!/media/dhl
-/media/dhl/*
-!/media/dhl/logo.jpg
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-!/media/downloadable
-/media/downloadable/*
-!/media/downloadable/.htaccess
+# IDEs e editores
+.idea/
+.vscode/
 
-!/media/xmlconnect
-/media/xmlconnect/*
+# Dados persistentes de containers
+**/data/
 
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/custom/ok.gif
+# Terraform - estado local
+**/.terraform/
+*.tfstate
+*.tfstate.*
 
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/original/ok.gif
+# Terraform - variáveis locais
+*.tfvars
+*.tfvars.json
 
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-!/media/xmlconnect/system/ok.gif
-
-/var/*
-!/var/.htaccess
-
-!/var/package
-/var/package/*
-!/var/package/*.xml
-
+# ============================================================
+# Fim
+# ============================================================
