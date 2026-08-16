@@ -1,0 +1,23 @@
+{
+    "name": "lionn/mage2bar-theme",
+    "description": "Módulo complementar ao Tema Mage2Bar, responsável pelo controle e personalização do frontend da loja.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.2.0",
+        "magento/framework": "103.0.*",
+        "magento/theme-frontend-blank": "100.4.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
