@@ -1,0 +1,55 @@
+# ============================================================
+# Mage2Bar - Arquivos Locais e Sensíveis
+# ============================================================
+
+# Variáveis de Ambiente
+.env
+
+# Certificados e Chaves Privadas
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Certificados SSL do ambiente local
+docker/magento2/nginx/ssl/*.key
+docker/magento2/nginx/ssl/*.pem
+
+# Dados persistentes dos containers
+docker/magento2/data/
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+
+# Relatórios locais de segurança
+security_reports/
+
+# Estado local do Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Arquivos de variáveis do Terraform
+*.tfvars
+*.tfvars.json
+
+# Exceção: Arquivos de exemplo podem ser versionados
+!**/*.example
+!**/*.sample
