@@ -26,7 +26,7 @@ Consulte:
 
 [**lionn-virtualbox**](https://github.com/lionn/lionn-virtualbox)
 
-Também será necessária:
+Também será necessário possuir:
 
 - ISO do Debian 13;
 - máquina virtual configurada;
@@ -137,10 +137,10 @@ apt install -y sudo
 Adicione o usuário ao grupo `sudo`:
 
 ```bash
-usermod -aG sudo lionnman
+usermod -aG sudo <usuario>
 ```
 
-Substitua `lionnman` pelo nome do usuário criado durante a instalação do Debian, caso seja diferente.
+Substitua `<usuario>` pelo nome do usuário criado durante a instalação do Debian.
 
 Saia da sessão `root`:
 
@@ -336,7 +336,7 @@ O Debian 13 foi instalado e validado na máquina virtual destinada ao projeto Ma
 
 Neste momento, o sistema possui apenas a configuração básica necessária para iniciar a preparação do ambiente.
 
-As demais ferramentas e serviços serão instalados e configurados nas próximas etapas.
+As demais configurações serão realizadas gradualmente nas próximas etapas do projeto.
 
 ---
 
@@ -350,6 +350,4 @@ docs/
 └── 02-preparando-o-debian.md
 ```
 
-A próxima etapa consiste em preparar a instalação do Debian para receber as ferramentas necessárias ao ambiente Mage2Bar.
-
-As configurações de SSH, firewall, Fail2ban, Docker, Composer e Magento 2 serão realizadas posteriormente.
+A próxima etapa consiste em preparar o Debian para receber as ferramentas e serviços necessários ao ambiente Mage2Bar.
