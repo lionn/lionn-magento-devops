@@ -115,7 +115,62 @@ O resultado esperado é:
 root
 ```
 
-Caso o `sudo` ainda não esteja disponível para o usuário, essa configuração deverá ser realizada antes de continuar para as próximas etapas.
+Isso confirma que o usuário atual consegue executar comandos com privilégios administrativos através do `sudo`.
+
+### Caso o `sudo` não esteja disponível
+
+Se o comando apresentar um erro informando que o `sudo` não está instalado ou que o usuário não possui permissão para utilizá-lo, será necessário realizar a configuração utilizando uma conta `root`.
+
+Entre como `root`:
+
+```bash
+su -
+```
+
+Instale o pacote `sudo`:
+
+```bash
+apt update
+apt install -y sudo
+```
+
+Adicione o usuário ao grupo `sudo`:
+
+```bash
+usermod -aG sudo lionn
+```
+
+Substitua `lionn` pelo nome do usuário criado durante a instalação do Debian, caso seja diferente.
+
+Saia da sessão `root`:
+
+```bash
+exit
+```
+
+Faça logout do usuário e entre novamente para que a alteração do grupo seja aplicada.
+
+Confirme os grupos do usuário:
+
+```bash
+groups
+```
+
+O grupo `sudo` deverá aparecer na lista.
+
+Por fim, execute novamente:
+
+```bash
+sudo whoami
+```
+
+O resultado esperado é:
+
+```text
+root
+```
+
+> A alteração do grupo normalmente requer um novo login para que tenha efeito na sessão atual.
 
 ---
 
@@ -230,7 +285,7 @@ ping -c 4 deb.debian.org
 
 ## Sudo
 
-Confirme que o usuário possui acesso administrativo:
+Confirme novamente que o usuário possui acesso administrativo:
 
 ```bash
 sudo whoami
