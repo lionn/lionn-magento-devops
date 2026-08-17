@@ -137,10 +137,10 @@ apt install -y sudo
 Adicione o usuário ao grupo `sudo`:
 
 ```bash
-usermod -aG sudo lionn
+usermod -aG sudo lionnman
 ```
 
-Substitua `lionn` pelo nome do usuário criado durante a instalação do Debian, caso seja diferente.
+Substitua `lionnman` pelo nome do usuário criado durante a instalação do Debian, caso seja diferente.
 
 Saia da sessão `root`:
 
