@@ -24,8 +24,7 @@ O projeto **lionn-virtualbox** contém um guia para criação e configuração d
 
 Consulte:
 
-**lionn-virtualbox**
-( https://github.com/lionn/lionn-virtualbox )
+[**lionn-virtualbox**](https://github.com/lionn/lionn-virtualbox)
 
 Também será necessária:
 
