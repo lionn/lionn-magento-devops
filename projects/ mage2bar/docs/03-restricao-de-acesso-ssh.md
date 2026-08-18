@@ -14,7 +14,7 @@ A autenticação será realizada através de chave pública. O acesso por senha 
 
 Nesta etapa serão realizadas as seguintes configurações:
 
-- criação do diretório `.ssh` do usuário `lionnman`;
+- criação do diretório `.ssh` do usuário utilizado para acesso ao servidor;
 - configuração da chave pública;
 - ajuste das permissões dos arquivos SSH;
 - teste do acesso utilizando a chave pública;
@@ -29,34 +29,36 @@ Nesta etapa serão realizadas as seguintes configurações:
 
 # 1. Criando o diretório SSH
 
-Primeiro, será criado o diretório `.ssh` para o usuário `lionnman`.
+Primeiro, será criado o diretório `.ssh` para o usuário utilizado no ambiente.
+
+Substitua `<usuario>` pelo nome do usuário criado durante a instalação do Debian.
 
 ```bash
-sudo mkdir -p /home/lionnman/.ssh
+sudo mkdir -p /home/<usuario>/.ssh
 ```
 
 Ajuste as permissões do diretório:
 
 ```bash
-sudo chmod 700 /home/lionnman/.ssh
+sudo chmod 700 /home/<usuario>/.ssh
 ```
 
-Defina o usuário `lionnman` como proprietário:
+Defina o usuário como proprietário:
 
 ```bash
-sudo chown lionnman:lionnman /home/lionnman/.ssh
+sudo chown <usuario>:<usuario> /home/<usuario>/.ssh
 ```
 
 ---
 
 # 2. Configurando a chave pública
 
-A chave pública será adicionada ao arquivo `authorized_keys` do usuário `lionnman`.
+A chave pública será adicionada ao arquivo `authorized_keys` do usuário.
 
 Edite o arquivo:
 
 ```bash
-sudo vi /home/lionnman/.ssh/authorized_keys
+sudo vi /home/<usuario>/.ssh/authorized_keys
 ```
 
 Adicione a chave pública correspondente ao usuário.
@@ -64,7 +66,7 @@ Adicione a chave pública correspondente ao usuário.
 Exemplo:
 
 ```text
-ssh-ed25519 AAAA...<CHAVE_PUBLICA_EXEMPLO>ABC... lionnman
+ssh-ed25519 AAAA...<CHAVE_PUBLICA_EXEMPLO>ABC... <usuario>
 ```
 
 A chave acima é apenas um exemplo.
@@ -80,19 +82,19 @@ O arquivo `authorized_keys` deve possuir permissões restritas.
 Execute:
 
 ```bash
-sudo chmod 600 /home/lionnman/.ssh/authorized_keys
+sudo chmod 600 /home/<usuario>/.ssh/authorized_keys
 ```
 
-Defina o usuário `lionnman` como proprietário:
+Defina o usuário como proprietário:
 
 ```bash
-sudo chown lionnman:lionnman /home/lionnman/.ssh/authorized_keys
+sudo chown <usuario>:<usuario> /home/<usuario>/.ssh/authorized_keys
 ```
 
 Verifique as permissões:
 
 ```bash
-ls -la /home/lionnman/.ssh
+ls -la /home/<usuario>/.ssh
 ```
 
 ---
@@ -101,7 +103,7 @@ ls -la /home/lionnman/.ssh
 
 Antes de alterar a configuração do SSH, o acesso utilizando a chave pública deve ser testado.
 
-Abra uma nova sessão SSH utilizando o usuário `lionnman` e a chave privada correspondente.
+Abra uma nova sessão SSH utilizando o usuário criado no ambiente e a chave privada correspondente.
 
 O acesso deverá funcionar sem solicitar a senha do usuário.
 
@@ -200,10 +202,10 @@ Após reiniciar o serviço, realize novamente os testes de acesso.
 
 ### Login utilizando chave pública
 
-O usuário `lionnman` deverá conseguir acessar o servidor utilizando a chave privada correspondente.
+O usuário utilizado no ambiente deverá conseguir acessar o servidor utilizando a chave privada correspondente.
 
 ```text
-lionnman + chave pública
+<usuario> + chave pública
         ↓
      permitido
 ```
@@ -213,7 +215,7 @@ lionnman + chave pública
 A autenticação utilizando senha deverá ser recusada.
 
 ```text
-lionnman + senha
+<usuario> + senha
         ↓
      bloqueado
 ```
