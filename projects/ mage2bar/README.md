@@ -1,6 +1,6 @@
 # Mage2Bar
 
-O **Mage2Bar** é um projeto de loja virtual desenvolvido em Magento 2, utilizando Docker.
+O **Mage2Bar** é um projeto de loja virtual desenvolvido em **Magento 2**, utilizando **Docker**.
 
 O projeto simula uma loja voltada para bebidas e petiscos, sendo utilizado como ambiente de desenvolvimento e demonstração de uma aplicação Magento 2.
 
