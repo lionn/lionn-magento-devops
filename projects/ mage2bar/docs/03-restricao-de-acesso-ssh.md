@@ -14,7 +14,7 @@ A autenticação será realizada através de chave pública. O acesso por senha 
 
 Nesta etapa serão realizadas as seguintes configurações:
 
-- criação do diretório `.ssh` do usuário `devops`;
+- criação do diretório `.ssh` do usuário `lionnman`;
 - configuração da chave pública;
 - ajuste das permissões dos arquivos SSH;
 - teste do acesso utilizando a chave pública;
@@ -29,34 +29,34 @@ Nesta etapa serão realizadas as seguintes configurações:
 
 # 1. Criando o diretório SSH
 
-Primeiro, será criado o diretório `.ssh` para o usuário `devops`.
+Primeiro, será criado o diretório `.ssh` para o usuário `lionnman`.
 
 ```bash
-sudo mkdir -p /home/devops/.ssh
+sudo mkdir -p /home/lionnman/.ssh
 ```
 
 Ajuste as permissões do diretório:
 
 ```bash
-sudo chmod 700 /home/devops/.ssh
+sudo chmod 700 /home/lionnman/.ssh
 ```
 
-Defina o usuário `devops` como proprietário:
+Defina o usuário `lionnman` como proprietário:
 
 ```bash
-sudo chown devops:devops /home/devops/.ssh
+sudo chown lionnman:lionnman /home/lionnman/.ssh
 ```
 
 ---
 
 # 2. Configurando a chave pública
 
-A chave pública será adicionada ao arquivo `authorized_keys` do usuário `devops`.
+A chave pública será adicionada ao arquivo `authorized_keys` do usuário `lionnman`.
 
 Edite o arquivo:
 
 ```bash
-sudo vi /home/devops/.ssh/authorized_keys
+sudo vi /home/lionnman/.ssh/authorized_keys
 ```
 
 Adicione a chave pública correspondente ao usuário.
@@ -64,7 +64,7 @@ Adicione a chave pública correspondente ao usuário.
 Exemplo:
 
 ```text
-ssh-ed25519 AAAA...<CHAVE_PUBLICA_EXEMPLO>ABC... devops
+ssh-ed25519 AAAA...<CHAVE_PUBLICA_EXEMPLO>ABC... lionnman
 ```
 
 A chave acima é apenas um exemplo.
@@ -80,19 +80,19 @@ O arquivo `authorized_keys` deve possuir permissões restritas.
 Execute:
 
 ```bash
-sudo chmod 600 /home/devops/.ssh/authorized_keys
+sudo chmod 600 /home/lionnman/.ssh/authorized_keys
 ```
 
-Defina o usuário `devops` como proprietário:
+Defina o usuário `lionnman` como proprietário:
 
 ```bash
-sudo chown devops:devops /home/devops/.ssh/authorized_keys
+sudo chown lionnman:lionnman /home/lionnman/.ssh/authorized_keys
 ```
 
 Verifique as permissões:
 
 ```bash
-ls -la /home/devops/.ssh
+ls -la /home/lionnman/.ssh
 ```
 
 ---
@@ -101,7 +101,7 @@ ls -la /home/devops/.ssh
 
 Antes de alterar a configuração do SSH, o acesso utilizando a chave pública deve ser testado.
 
-Abra uma nova sessão SSH utilizando o usuário `devops` e a chave privada correspondente.
+Abra uma nova sessão SSH utilizando o usuário `lionnman` e a chave privada correspondente.
 
 O acesso deverá funcionar sem solicitar a senha do usuário.
 
@@ -200,10 +200,10 @@ Após reiniciar o serviço, realize novamente os testes de acesso.
 
 ### Login utilizando chave pública
 
-O usuário `devops` deverá conseguir acessar o servidor utilizando a chave privada correspondente.
+O usuário `lionnman` deverá conseguir acessar o servidor utilizando a chave privada correspondente.
 
 ```text
-devops + chave pública
+lionnman + chave pública
         ↓
      permitido
 ```
@@ -213,7 +213,7 @@ devops + chave pública
 A autenticação utilizando senha deverá ser recusada.
 
 ```text
-devops + senha
+lionnman + senha
         ↓
      bloqueado
 ```
