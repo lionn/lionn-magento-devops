@@ -1,0 +1,183 @@
+/** 
+ * Copyright © Magento, Inc. All rights reserved. 
+ * See COPYING.txt for license details. 
+ */
+
+// 
+// Blank theme desktop styles 
+// _____________________________________________ 
+// These desktop styles are additional to mobile 
+
+// 
+// Global lib + theme styles 
+// --------------------------------------------- 
+@import '_styles.less';
+
+// 
+// Magento Import instructions 
+// --------------------------------------------- 
+//@magento_import 'source/_module.less'; // Theme modules 
+//@magento_import 'source/_widgets.less'; // Theme widgets 
+
+// 
+// Media queries collector 
+// --------------------------------------------- 
+@import 'source/lib/_responsive.less';
+@media-target: 'desktop'; // Sets target device for this file 
+@media-common: false; // Sets not to output common styles 
+
+// 
+// Global variables override 
+// --------------------------------------------- 
+@import 'source/_theme.less';
+
+
+//@import 'source/_override-xsearch.less';
+
+
+
+// 
+// Extend for minor customisation 
+// --------------------------------------------- 
+//@magento_import 'source/_extend.less';
+
+/* ============================================== */
+/* ============== ESTILOS GERAIS =============== */
+/* ============================================== */
+body#html-body {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+/* ============================================== */
+/* ============== FONTES ======================== */
+/* ============================================== */
+
+@font-face {
+    font-family: 'Blank-Theme-Icons';
+    src: url('../fonts/Blank-Theme-Icons.woff2') format('woff2'),
+         url('../fonts/Blank-Theme-Icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+/* ============================================== */
+/* ================ BARRA DE PESQUISA ========== */
+/* ============================================== */
+
+.block-search {
+    float: left;
+    right: 0px;
+    position: relative;
+    width: 600px; /* comprimento da barra de pesquisa topo */
+    z-index: 93;
+
+}
+
+.block-search .nested {
+    display: none;
+    padding-top: 5px;
+    position: absolute;
+}
+
+
+/* ============================================== */
+/* ================ PÁGINA DO PRODUTO ========== */
+/* ============================================== */
+.page-layout-1column .product-info-main {
+    width: 40%;
+}
+
+.product-info-main {
+    float: right;
+}
+
+/* Abas do Produto (AMASTY Tabs) */
+.product.data.items {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.product.data.items > .item.title {
+    margin: 0;
+    display: block;
+}
+
+
+/* Paginação */
+@media (min-width: 769px),
+print {
+    .products.wrapper ~ .toolbar .pages {
+        display: contents;
+    }
+}
+
+/* ============================================== */
+/* ================ HEADER/MENU ================ */
+/* ============================================== */
+/* Mensagem de Boas Vindas */
+li.greet.welcome {
+    visibility: hidden;
+}
+
+/* ============================================== */
+/* ================ TÍTULOS ==================== */
+/* ============================================== */
+.page-main > .page-title-wrapper .page-title {
+    display: flex;
+    justify-content: center;
+}
+
+.page-title-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ============================================== */
+/* ==================== FOOTER ================= */
+/* ============================================== */
+.footer.content .links {
+    display: inline;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+/* ============================================== */
+/* ============= BOTÃO VOLTAR AO TOPO ========== */
+/* ============================================== */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
+
+
+
+
