@@ -1,0 +1,426 @@
+/** 
+ * Copyright © Magento, Inc. All rights reserved. 
+ * See COPYING.txt for license details. 
+ */
+
+// 
+// Blank theme mobile styles 
+// _____________________________________________ 
+// These mobile styles are mandatory and will be used as basis according to the mobile first design 
+
+// 
+// Global lib + theme styles + theme extends 
+// --------------------------------------------- 
+@import 'source/_reset.less';
+@import '_styles.less';
+
+// 
+// Magento Import instructions 
+// --------------------------------------------- 
+//@magento_import 'source/_module.less'; // Theme modules 
+//@magento_import 'source/_widgets.less'; // Theme widgets 
+
+// 
+// Media queries collector 
+// --------------------------------------------- 
+@import 'source/lib/_responsive.less';
+@media-target: 'mobile'; // Sets target device for this file 
+
+// 
+// Global variables override 
+// --------------------------------------------- 
+@import 'source/_theme.less';
+
+// 
+// Extend for minor customisation 
+// --------------------------------------------- 
+//@magento_import 'source/_extend.less';
+
+/* ============================================== */
+/* ============== ESTILOS GERAIS =============== */
+/* ============================================== */
+body#html-body {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.ammenu-link.-current,
+.ammenu-link.-current span {
+    color: #ff8800 !important;
+    font-weight: bold;
+}
+
+/* Ajustando o cabeçalho onde fica o Logo a barra de pesquisa e o carrinho... */
+/* Layout para cabeçalho em telas pequenas (até 700px) */
+@media (max-width: 700px) {
+    .header.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        position: relative;
+    }
+
+    /* Carrinho alinhado à direita e mesmo nível */
+    .minicart-wrapper {
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        z-index: 2;
+    }
+
+    /* Centraliza o logo */
+    .logo,
+    .ammenu-logo {
+        margin: 0 auto;
+        order: 2;
+    }
+
+    /* Barra de busca */
+    .block.block-search {
+        width: 100%;
+        order: 3;
+    }
+}
+
+/* Configurações do balão ao clicar no Carrinho alinhado à direita dispositivos móveis */
+.minicart-wrapper .block-minicart {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none none;
+    background: #fff;
+    border: 1px solid #bbb;
+    margin-top: 10px;
+    min-width: 100%;
+    width: 320px;
+    z-index: 777;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+/* Definindo o Estilo da Barra de Pesquisa padrão do tema Blank Magento 2 */
+.block.block-search input[type="text"],
+.block.block-search input[type="search"] {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+    width: 100%;
+}
+
+.block.block-search input[type="text"]:focus,
+.block.block-search input[type="search"]:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.40);
+    border-color: transparent;
+}
+
+
+/* Definindo o Estilo da Barra de Pesquisa padrão do tema Blank Magento 2 para outros idiomas.... */
+.block.block-search input[type=text], .block.block-search input[type=search] {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    outline: none;
+    transition: box-shadow .2s ease-in-out;
+    width: 100%;
+}
+
+
+/* Força a exibição do menu de idiomas padrão do Magento 2 em dispositivos moveis */
+@media (max-width: 768px) {
+    #switcher-language {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto 40px auto !important; /* <-- margem inferior aumentada */
+        width: 100%;
+        text-align: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    #switcher-language .switcher-label {
+        margin-bottom: 8px;
+    }
+
+    #switcher-language .switcher-trigger {
+        margin: 0 auto;
+        position: relative;
+        z-index: 10000;
+    }
+
+    #switcher-language .dropdown {
+        position: absolute !important;
+        top: 100%;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        z-index: 9999 !important;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        min-width: 220px;
+        padding: 0.5rem 0;
+    }
+}
+
+
+
+
+
+/* ============================================== */
+/* ============== FONTES ======================== */
+/* ============================================== */
+
+@font-face {
+    font-family: 'Blank-Theme-Icons';
+    src: url('../fonts/Blank-Theme-Icons.woff2') format('woff2'),
+         url('../fonts/Blank-Theme-Icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* ============================================== */
+/* ================ HEADER/MENU ================ */
+/* ============================================== */
+
+/* Seletor de Idiomas */
+.switcher {
+    margin-right: 10px;
+    float: right;
+    order: inherit;
+}
+
+.switcher li {
+    background: #f8f8f8;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+/* ============================================== */
+/* ============== PÁGINA DO PRODUTO ============= */
+/* ============================================== */
+/* SKU */
+.product-info-main .product.attribute.sku {
+    display: none;
+    vertical-align: top;
+    color: #7d7d7d;
+}
+
+
+
+/* ============================================== */
+/* ============== LISTAGEM DE PRODUTOS ========== */
+/* ============================================== */
+/* Botão Comparar */
+.action.tocompare {
+    display: none;
+}
+
+/* Nome do Produto */
+.product-item-name {
+    text-align: center;
+}
+
+
+
+/* ============================================== */
+/* ==================== FOOTER ================== */
+/* ============================================== */
+.page-footer {
+    margin-top: auto;
+    text-align: right;
+}
+
+.footer .copyright,
+.footer .bugs {
+    display: block;
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+
+
+/* ============================================== */
+/* ================ BREADCRUMBS ================ */
+/* ============================================== */
+.breadcrumbs .items {
+    font-size: 1.2rem;
+    color: #111111;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+
+
+/* ============================================== */
+/* ================ ALGOLIA SEARCH ============= */
+/* ============================================== */
+.algolia-autocomplete-container .aa-dropdown-menu,
+.aa-Panel {
+    position: absolute;
+    margin-top: -1px;
+    right: 0;
+    width: 100%;
+    z-index: 1000 !important;
+    border: 1px solid #BBB;
+    border-top: 3px solid #F9AB73;
+    border-radius: 1px;
+    background: white;
+}
+
+.page-header .amsearch-button.-loupe-trigger {
+    display: none;
+}
+
+
+
+/* ============================================== */
+/* ================ COMPARE BLOCK =============== */
+/* ============================================== */
+.block-compare link {
+    display: none;
+}
+
+.block.block-compare {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+/* ============================================== */
+/* ============ OTIMIZAÇÃO PERFORMANCE ========== */
+/* ============================================== */
+/* .page-main .page-title-wrapper .base { display: block; min-height: 50px; font-size: 24px; font-weight: 600; } .page-main { min-height: 800px; } .minicart-wrapper .block-minicart { min-height: 150px; contain-intrinsic-size: 150px; } .logo img, .header .logo img { width: 110px; height: 89px; display: block; } */
+
+/* ============================================== */
+/* ============================================== */
+/* ============================================== */
+.ammenu-header-container .header.content .ammenu-logo {
+    display: block;
+    margin: 0 auto 0 0; /* Alinha à esquerda em telas grandes */
+    min-width: 110px;
+}
+
+/* Em telas menores (ex: mobile), centraliza o logo */
+@media (max-width: 768px) {
+    .ammenu-header-container .header.content .ammenu-logo {
+        margin-left: auto !important; /* Centraliza horizontalmente */
+        margin-right: auto !important;
+    }
+}
+
+
+
+/* ================================================ */
+/* ============ PEQUENOS AJUSTES NO TEMA ========== */
+/* ================================================ */
+
+/* Alinha o link a direita (Saiba mais) na página do catálogo na visualizção em lista... */
+.products-list .product-item-details .action.more {
+    display: block;
+    text-align: right;
+}
+
+
+
+/* Oculta toda a lista de links do header */
+.header.panel > .header.links {
+            float: right;
+            font-size: 0;
+            margin: 0;
+            padding: 0;
+            list-style: none none;
+            margin-left: auto;
+            display: none;
+}
+
+
+
+/* Oculta o carrinho de compras */
+.minicart-wrapper .action.showcart {
+    white-space: nowrap;
+    display: none;
+}
+
+
+/* Oculta a mensagem para reportar bugs do Magento 2 no rodapé do tema */
+.footer .copyright, .footer .bugs {
+    display: none;
+}
+
+/* Oculta o texto ´´Opções de Compra´´ do lado direito do catalogo */
+.block-subtitle {
+    display: none;
+}
+
+/* Oculta o logotipo do Algolia Search */
+.footer_algolia img {
+    display: none;
+}
+
+/* Oculta o texto Search do Algolia ao lado do logotipo */
+.with-grid .footer_algolia {
+    display: none;
+   
+}
+
+.footer_algolia .algolia-search-by-label {
+    display: none;
+}
+
+/* Oculta o preço no Search do Algolia (barra de pesquisa) */
+.aa-Panel .algoliasearch-autocomplete-price {
+    display: none;
+}
+
+/* Definir detalhe da cor Laranja na barra de pesquisa do Algolia Search */
+.aa-Panel {
+    
+    border-top: 3px solid #ff5501!important;
+
+}
+
+
+
+/* Aumentar a largura do sidebar - Categorias */
+.sidebar.sidebar-main {
+    width: 280px;
+}
+
+.filter-options-content .item a {
+    white-space: nowrap;
+}
+
+
+/* ================================================ */
+/* ============ FIM =============================== */
+/* ================================================ */
