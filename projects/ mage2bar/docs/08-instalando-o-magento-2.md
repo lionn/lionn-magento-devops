@@ -908,13 +908,13 @@ ls -ld ~/mage2bar/magento2
 
 Evite utilizar permissões excessivamente abertas.
 
-Não utilize:
+ATENÇÃO: Nunca utilize o comando abaixo como solução padrão para problemas de permissão.
 
 ```bash
-chmod -R 777
+chmod -R 777 #Nunca utilize esse comando!
 ```
 
-como solução padrão para problemas de permissão.
+
 
 ---
 
