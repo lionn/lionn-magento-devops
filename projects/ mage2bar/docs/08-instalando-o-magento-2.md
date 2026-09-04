@@ -2,13 +2,13 @@
 
 ## Mage2Bar
 
-O Mage2Bar é um projeto prático para implantação de um ambiente Magento 2 utilizando tecnologias amplamente utilizadas em ambientes de desenvolvimento e infraestrutura.
+O Mage2Bar é um projeto prático para implantação de um ambiente Magento 2 utilizando Docker e serviços complementares necessários para a execução da aplicação.
 
-A partir desta etapa, o projeto deixa de utilizar somente o sistema operacional base e passa a utilizar uma arquitetura composta por containers Docker.
+Nesta etapa, o código-fonte do Magento será obtido através do Composer e o ambiente Docker será construído utilizando os arquivos de configuração do próprio projeto.
 
-O ambiente será formado por containers responsáveis pelo PHP-FPM, Nginx, MariaDB, Redis e OpenSearch.
+A arquitetura utiliza containers independentes para o PHP-FPM, Nginx, MariaDB, Redis e OpenSearch.
 
-O objetivo desta etapa é construir o ambiente, obter o código-fonte do Magento 2, configurar os serviços necessários e realizar a instalação inicial da aplicação.
+Ao final desta etapa, o Magento deverá estar instalado e acessível através do Nginx, incluindo a loja e o painel administrativo.
 
 ---
 
@@ -16,75 +16,30 @@ O objetivo desta etapa é construir o ambiente, obter o código-fonte do Magento
 
 Nesta etapa serão realizados os seguintes procedimentos:
 
-1. Verificar o ambiente Debian.
-2. Verificar Docker e Docker Compose.
-3. Preparar a estrutura do projeto.
-4. Configurar as variáveis de ambiente.
-5. Obter o código-fonte do Magento Open Source.
-6. Construir a imagem PHP-FPM personalizada.
+1. Verificar Docker e Docker Compose.
+2. Preparar a estrutura do projeto.
+3. Configurar as Magento Access Keys.
+4. Obter o código-fonte do Magento Open Source.
+5. Configurar as variáveis de ambiente.
+6. Construir a imagem PHP-FPM.
 7. Inicializar os containers.
 8. Validar MariaDB, Redis e OpenSearch.
-9. Validar a comunicação entre os serviços.
-10. Executar a instalação do Magento.
-11. Configurar as permissões da aplicação.
-12. Validar o funcionamento do Magento.
+9. Validar a comunicação entre os containers.
+10. Configurar as permissões da aplicação.
+11. Executar a instalação do Magento.
+12. Validar os serviços.
 13. Acessar a loja.
 14. Acessar o painel administrativo.
 
-Ao final desta etapa, o ambiente Mage2Bar deverá possuir o Magento 2 instalado e executando sobre Docker.
+Ao final da etapa, o ambiente Mage2Bar deverá possuir uma instalação funcional do Magento 2 executando sobre Docker.
 
 ---
 
-# 1. Estrutura do projeto
-
-Antes de iniciar a instalação, é importante compreender a estrutura utilizada pelo Mage2Bar.
-
-A estrutura utilizada pelo projeto é semelhante a:
-
-```text
-mage2bar/
-├── docker/
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   ├── .env
-│   ├── .env.example
-│   └── nginx/
-│       ├── default.conf
-│       └── ssl/
-│
-├── magento2/
-│   ├── app/
-│   ├── bin/
-│   ├── composer.json
-│   ├── composer.lock
-│   ├── generated/
-│   ├── pub/
-│   ├── setup/
-│   ├── var/
-│   └── vendor/
-│
-└── data/
-```
-
-O diretório `magento2` contém o código-fonte da aplicação.
-
-O diretório `docker` contém os arquivos responsáveis pela construção e execução do ambiente.
-
-O arquivo `Dockerfile` define a imagem PHP utilizada pelo Magento.
-
-O arquivo `docker-compose.yml` define os containers e a comunicação entre os serviços.
-
-O arquivo `.env` armazena as variáveis utilizadas pelo Docker Compose.
-
-O arquivo `.env.example` funciona como modelo para criação do `.env`.
-
----
-
-# 2. Verificando o Docker
+# 1. Verificando o Docker
 
 O Docker foi instalado na etapa anterior.
 
-Verifique a instalação:
+Verifique a versão instalada:
 
 ```bash
 docker --version
@@ -96,21 +51,19 @@ Verifique também o Docker Compose:
 docker compose version
 ```
 
-Também é possível verificar o serviço Docker:
+Verifique o estado do serviço Docker:
 
 ```bash
 sudo systemctl status docker
 ```
 
-O serviço deverá estar em execução.
-
-Caso seja necessário iniciar o serviço:
+Caso o serviço não esteja em execução:
 
 ```bash
 sudo systemctl start docker
 ```
 
-Para habilitar a inicialização automática:
+Habilite a inicialização automática:
 
 ```bash
 sudo systemctl enable docker
@@ -118,23 +71,27 @@ sudo systemctl enable docker
 
 ---
 
-# 3. Verificando o acesso ao Docker
+# 2. Verificando a execução do Docker
 
-Teste a execução de um container:
+Execute o container de teste fornecido pelo próprio Docker:
 
 ```bash
 docker run hello-world
 ```
 
-Caso o comando seja executado sem a necessidade de `sudo`, o usuário atual já possui permissão para utilizar o Docker.
+Se o comando for executado corretamente, o mecanismo Docker está funcionando.
 
-Caso seja necessário utilizar `sudo`, verifique a configuração realizada na etapa de instalação do Docker.
+Também é possível verificar os containers existentes:
+
+```bash
+docker ps -a
+```
 
 ---
 
-# 4. Verificando a estrutura do projeto
+# 3. Estrutura do projeto
 
-Entre no diretório do projeto:
+Entre no diretório principal do Mage2Bar:
 
 ```bash
 cd ~/mage2bar
@@ -146,44 +103,32 @@ Verifique seu conteúdo:
 ls -lah
 ```
 
-A estrutura deverá possuir os diretórios utilizados pelo projeto:
+A estrutura utilizada pelo projeto deverá ser semelhante a:
 
 ```text
-docker/
-magento2/
+mage2bar/
+├── docker/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── .env.example
+│   └── nginx/
+│       ├── default.conf
+│       └── ssl/
+│
+└── magento2/
 ```
 
-Caso o diretório da aplicação ainda não exista:
+O diretório `magento2` contém o código-fonte da aplicação.
 
-```bash
-mkdir -p ~/mage2bar/magento2
-```
+O diretório `docker` contém os arquivos utilizados para construir e executar a infraestrutura.
 
 ---
 
-# 5. Verificando o Composer
+# 4. Obtendo as Magento Access Keys
 
-O Composer foi instalado na etapa anterior.
+O Magento utiliza um repositório oficial de pacotes acessível através do Composer.
 
-Verifique a versão:
-
-```bash
-composer --version
-```
-
-Também é possível verificar sua localização:
-
-```bash
-which composer
-```
-
-O Composer será utilizado para obter o código-fonte do Magento e instalar suas dependências.
-
----
-
-# 6. Configurando as Magento Access Keys
-
-O Composer precisa acessar o repositório oficial de pacotes do Magento.
+Para obter o código-fonte, é necessário utilizar as Magento Access Keys obtidas na etapa anterior.
 
 As credenciais são compostas por:
 
@@ -194,11 +139,15 @@ Private Key
 
 A Public Key funciona como identificador.
 
-A Private Key funciona como senha e deve ser tratada como informação confidencial.
+A Private Key funciona como credencial secreta.
 
-As credenciais não devem ser adicionadas ao Git, publicadas no GitHub ou inseridas diretamente em arquivos versionados.
+A Private Key não deve ser publicada no GitHub, adicionada ao código-fonte ou armazenada em arquivos versionados.
 
-Configure a autenticação do Composer:
+---
+
+# 5. Configurando a autenticação do Composer
+
+Configure as credenciais do repositório Magento:
 
 ```bash
 composer config --global http-basic.repo.magento.com <PUBLIC_KEY> <PRIVATE_KEY>
@@ -220,33 +169,53 @@ Substitua:
 
 pela Private Key.
 
+O Composer armazenará essas informações na configuração global do usuário.
+
+---
+
+# 6. Criando o diretório do Magento
+
+Entre no diretório principal do projeto:
+
+```bash
+cd ~/mage2bar
+```
+
+Caso o diretório da aplicação ainda não exista:
+
+```bash
+mkdir -p magento2
+```
+
+Entre no diretório:
+
+```bash
+cd magento2
+```
+
 ---
 
 # 7. Obtendo o código-fonte do Magento
 
-Entre no diretório da aplicação:
+O código-fonte do Magento Open Source será obtido através do Composer.
 
-```bash
-cd ~/mage2bar/magento2
-```
-
-Obtenha o Magento Open Source:
+Execute:
 
 ```bash
 composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.8 .
 ```
 
-O ponto final `.` indica que o Composer deverá instalar o projeto no diretório atual.
+O ponto final indica que o projeto deverá ser instalado no diretório atual.
 
 Durante o processo, o Composer realizará o download do código-fonte e das dependências necessárias.
 
-Esse procedimento pode levar alguns minutos.
+O procedimento pode levar alguns minutos, dependendo da velocidade da conexão e do desempenho do ambiente.
 
 ---
 
 # 8. Verificando o código-fonte
 
-Após o término da instalação, verifique o conteúdo do diretório:
+Após o término da instalação:
 
 ```bash
 ls -lah
@@ -272,7 +241,7 @@ Verifique o arquivo principal do Composer:
 ls -l composer.json
 ```
 
-Confirme a existência do diretório de dependências:
+Verifique o diretório de dependências:
 
 ```bash
 ls -ld vendor
@@ -282,31 +251,27 @@ ls -ld vendor
 
 # 9. Verificando a versão do Magento
 
-Verifique a versão instalada:
+A versão instalada pode ser verificada através do CLI:
 
 ```bash
 php bin/magento --version
 ```
 
-Também é possível verificar através do Composer:
+Também é possível consultar o pacote através do Composer:
 
 ```bash
 composer show magento/product-community-edition
 ```
 
-Esses comandos permitem confirmar a versão do Magento instalada no projeto.
-
 ---
 
 # 10. Validando o Composer
 
-Execute:
+Valide a estrutura do projeto:
 
 ```bash
 composer validate
 ```
-
-O Composer deverá informar se o arquivo `composer.json` possui uma estrutura válida.
 
 Também é possível verificar as dependências instaladas:
 
@@ -316,9 +281,33 @@ composer show --direct
 
 ---
 
-# 11. Preparando o ambiente Docker
+# 11. Verificando os requisitos da plataforma
 
-Entre no diretório Docker:
+Antes de iniciar os containers, verifique os requisitos das dependências:
+
+```bash
+composer check-platform-reqs
+```
+
+Esse comando verifica se a versão do PHP e as extensões disponíveis são compatíveis com os pacotes instalados.
+
+O resultado deve ser analisado antes de continuar.
+
+O `Dockerfile` utilizado pelo Mage2Bar atualmente utiliza a imagem:
+
+```text
+php:8.2-fpm
+```
+
+Portanto, caso o Composer indique alguma incompatibilidade entre a versão do Magento instalada e o PHP utilizado pelo projeto, o `Dockerfile` deverá ser revisado antes da continuidade da instalação.
+
+As versões do Magento e de suas dependências devem ser sempre avaliadas de acordo com os requisitos da versão exata instalada.
+
+---
+
+# 12. Entrando no diretório Docker
+
+Entre no diretório responsável pela infraestrutura:
 
 ```bash
 cd ~/mage2bar/docker
@@ -330,7 +319,7 @@ Verifique os arquivos:
 ls -lah
 ```
 
-Os arquivos principais esperados são:
+Os arquivos principais são:
 
 ```text
 Dockerfile
@@ -339,25 +328,17 @@ docker-compose.yml
 nginx/
 ```
 
-A estrutura poderá ser semelhante a:
-
-```text
-docker/
-├── Dockerfile
-├── docker-compose.yml
-├── .env.example
-└── nginx/
-    ├── default.conf
-    └── ssl/
-```
-
 ---
 
-# 12. Criando o arquivo .env
+# 13. Criando o arquivo .env
 
-O arquivo `.env.example` funciona como modelo de configuração.
+O projeto possui um arquivo de exemplo para as variáveis de ambiente:
 
-Crie uma cópia:
+```text
+.env.example
+```
+
+Crie o arquivo utilizado pelo Docker Compose:
 
 ```bash
 cp .env.example .env
@@ -369,10 +350,14 @@ Verifique:
 ls -lah .env
 ```
 
+---
+
+# 14. Configurando o .env
+
 Abra o arquivo:
 
 ```bash
-vim .env
+nano .env
 ```
 
 A configuração utilizada pelo projeto possui variáveis para MariaDB, Redis e OpenSearch.
@@ -401,11 +386,11 @@ As credenciais reais não devem ser publicadas no repositório.
 
 ---
 
-# 13. Protegendo o arquivo .env
+# 15. Protegendo o arquivo .env
 
-O arquivo `.env` contém informações sensíveis.
+Como o arquivo `.env` contém credenciais, suas permissões devem ser restritas.
 
-Ajuste suas permissões:
+Execute:
 
 ```bash
 chmod 600 .env
@@ -419,83 +404,102 @@ ls -l .env
 
 O arquivo deverá estar acessível somente pelo usuário proprietário.
 
-Também é importante confirmar que `.env` não será versionado pelo Git.
-
-Verifique o arquivo `.gitignore`:
+Também confirme que o `.env` está incluído no `.gitignore`:
 
 ```bash
 cat ../.gitignore
 ```
 
-Caso necessário, adicione:
-
-```text
-.env
-```
-
-O arquivo `.env.example`, por outro lado, pode permanecer versionado, pois serve como modelo de configuração.
+O arquivo `.env.example` pode permanecer versionado, pois serve como modelo de configuração.
 
 ---
 
-# 14. Validando o Docker Compose
+# 16. Validando o Docker Compose
 
-Antes de iniciar os containers, valide a configuração do Docker Compose:
+Antes de iniciar os serviços, valide a configuração:
 
 ```bash
 docker compose config
 ```
 
-Esse comando processa o arquivo `docker-compose.yml` e as variáveis existentes no `.env`.
+Esse comando processa o `docker-compose.yml` juntamente com as variáveis presentes no `.env`.
 
-Caso exista algum problema de sintaxe ou variável ausente, o Docker Compose deverá informar o erro.
+Caso exista algum problema de sintaxe ou variável ausente, o Docker Compose deverá apresentar uma mensagem de erro.
 
-Somente após a validação bem-sucedida prossiga para a construção das imagens.
+Somente prossiga após uma validação bem-sucedida.
 
 ---
 
-# 15. Construindo a imagem do Magento
+# 17. Construindo a imagem PHP-FPM
 
-O serviço `magento_server` utiliza o `Dockerfile` existente no diretório Docker.
+O serviço `magento_server` utiliza o `Dockerfile` existente no diretório:
 
-Execute:
+```text
+docker/
+```
+
+Construa a imagem:
 
 ```bash
 docker compose build magento_server
 ```
 
-Durante o processo, o Docker irá:
+O Docker irá construir a imagem PHP-FPM utilizada pela aplicação.
 
-1. Obter a imagem base PHP-FPM.
-2. Instalar os pacotes necessários.
-3. Instalar as extensões PHP.
-4. Criar o usuário `magento`.
-5. Configurar o PHP.
-6. Instalar o Composer.
-7. Preparar o diretório `/var/www/html`.
+O `Dockerfile` instala as extensões PHP necessárias para o Magento e também instala o Composer dentro da imagem.
 
-A construção pode levar alguns minutos.
+Entre as extensões utilizadas pelo projeto estão:
+
+```text
+bcmath
+pdo_mysql
+mysqli
+intl
+zip
+gd
+soap
+xsl
+opcache
+sockets
+sodium
+exif
+pcntl
+gmp
+```
+
+O container também utiliza o usuário:
+
+```text
+magento
+```
+
+com UID e GID:
+
+```text
+1001
+```
 
 ---
 
-# 16. Verificando a imagem construída
+# 18. Verificando a imagem
 
 Após a construção:
-
-```bash
-docker images
-```
-
-Também é possível verificar a imagem criada pelo Compose:
 
 ```bash
 docker compose images
 ```
 
+Também é possível consultar as imagens existentes:
+
+```bash
+docker images
+```
+
 ---
 
-# 17. Iniciando os serviços
+# 19. Iniciando os containers
 
-Com a imagem construída, inicie o ambiente:
+Inicie o ambiente:
 
 ```bash
 docker compose up -d
@@ -503,13 +507,13 @@ docker compose up -d
 
 O parâmetro `-d` executa os containers em segundo plano.
 
-Verifique o estado dos serviços:
+Verifique os serviços:
 
 ```bash
 docker compose ps
 ```
 
-Os serviços definidos pelo projeto são:
+O projeto utiliza os seguintes containers:
 
 ```text
 magento_db
@@ -521,15 +525,17 @@ magento_nginx
 
 ---
 
-# 18. Verificando os containers
+# 20. Verificando os containers
 
-Também é possível verificar diretamente os containers:
+Também é possível verificar diretamente:
 
 ```bash
 docker ps
 ```
 
-Caso algum container não esteja funcionando corretamente, consulte os logs.
+Todos os serviços necessários deverão estar em execução.
+
+Caso algum container apresente problemas, consulte seus logs.
 
 MariaDB:
 
@@ -563,11 +569,11 @@ docker compose logs magento_nginx
 
 ---
 
-# 19. Verificando o PHP dentro do container
+# 21. Verificando o PHP dentro do container
 
-O PHP utilizado pela aplicação é o PHP existente na imagem Docker.
+O PHP utilizado pelo Magento é o PHP instalado na imagem Docker.
 
-Verifique a versão:
+Verifique:
 
 ```bash
 docker compose exec magento_server php -v
@@ -579,7 +585,7 @@ Verifique o Composer:
 docker compose exec magento_server composer --version
 ```
 
-Verifique a versão do Magento:
+Verifique o Magento:
 
 ```bash
 docker compose exec magento_server php bin/magento --version
@@ -587,7 +593,7 @@ docker compose exec magento_server php bin/magento --version
 
 ---
 
-# 20. Verificando as extensões PHP
+# 22. Verificando as extensões PHP
 
 Execute:
 
@@ -595,32 +601,36 @@ Execute:
 docker compose exec magento_server php -m
 ```
 
-Também é possível verificar as principais extensões:
+Para consultar algumas extensões importantes:
 
 ```bash
 docker compose exec magento_server php -m | grep -E 'bcmath|curl|dom|gd|intl|mbstring|openssl|pdo_mysql|soap|sockets|xml|xsl|zip'
 ```
 
-As extensões necessárias para o Magento deverão estar disponíveis.
+As extensões necessárias devem estar disponíveis.
 
 ---
 
-# 21. Verificando o MariaDB
+# 23. Verificando o MariaDB
 
-O Magento utiliza o serviço:
+O serviço de banco de dados utiliza o container:
 
 ```text
 magento_db
 ```
 
-Dentro da rede Docker, o nome do serviço funciona como hostname.
+Dentro da rede Docker, o nome do serviço é utilizado como hostname.
 
-Portanto, o Magento não deverá utilizar `localhost` para acessar o banco de dados.
-
-O hostname utilizado será:
+Portanto, a aplicação deverá utilizar:
 
 ```text
 magento_db
+```
+
+e não:
+
+```text
+localhost
 ```
 
 Verifique o container:
@@ -641,13 +651,13 @@ Digite a senha definida em:
 MYSQL_ROOT_PASSWORD
 ```
 
-Dentro do MariaDB, verifique os bancos:
+Dentro do MariaDB:
 
 ```sql
 SHOW DATABASES;
 ```
 
-Saia:
+Para sair:
 
 ```sql
 exit;
@@ -655,7 +665,7 @@ exit;
 
 ---
 
-# 22. Verificando o Redis
+# 24. Verificando o Redis
 
 O Redis utiliza o serviço:
 
@@ -663,7 +673,7 @@ O Redis utiliza o serviço:
 magento_redis
 ```
 
-Verifique o container:
+Verifique:
 
 ```bash
 docker compose ps magento_redis
@@ -691,33 +701,41 @@ Substitua `<REDIS_PASSWORD>` pela senha configurada no `.env`.
 
 ---
 
-# 23. Verificando o OpenSearch
+# 25. Verificando o OpenSearch
 
-O serviço de busca utilizado pelo Magento é:
+O serviço de busca utiliza o container:
 
 ```text
 magento_opensearch
 ```
 
-Verifique o container:
+Verifique:
 
 ```bash
 docker compose ps magento_opensearch
 ```
 
-A configuração atual utiliza um único nó:
+O ambiente atual utiliza:
 
 ```text
 discovery.type=single-node
 ```
 
-O acesso interno ao serviço utiliza:
+e:
 
 ```text
-http://magento_opensearch:9200
+plugins.security.disabled=true
 ```
 
-Teste a comunicação a partir do container Magento:
+Portanto, o OpenSearch está configurado para uso simplificado no ambiente de desenvolvimento.
+
+O hostname interno utilizado pelo Magento é:
+
+```text
+magento_opensearch
+```
+
+Teste a comunicação:
 
 ```bash
 docker compose exec magento_server curl http://magento_opensearch:9200
@@ -731,29 +749,23 @@ docker compose exec magento_server curl http://magento_opensearch:9200/_cluster/
 
 ---
 
-# 24. Verificando a rede Docker
+# 26. Verificando a rede Docker
 
-Todos os serviços estão conectados à mesma rede definida pelo projeto:
+Os serviços do projeto estão conectados através da rede:
 
 ```text
 magento_net
 ```
 
-Verifique as redes:
+Verifique as redes existentes:
 
 ```bash
 docker network ls
 ```
 
-Também é possível consultar a rede criada pelo Compose:
+Os containers poderão se comunicar utilizando seus nomes de serviço.
 
-```bash
-docker network inspect docker_magento_net
-```
-
-O nome exato poderá variar conforme o nome do projeto utilizado pelo Docker Compose.
-
-Dentro da rede, os serviços podem utilizar seus respectivos nomes como hostnames:
+Exemplo:
 
 ```text
 magento_db
@@ -765,7 +777,7 @@ magento_nginx
 
 ---
 
-# 25. Verificando a resolução dos serviços
+# 27. Testando a resolução dos serviços
 
 A partir do container Magento, teste o MariaDB:
 
@@ -785,19 +797,19 @@ Teste o OpenSearch:
 docker compose exec magento_server getent hosts magento_opensearch
 ```
 
-Se os nomes forem resolvidos corretamente, a comunicação básica entre os containers está funcionando.
+Se os nomes forem resolvidos corretamente, a comunicação básica entre os serviços está funcionando.
 
 ---
 
-# 26. Verificando o Nginx
+# 28. Verificando o Nginx
 
-O Nginx utiliza o serviço:
+O Nginx utiliza o container:
 
 ```text
 magento_nginx
 ```
 
-As portas configuradas no `docker-compose.yml` são:
+As portas configuradas pelo projeto são:
 
 ```text
 80:80
@@ -810,115 +822,49 @@ Verifique:
 docker compose ps magento_nginx
 ```
 
-Consulte os logs:
-
-```bash
-docker compose logs magento_nginx
-```
-
-Teste a configuração:
+Teste a configuração do Nginx:
 
 ```bash
 docker compose exec magento_nginx nginx -t
 ```
 
-O resultado esperado deverá indicar que a configuração está correta.
+O resultado deverá indicar que a configuração está correta.
 
 ---
 
-# 27. Verificando o diretório público do Magento
+# 29. Verificando o diretório público
 
-O Magento utiliza o diretório:
+O Magento utiliza:
 
 ```text
 pub/
 ```
 
-como raiz pública da aplicação.
+como diretório público da aplicação.
 
-Verifique:
+O Nginx está configurado para utilizar:
+
+```text
+/var/www/html/pub
+```
+
+como raiz pública.
+
+Verifique no host:
 
 ```bash
 ls -lah ~/mage2bar/magento2/pub
 ```
 
-O Nginx deverá utilizar esse diretório como `document root`.
-
-A configuração do Nginx é definida no arquivo:
+O arquivo de configuração utilizado pelo Nginx está localizado em:
 
 ```text
 docker/nginx/default.conf
 ```
 
-Esse arquivo é responsável por direcionar as requisições da aplicação para o PHP-FPM.
-
 ---
 
-# 28. Verificando as permissões da aplicação
-
-O container PHP utiliza o usuário:
-
-```text
-magento
-```
-
-com UID e GID:
-
-```text
-1001
-```
-
-Como o Docker Compose utiliza um bind mount:
-
-```text
-../magento2:/var/www/html
-```
-
-os arquivos do host são montados diretamente dentro do container.
-
-Por esse motivo, as permissões existentes no host devem ser compatíveis com o usuário utilizado pelo container.
-
-Verifique:
-
-```bash
-ls -ld ~/mage2bar/magento2
-```
-
-Também verifique:
-
-```bash
-ls -lah ~/mage2bar/magento2
-```
-
----
-
-# 29. Ajustando o proprietário dos arquivos
-
-Caso seja necessário ajustar o proprietário para o usuário utilizado pelo container:
-
-```bash
-sudo chown -R 1001:1001 ~/mage2bar/magento2
-```
-
-Depois verifique:
-
-```bash
-ls -ld ~/mage2bar/magento2
-```
-
-Evite utilizar permissões excessivamente abertas.
-
-ATENÇÃO: Nunca utilize o comando abaixo como solução padrão para problemas de permissão.
-
-```bash
-chmod -R 777 #Nunca utilize esse comando!
-```
-
-
-
----
-
-# 30. Preparando os diretórios graváveis
+# 30. Verificando os diretórios graváveis
 
 Alguns diretórios do Magento precisam permitir escrita durante a instalação e execução da aplicação.
 
@@ -932,27 +878,135 @@ pub/media/
 app/etc/
 ```
 
-Caso seja necessário ajustar as permissões:
+No ambiente Mage2Bar, o container PHP utiliza o usuário:
+
+```text
+magento
+```
+
+com UID e GID:
+
+```text
+1001
+```
+
+Como o projeto utiliza um bind mount:
+
+```yaml
+- ../magento2:/var/www/html
+```
+
+as permissões existentes no sistema de arquivos do host também são utilizadas dentro do container.
+
+Por esse motivo, antes de modificar qualquer permissão, verifique o proprietário e as permissões atuais:
 
 ```bash
-sudo chmod -R u+rwX ~/mage2bar/magento2/var
-sudo chmod -R u+rwX ~/mage2bar/magento2/generated
-sudo chmod -R u+rwX ~/mage2bar/magento2/pub/static
-sudo chmod -R u+rwX ~/mage2bar/magento2/pub/media
-sudo chmod -R u+rwX ~/mage2bar/magento2/app/etc
+ls -ldn ~/mage2bar/magento2/var
+ls -ldn ~/mage2bar/magento2/generated
+ls -ldn ~/mage2bar/magento2/pub/static
+ls -ldn ~/mage2bar/magento2/pub/media
+ls -ldn ~/mage2bar/magento2/app/etc
 ```
+
+O proprietário esperado para o ambiente atual é:
+
+```text
+UID 1001
+GID 1001
+```
+
+Esse valor corresponde ao usuário `magento` utilizado pelo container PHP-FPM.
+
+Caso os diretórios já pertençam ao usuário utilizado pelo container e possuam permissões adequadas, nenhuma alteração deverá ser realizada.
+
+Não é recomendado utilizar permissões excessivamente abertas como:
+
+```bash
+chmod -R 777 ~/mage2bar/magento2
+```
+
+Essa configuração permitiria leitura, escrita e execução para todos os usuários do sistema e não é necessária para o funcionamento do Magento.
+
+O diretório `pub/media` merece atenção especial porque é uma área gravável da aplicação.
+
+Arquivos enviados ou armazenados nessa área não devem ser tratados pelo servidor web como código executável.
+
+A configuração do Nginx deve impedir a execução de scripts PHP dentro de `pub/media`, inclusive em subdiretórios como:
+
+```text
+pub/media/customer_address/
+```
+
+A proteção dessa área deve ser realizada através da configuração do servidor web e não simplesmente através da remoção da permissão de escrita necessária ao Magento.
 
 ---
 
-# 31. Verificando a disponibilidade dos serviços
+# 31. Verificando a proteção do pub/media
 
-Antes de executar a instalação do Magento, verifique novamente:
+A configuração do Nginx utilizada pelo projeto possui uma regra específica para impedir a execução de PHP dentro da área de mídia.
+
+O objetivo é impedir requisições como:
+
+```text
+/media/arquivo.php
+/media/customer_address/arquivo.php
+/media/qualquer/subdiretorio/arquivo.php
+```
+
+de serem encaminhadas para o PHP-FPM.
+
+Verifique a configuração:
+
+```bash
+grep -n -A8 -B2 'media' ~/mage2bar/docker/nginx/default.conf
+```
+
+Também valide a configuração completa:
+
+```bash
+docker compose exec magento_nginx nginx -t
+```
+
+Essa proteção é uma camada importante de segurança para diretórios graváveis.
+
+---
+
+# 32. Verificando os arquivos sensíveis
+
+O Nginx utilizado pelo Mage2Bar possui regras para bloquear o acesso direto a determinados arquivos e diretórios sensíveis.
+
+Entre eles estão:
+
+```text
+.env
+.log
+.sql
+.lock
+.bak
+.gz
+```
+
+Também são protegidos diretórios internos do Magento, como:
+
+```text
+app/
+var/
+vendor/
+setup/
+dev/
+```
+
+O objetivo é impedir que arquivos internos da aplicação sejam disponibilizados diretamente através do servidor web.
+
+---
+
+# 33. Executando a instalação do Magento
+
+Antes de iniciar a instalação, confirme:
 
 ```bash
 docker compose ps
 ```
-
-Todos os containers necessários deverão estar em execução.
 
 Verifique o PHP:
 
@@ -978,19 +1032,7 @@ Verifique o OpenSearch:
 docker compose exec magento_server curl http://magento_opensearch:9200
 ```
 
----
-
-# 32. Executando a instalação do Magento
-
-Com os serviços disponíveis, a instalação poderá ser executada pelo comando:
-
-```bash
-docker compose exec magento_server php bin/magento setup:install
-```
-
-O comando deverá receber as informações necessárias para conexão com o banco de dados, configuração da aplicação, usuário administrativo e mecanismo de busca.
-
-Um exemplo de instalação é:
+Com os serviços disponíveis, execute:
 
 ```bash
 docker compose exec magento_server php bin/magento setup:install \
@@ -1040,39 +1082,13 @@ A senha administrativa deve atender aos requisitos de segurança do Magento.
 
 ---
 
-# 33. Configurando o Redis
+# 34. Verificando a instalação
 
-Após a instalação, o Redis poderá ser utilizado para cache e sessões.
-
-O hostname utilizado dentro da rede Docker é:
-
-```text
-magento_redis
-```
-
-A porta padrão utilizada internamente é:
-
-```text
-6379
-```
-
-A autenticação utiliza a variável:
-
-```text
-REDIS_PASSWORD
-```
-
-A configuração deverá ser realizada de acordo com os parâmetros disponíveis na versão específica do Magento instalada.
-
-Após configurar o Redis, limpe o cache:
+Após o término do processo:
 
 ```bash
-docker compose exec magento_server php bin/magento cache:flush
+docker compose exec magento_server php bin/magento --version
 ```
-
----
-
-# 34. Verificando o estado da aplicação
 
 Verifique o modo de execução:
 
@@ -1096,7 +1112,7 @@ docker compose exec magento_server php bin/magento indexer:status
 
 # 35. Verificando o banco de dados
 
-Confirme que o Magento criou as tabelas:
+Confirme que o banco foi criado:
 
 ```bash
 docker compose exec magento_db mariadb \
@@ -1110,7 +1126,7 @@ O resultado deverá apresentar as tabelas utilizadas pelo Magento.
 
 ---
 
-# 36. Verificando os índices do OpenSearch
+# 36. Verificando o OpenSearch após a instalação
 
 Depois da instalação, consulte os índices:
 
@@ -1119,9 +1135,19 @@ docker compose exec magento_server curl \
 http://magento_opensearch:9200/_cat/indices?v
 ```
 
-O Magento deverá criar os índices utilizados pela busca do catálogo.
-
 Verifique também os indexadores:
+
+```bash
+docker compose exec magento_server php bin/magento indexer:status
+```
+
+Caso algum indexador esteja inválido ou desatualizado:
+
+```bash
+docker compose exec magento_server php bin/magento indexer:reindex
+```
+
+Depois:
 
 ```bash
 docker compose exec magento_server php bin/magento indexer:status
@@ -1137,7 +1163,7 @@ Execute:
 docker compose exec magento_server php bin/magento cache:flush
 ```
 
-Verifique:
+Verifique novamente:
 
 ```bash
 docker compose exec magento_server php bin/magento cache:status
@@ -1155,23 +1181,25 @@ Verifique o modo atual:
 docker compose exec magento_server php bin/magento deploy:mode:show
 ```
 
-Caso seja necessário alterar para Developer:
+Caso seja necessário utilizar o modo Developer:
 
 ```bash
 docker compose exec magento_server php bin/magento deploy:mode:set developer
 ```
 
-Depois limpe o cache:
+Depois:
 
 ```bash
 docker compose exec magento_server php bin/magento cache:flush
 ```
 
+O modo utilizado deverá ser definido de acordo com a finalidade do ambiente.
+
 ---
 
-# 39. Reiniciando o ambiente
+# 39. Reiniciando os serviços
 
-Após finalizar as configurações:
+Após concluir as configurações:
 
 ```bash
 docker compose restart
@@ -1183,18 +1211,22 @@ Verifique novamente:
 docker compose ps
 ```
 
-Todos os serviços necessários deverão estar em execução.
-
 ---
 
 # 40. Acessando a loja
 
-Com os containers funcionando e o Nginx configurado, a aplicação poderá ser acessada pelo navegador.
+Com os containers funcionando e o Nginx configurado, a loja poderá ser acessada através do navegador.
 
 Em um ambiente local:
 
 ```text
 http://localhost/
+```
+
+Caso o ambiente esteja configurado com domínio e certificado:
+
+```text
+https://lionn.net/
 ```
 
 A página inicial do Magento deverá ser apresentada.
@@ -1211,75 +1243,79 @@ Neste exemplo:
 admin
 ```
 
-Portanto:
+O acesso será:
 
 ```text
 http://localhost/admin
 ```
 
-O endereço exato dependerá do valor utilizado em:
+ou, utilizando o domínio configurado:
+
+```text
+https://lionn.net/admin
+```
+
+O endereço poderá ser diferente caso outro valor tenha sido definido através de:
 
 ```text
 --backend-frontname
 ```
 
-Informe o usuário administrativo e a senha configurada durante a instalação.
-
 ---
 
 # 42. Verificação final
 
-Execute os principais testes.
+Execute os principais testes do ambiente.
 
-Verifique os containers:
+Containers:
 
 ```bash
 docker compose ps
 ```
 
-Verifique a versão do Magento:
+Versão do Magento:
 
 ```bash
 docker compose exec magento_server php bin/magento --version
 ```
 
-Verifique o modo de aplicação:
+Modo da aplicação:
 
 ```bash
 docker compose exec magento_server php bin/magento deploy:mode:show
 ```
 
-Verifique o cache:
+Status do cache:
 
 ```bash
 docker compose exec magento_server php bin/magento cache:status
 ```
 
-Verifique os indexadores:
+Status dos indexadores:
 
 ```bash
 docker compose exec magento_server php bin/magento indexer:status
 ```
 
-Teste o banco:
+MariaDB:
 
 ```bash
 docker compose exec magento_server getent hosts magento_db
 ```
 
-Teste o Redis:
+Redis:
 
 ```bash
 docker compose exec magento_server getent hosts magento_redis
 ```
 
-Teste o OpenSearch:
+OpenSearch:
 
 ```bash
 docker compose exec magento_server curl http://magento_opensearch:9200
 ```
 
-Teste o Nginx:
+Nginx:
 
 ```bash
 docker compose exec magento_nginx nginx -t
@@ -1289,7 +1325,7 @@ docker compose exec magento_nginx nginx -t
 
 # 43. Consultando os logs
 
-Caso a aplicação apresente algum erro, os logs dos serviços podem ser consultados individualmente.
+Os logs podem ser consultados individualmente.
 
 PHP-FPM:
 
@@ -1321,13 +1357,13 @@ OpenSearch:
 docker compose logs magento_opensearch
 ```
 
-Também é possível acompanhar os logs em tempo real:
+Para acompanhar os logs do PHP-FPM em tempo real:
 
 ```bash
 docker compose logs -f magento_server
 ```
 
-Para interromper o acompanhamento:
+Para interromper:
 
 ```text
 Ctrl + C
@@ -1337,7 +1373,7 @@ Ctrl + C
 
 # 44. Persistência dos dados
 
-O ambiente utiliza diretórios persistentes para os serviços que armazenam dados.
+O projeto utiliza diretórios persistentes para os serviços que armazenam dados.
 
 MariaDB:
 
@@ -1357,23 +1393,23 @@ OpenSearch:
 ./data/opensearch
 ```
 
-Esses diretórios permitem que os dados permaneçam armazenados mesmo quando os containers são recriados.
+Esses diretórios permitem preservar os dados mesmo quando os containers são recriados.
 
-Por esse motivo, os diretórios `data/` devem ser tratados como parte importante do ambiente.
+Por esse motivo, os diretórios de dados devem ser tratados como parte importante do ambiente.
 
 ---
 
 # 45. Parando o ambiente
 
-Para parar os containers:
+Para interromper os containers:
 
 ```bash
 docker compose stop
 ```
 
-Os containers serão interrompidos, mas permanecerão disponíveis para serem iniciados novamente.
+Os containers serão parados, mas permanecerão disponíveis para serem iniciados novamente.
 
-Para iniciar novamente:
+Para iniciar:
 
 ```bash
 docker compose start
@@ -1383,27 +1419,25 @@ docker compose start
 
 # 46. Recriando o ambiente
 
-Caso seja necessário recriar os containers:
+Para remover os containers e a rede criada pelo Compose:
 
 ```bash
 docker compose down
 ```
 
-Depois:
+Para iniciar novamente:
 
 ```bash
 docker compose up -d
 ```
 
-O comando `down` remove os containers e a rede criada pelo Compose.
-
-Os diretórios utilizados como bind mounts para persistência permanecem no sistema de arquivos.
+Os diretórios utilizados como bind mounts e os diretórios persistentes permanecem no sistema de arquivos.
 
 ---
 
 # 47. Cuidado com a remoção dos dados
 
-Não utilize comandos destrutivos sem verificar o que será removido.
+Não utilize comandos destrutivos sem verificar previamente o que será removido.
 
 Por exemplo:
 
@@ -1413,25 +1447,17 @@ docker compose down -v
 
 pode remover volumes Docker associados ao ambiente.
 
-Como o Mage2Bar utiliza diretórios persistentes para MariaDB, Redis e OpenSearch, é importante compreender a diferença entre:
+Além disso, os diretórios utilizados pelo projeto para persistência devem ser tratados com cuidado.
+
+Antes de remover:
 
 ```text
-container
+data/db/
+data/redis/
+data/opensearch/
 ```
 
-e:
-
-```text
-dados persistentes
-```
-
-Antes de remover qualquer diretório em:
-
-```text
-data/
-```
-
-confirme se existe um backup.
+confirme se os dados possuem backup ou se podem ser descartados.
 
 ---
 
@@ -1450,18 +1476,16 @@ mage2bar/
 │       ├── default.conf
 │       └── ssl/
 │
-├── magento2/
-│   ├── app/
-│   ├── bin/
-│   ├── composer.json
-│   ├── composer.lock
-│   ├── generated/
-│   ├── pub/
-│   ├── setup/
-│   ├── var/
-│   └── vendor/
-│
-└── data/
+└── magento2/
+    ├── app/
+    ├── bin/
+    ├── composer.json
+    ├── composer.lock
+    ├── generated/
+    ├── pub/
+    ├── setup/
+    ├── var/
+    └── vendor/
 ```
 
 O ambiente Docker deverá possuir os seguintes serviços:
@@ -1474,7 +1498,7 @@ magento_server
 magento_nginx
 ```
 
-A comunicação entre os serviços ocorrerá através da rede:
+Os serviços estarão conectados através da rede:
 
 ```text
 magento_net
@@ -1486,34 +1510,39 @@ magento_net
 
 A partir desta etapa, o Mage2Bar passa a possuir uma infraestrutura composta por múltiplos containers.
 
-O Debian permanece como sistema operacional base, enquanto o Docker fornece o isolamento dos serviços da aplicação.
+O Debian permanece como sistema operacional base, enquanto o Docker fornece o isolamento dos serviços utilizados pela aplicação.
 
-A arquitetura utilizada separa responsabilidades:
+A arquitetura separa as principais responsabilidades:
 
 ```text
-Nginx
-   |
-   v
-PHP-FPM
-   |
-   +---- MariaDB
-   |
-   +---- Redis
-   |
-   +---- OpenSearch
+                    Nginx
+                      |
+                      v
+                  PHP-FPM
+                 /   |   \
+                /    |    \
+               v     v     v
+          MariaDB   Redis  OpenSearch
 ```
 
-Essa separação facilita o desenvolvimento, a manutenção e a reprodução do ambiente.
+Essa separação facilita a manutenção, reprodução e evolução do ambiente.
 
-A configuração atual do projeto possui características de laboratório e desenvolvimento.
+A configuração atual do projeto utiliza:
 
-O `Dockerfile` utiliza PHP 8.2-FPM.
+```text
+PHP-FPM 8.2
+MariaDB 10.6
+Redis 7
+OpenSearch 2.11.1
+Nginx
+Docker Compose
+```
 
-O `docker-compose.yml` utiliza MariaDB 10.6, Redis 7 e OpenSearch 2.11.1.
+As versões das dependências devem ser avaliadas de acordo com a versão exata do Magento utilizada.
 
-Antes de utilizar essa mesma composição em produção, as versões das dependências deverão ser validadas de acordo com os requisitos oficiais da versão exata do Magento instalada.
+O ambiente atual possui características de desenvolvimento e laboratório.
 
-Também é importante observar que o OpenSearch está configurado com:
+O OpenSearch está configurado com:
 
 ```text
 discovery.type=single-node
@@ -1525,7 +1554,39 @@ e:
 plugins.security.disabled=true
 ```
 
-Essa configuração simplifica a utilização do serviço em um ambiente de desenvolvimento, mas não deve ser considerada automaticamente uma configuração de segurança para produção.
+Essa configuração simplifica a utilização do serviço no ambiente de desenvolvimento, mas não deve ser considerada automaticamente uma configuração adequada para produção.
+
+Da mesma forma, a configuração de segurança do Magento não depende exclusivamente das permissões dos arquivos.
+
+A proteção da aplicação envolve várias camadas:
+
+```text
+Sistema operacional
+        +
+Firewall
+        +
+Docker
+        +
+Permissões
+        +
+Nginx
+        +
+PHP-FPM
+        +
+Magento atualizado
+        +
+Patches de segurança
+        +
+HTTPS
+        +
+Credenciais protegidas
+```
+
+Diretórios graváveis, especialmente `pub/media`, devem receber atenção especial.
+
+O fato de um diretório possuir permissão de escrita não significa que seu conteúdo deva ser tratado como código executável pelo servidor web.
+
+Por esse motivo, a configuração do Nginx deve impedir a execução de PHP dentro de áreas destinadas ao armazenamento de arquivos enviados ou gerados pela aplicação.
 
 ---
 
@@ -1533,10 +1594,9 @@ Essa configuração simplifica a utilização do serviço em um ambiente de dese
 
 Nesta etapa foi construído o ambiente Docker do Mage2Bar e realizada a instalação inicial do Magento 2.
 
-Foram configurados:
+Foram configurados e validados:
 
 ```text
-Debian
 Docker
 Docker Compose
 PHP-FPM
@@ -1548,17 +1608,17 @@ Composer
 Magento Open Source
 ```
 
-Também foram configuradas as comunicações entre os containers, a persistência dos dados e o acesso à aplicação.
+Também foram configuradas as comunicações entre os containers, a persistência dos dados e as permissões necessárias para execução da aplicação.
 
-Ao final desta etapa, o Magento deverá estar disponível através do Nginx, com acesso à loja e ao painel administrativo.
+Ao final desta etapa, o Magento deverá estar disponível através do Nginx, permitindo acesso à loja e ao painel administrativo.
 
-O ambiente criado nesta etapa servirá como base para as próximas configurações do projeto.
+O ambiente criado servirá como base para as próximas etapas do projeto Mage2Bar.
 
 ---
 
 ## Próxima etapa
 
-Com o Magento instalado e o ambiente Docker funcionando, a próxima etapa poderá abordar as configurações complementares da aplicação e da infraestrutura.
+Com o Magento instalado e o ambiente Docker funcionando, a próxima etapa poderá abordar configurações adicionais da aplicação, otimizações e procedimentos de segurança.
 
 ```text
 09-configurando-o-magento-2.md
