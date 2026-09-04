@@ -372,7 +372,7 @@ ls -lah .env
 Abra o arquivo:
 
 ```bash
-nano .env
+vim .env
 ```
 
 A configuração utilizada pelo projeto possui variáveis para MariaDB, Redis e OpenSearch.
