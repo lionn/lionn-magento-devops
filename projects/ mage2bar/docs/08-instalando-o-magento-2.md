@@ -100,7 +100,7 @@ cd ~/mage2bar
 Verifique seu conteúdo:
 
 ```bash
-ls -lah
+ls -lha
 ```
 
 A estrutura utilizada pelo projeto deverá ser semelhante a:
@@ -218,7 +218,7 @@ O procedimento pode levar alguns minutos, dependendo da velocidade da conexão e
 Após o término da instalação:
 
 ```bash
-ls -lah
+ls -lha
 ```
 
 Entre os arquivos e diretórios esperados estão:
@@ -316,7 +316,7 @@ cd ~/mage2bar/docker
 Verifique os arquivos:
 
 ```bash
-ls -lah
+ls -lha
 ```
 
 Os arquivos principais são:
@@ -347,7 +347,7 @@ cp .env.example .env
 Verifique:
 
 ```bash
-ls -lah .env
+ls -lha .env
 ```
 
 ---
@@ -853,7 +853,7 @@ como raiz pública.
 Verifique no host:
 
 ```bash
-ls -lah ~/mage2bar/magento2/pub
+ls -lha ~/mage2bar/magento2/pub
 ```
 
 O arquivo de configuração utilizado pelo Nginx está localizado em:
