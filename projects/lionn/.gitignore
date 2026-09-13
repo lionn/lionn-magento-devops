@@ -1,0 +1,19 @@
+# 1. SEGURANÇA: NUNCA subir senhas, credenciais ou chaves para o GitHub
+.env
+html/app/etc/env.php
+.my.cnf
+*.key
+*.pem
+backup-total.sh
+html/security_reports/*
+
+# 2. DADOS PESADOS: NUNCA subir volumes do Docker ou ISOs/Mídias
+data/
+html/pub/media/*
+
+# 3. MAGENTO: Ignorar caches, dependências e arquivos gerados
+html/vendor/
+html/vendor/*
+html/var/*
+html/generated/*
+html/pub/static/*
