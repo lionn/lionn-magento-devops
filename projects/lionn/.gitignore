@@ -12,6 +12,7 @@ html/app/etc/env.php
 # 2. DADOS PESADOS: NUNCA subir volumes do Docker ou ISOs/Mídias
 # ---------------------------------------------------------------------
 data/
+!data/.gitkeep
 html/pub/media/*
 !html/pub/media/.htaccess
 
