@@ -1,70 +1,72 @@
 # ---------------------------------------------------------------------
-# 1. SEGURANÇA: NUNCA subir senhas, credenciais ou chaves
+# Magento 2 - Padrão .gitignore (para a raiz do Magento)
 # ---------------------------------------------------------------------
-.env
-html/app/etc/env.php
-.my.cnf
-*.key
-*.pem
 
-
-# ---------------------------------------------------------------------
-# 2. DADOS PESADOS: NUNCA subir volumes do Docker ou ISOs/Mídias
-# ---------------------------------------------------------------------
-data/
-html/pub/media/*
-!html/pub/media/.htaccess
-
-# ---------------------------------------------------------------------
-# 3. MAGENTO: Ignorar caches, arquivos gerados e estáticos
-# ---------------------------------------------------------------------
-html/vendor/
-html/var/*
-html/generated/*
-html/pub/static/*
-
-# ---------------------------------------------------------------------
-# 4. Ignorar relatórios de varredura pesados
-# ---------------------------------------------------------------------
-html/security_reports/*
-
-# ---------------------------------------------------------------------
-# 5. IDE / Editor
-# ---------------------------------------------------------------------
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# ---------------------------------------------------------------------
-# 6. Sistema Operacional
-# ---------------------------------------------------------------------
+# Arquivos de IDE e Sistema Operacional
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+/.vscode
+atlassian*
+/nbproject
+/.idea
 .DS_Store
 Thumbs.db
 
-# ---------------------------------------------------------------------
-# 7. Docker (overrides locais)
-# ---------------------------------------------------------------------
-docker-compose.override.yml
+# Arquivos de configuração local e sensíveis
+/app/config_sandbox
+/app/etc/env.php
 
-# ---------------------------------------------------------------------
-# 8. Logs
-# ---------------------------------------------------------------------
-*.log
-html/var/log/*
+# Arquivos de build e frontend
+/node_modules
+/.grunt
+/Gruntfile.js
+/package.json
+/grunt-config.json
 
-# ---------------------------------------------------------------------
-# 9. Backups
-# ---------------------------------------------------------------------
-*.sql
-*.sql.gz
-*.tar.gz
-*.zip
-backup-*.sh
+# Arquivos de SEO e Sitemaps
+/robots.txt
+/pub/robots.txt
+/sitemap
+/sitemap.xml
+/pub/sitemap
+/pub/sitemap.xml
 
-# ---------------------------------------------------------------------
-# 10. Node (caso você utilizar)
-# ---------------------------------------------------------------------
-html/node_modules/
-html/package-lock.json
+# Diretórios de mídia (ignora conteúdo, mas mantém os arquivos .htaccess)
+/pub/media/*.*
+!/pub/media/.htaccess
+/pub/media/attribute/*
+!/pub/media/attribute/.htaccess
+/pub/media/analytics/*
+/pub/media/catalog/*
+!/pub/media/catalog/.htaccess
+/pub/media/customer/*
+!/pub/media/customer/.htaccess
+/pub/media/downloadable/*
+!/pub/media/downloadable/.htaccess
+/pub/media/favicon/*
+/pub/media/import/*
+!/pub/media/import/.htaccess
+/pub/media/logo/*
+/pub/media/custom_options/*
+!/pub/media/custom_options/.htaccess
+/pub/media/theme/*
+/pub/media/theme_customization/*
+!/pub/media/theme_customization/.htaccess
+/pub/media/wysiwyg/*
+!/pub/media/wysiwyg/.htaccess
+/pub/media/tmp/*
+!/pub/media/tmp/.htaccess
+/pub/media/captcha/*
+
+# Diretórios de conteúdo gerado (devem ser recriados)
+/pub/static/*
+!/pub/static/.htaccess
+/var/*
+!/var/.htaccess
+/vendor/*
+!/vendor/.htaccess
+/generated/*
+!/generated/.htaccess
