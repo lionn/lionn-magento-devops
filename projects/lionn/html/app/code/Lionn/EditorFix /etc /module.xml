@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Module: Lionn_EditorFix
+ * [ Módulo: Lionn_EditorFix ]
+ *
+ * Description: Fixes the CMS editor (TinyMCE/Hugerte) to show the full menubar.
+ * [ Descrição: Corrige o editor do CMS (TinyMCE/Hugerte) para exibir o menubar completo. ]
+ *
+ * © Lionn - https://www.lionn.net
+ * [ © Lionn - https://www.lionn.net ]
+ *
+ * Licensed under the MIT License.
+ * [ Licenciado sob a Licença MIT. ]
+ * See LICENSE file for details.
+ * [ Veja o arquivo LICENSE para detalhes. ]
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Lionn_EditorFix"/>
+</config>
