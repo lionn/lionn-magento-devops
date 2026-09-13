@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+<!--
+  Package: magento_traducaobrasil_pt_br
+  [ Pacote: magento_traducaobrasil_pt_br ]
+
+  Brazilian Portuguese (pt_BR) translation package for Magento 2.
+  [ Pacote de tradução para Português do Brasil (pt_BR) do Magento 2. ]
+
+  © Lionn - https://www.lionn.net
+  Licensed under the MIT License.
+-->
 <language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/Language/package.xsd">
    <code>pt_BR</code>
    <vendor>Magento_TraducaoBrasil</vendor>
