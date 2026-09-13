@@ -38,7 +38,7 @@ Thumbs.db
 # Dados persistentes de containers
 **/data/
 
-# Mas mantém a estrutura da pasta data/
+# Mantém a estrutura da pasta data/
 !**/data/.gitkeep
 
 # Certificados SSL (exceções pros exemplos)
@@ -58,7 +58,7 @@ Thumbs.db
 # Terraform - lock file
 !**/.terraform.lock.hcl
 
-# Composer lock (você decidiu não subir)
+# Composer lock (opcional)
 composer.lock
 html/composer.lock
 
