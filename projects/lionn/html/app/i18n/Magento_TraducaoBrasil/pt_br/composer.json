@@ -1,18 +1,34 @@
 {
-"name": "Magento_TraducaoBrasil/magento2-language-pt_br",
-"description": "Brasil Portuguese",
-"version": "100.0.2",
-"license": [
-"OSL-3.0",
-"AFL-3.0"
-],
-"require": {
-"magento/framework": "100.0.*"
-},
-"type": "magento2-language",
-"autoload": {
-"files": [
-"registration.php"
-]
-}
+    "name": "magento-traducaobrasil/magento2-language-pt_br",
+    "description": "Brazilian Portuguese (pt_BR) translation package for Magento 2.",
+    "version": "100.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Lionn",
+            "homepage": "https://www.lionn.net"
+        }
+    ],
+    "homepage": "https://www.lionn.net",
+    "keywords": [
+        "magento",
+        "magento2",
+        "language",
+        "translation",
+        "pt_br",
+        "portuguese",
+        "brazil"
+    ],
+    "require": {
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
 }
