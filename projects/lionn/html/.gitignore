@@ -17,7 +17,8 @@ Thumbs.db
 
 # Arquivos de configuração local e sensíveis
 /app/config_sandbox
-/app/etc/env.php
+/app/etc/
+!/app/etc/config.php.example
 
 # Arquivos de build e frontend
 /node_modules
@@ -70,3 +71,14 @@ Thumbs.db
 !/vendor/.htaccess
 /generated/*
 !/generated/.htaccess
+
+# Composer
+/composer.json
+/composer.lock
+
+# Binários e setup (não subir)
+/bin/
+/dev/
+/lib/
+/phpserver/
+/setup/
