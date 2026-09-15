@@ -1,0 +1,33 @@
+{
+    "name": "lionn/module-admin-logo",
+    "description": "Replaces the default Magento admin logo with a custom logo.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lionn",
+            "homepage": "https://www.lionn.net"
+        }
+    ],
+    "homepage": "https://www.lionn.net",
+    "keywords": [
+        "magento",
+        "magento2",
+        "admin",
+        "logo",
+        "branding"
+    ],
+    "require": {
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+        "magento/framework": ">=103.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lionn\\AdminLogo\\": ""
+        }
+    }
+}
