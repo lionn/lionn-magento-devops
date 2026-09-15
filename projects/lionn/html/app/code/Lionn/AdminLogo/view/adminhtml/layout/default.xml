@@ -4,15 +4,14 @@
  * Module: Lionn_AdminLogo
  * [ Módulo: Lionn_AdminLogo ]
  *
- * Description: Replaces the default Magento admin logo in the admin header.
- * [ Descrição: Substitui o logo padrão do admin no cabeçalho da área administrativa. ]
+ * Description: Replaces the default Magento admin logo with a custom logo.
+ * [ Descrição: Substitui o logo padrão do Painel de Admin do Magento por um logo personalizado, além de controlar o estilo do Painel do Admin. ]
  *
  * © Lionn - https://www.lionn.net
  * [ © Lionn - https://www.lionn.net ]
  *
  * Licensed under the MIT License.
  * [ Licenciado sob a Licença MIT. ]
- *
  * See LICENSE file for details.
  * [ Veja o arquivo LICENSE para detalhes. ]
  */
