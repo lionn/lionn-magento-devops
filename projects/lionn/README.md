@@ -30,7 +30,7 @@ O projeto Lionn parte dessa necessidade e a estende para um cenário específico
 > - A **busca é a nativa do Magento** (em produção usamos Amasty Search)
 > - Outros ajustes visuais e comportamentais podem diferir
 >
-> **Site em Produção:** https://www.lionn.net - A melhor forma de ver o projeto exatamente como ele é.P
+> **Site em Produção:** https://www.lionn.net - A melhor forma de ver o projeto exatamente como ele é. ;)
 
 ---
 
