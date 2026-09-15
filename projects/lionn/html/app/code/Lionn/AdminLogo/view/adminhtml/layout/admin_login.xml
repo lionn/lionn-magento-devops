@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Module: Lionn_AdminLogo
+ * [ Módulo: Lionn_AdminLogo ]
+ *
+ * Description: Replaces the default Magento admin logo with a custom logo.
+ * [ Descrição: Substitui o logo padrão do Painel de Admin do Magento por um logo personalizado, além de controlar o estilo do Painel do Admin. ]
+ *
+ * © Lionn - https://www.lionn.net
+ * [ © Lionn - https://www.lionn.net ]
+ *
+ * Licensed under the MIT License.
+ * [ Licenciado sob a Licença MIT. ]
+ * See LICENSE file for details.
+ * [ Veja o arquivo LICENSE para detalhes. ]
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-login" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_image_src" xsi:type="string">Lionn_AdminLogo::images/lionn-logo-inicial.png</argument>
+                <argument name="logo_alt" xsi:type="string">Lionn</argument>
+                <argument name="logo_width" xsi:type="number">200</argument>
+                <argument name="logo_height" xsi:type="number">60</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
