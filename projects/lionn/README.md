@@ -223,5 +223,4 @@ Este projeto está licenciado sob a **Licença MIT**. Consulte [`LICENSE.md`](LI
 
 ---
 
-**© Lionn**
-**https://www.lionn.net**
+**© Lionn** - [ **https://www.lionn.net** ]
