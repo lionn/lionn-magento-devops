@@ -106,6 +106,9 @@ O projeto original em produção utiliza módulos comerciais de terceiros que **
 |---|---|---|
 | Hide Price | Amasty | Ocultação de preços por grupo de cliente |
 | Search / Improved Layered Navigation | Amasty | Busca e filtros avançados |
+| Blog | Amasty | Módulo que controla o Blog no projeto Lionn |
+| Cookies e LGPD | Amasty | Módulo destinado as configurações de Cookies e LGPD |
+| Anexos | Amasty | Módulo que disponibiliza anexos |
 | Outros módulos Amasty | Amasty | Ajustes diversos de UX e catálogo |
 
 **Consequência para quem clona:** o comportamento de ocultar preços e a busca avançada **não funcionarão** sem que você adquira as mesmas licenças na Amasty e configure suas próprias chaves Composer.
