@@ -1,4 +1,4 @@
-sku: DOC-VALV-FP-114
+sku: DOC-VALV-FP
 nome: Válvula Fundo de Poço Docol
 slug: valvula-fundo-de-poco-docol
 tipo: simples
