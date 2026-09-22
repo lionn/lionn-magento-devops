@@ -1,0 +1,36 @@
+tipo: configuravel
+atributos_variacao: modelo, tamanho
+sku_pai: FORM-TIJ-ECO
+nome: Forma para Tijolo Ecológico
+slug: forma-tijolo-ecologico
+categoria: Construção Civil > Formas e Moldes
+
+--- DESCRICAO CURTA ---
+Forma em alumínio fundido para a fabricação manual de tijolos ecológicos modulares. Alta durabilidade e encaixe perfeito.
+
+--- DESCRICAO LONGA ---
+Produza seus próprios tijolos ecológicos com precisão milimétrica. Desenvolvida em chapa de aço reforçada para suportar alta compactação.
+
+--- VARIACOES ---
+[variacao]
+sku: FORM-TIJ-ECO-M125
+modelo: Macho/Fêmea
+tamanho: 12,5 x 25 cm
+
+
+[variacao]
+sku: FORM-TIJ-ECO-C125
+modelo: Canaleta
+tamanho: 12,5 x 25 cm
+
+
+[variacao]
+sku: FORM-TIJ-ECO-M1030
+modelo: Macho/Fêmea
+tamanho: 10 x 30 cm
+
+
+[variacao]
+sku: FORM-TIJ-ECO-MEIO1030
+modelo: Meio Tijolo
+tamanho: 10 x 30 cm
