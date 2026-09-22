@@ -1,0 +1,35 @@
+<!-- End Content -->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="footer email-closing">
+                        <p class="closing">{{trans "Agradecemos, %store_name" store_name=$store.frontend_name}}!</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social-footer">
+                        <table>
+                            <tbody>
+                            <tr>
+                                {{depend store_phone}}
+                                <td class="store-phone">
+                                    <p class="no-margin">
+                                        {{trans 'Caso você tenha algum problema urgente, ligue para nós:
+                                          <br>
+                                        <a class="link" href="tel:%store_phone" title="Telefone da Loja">%store_phone</a>'
+                                        store_phone=$store_phone |raw}}
+                                    </p>
+                                </td>
+                                {{/depend}}
+                                {{layout handle="email_footer_handle"}}
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<!-- End wrapper table -->
+</body>
