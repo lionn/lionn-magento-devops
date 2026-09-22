@@ -1,0 +1,32 @@
+sku_matriz: IND-MAN-UCP
+nome: Mancal Com Rolamento UCP (Pillow Block)
+slug: mancal-com-rolamento-ucp
+tipo: configuravel
+atributo_configuracao: diametro_eixo
+categoria: Transmissão Mecânica > Mancais e Rolamentos > Mancais Pedestal
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: IND-MAN-UCP201 | Eixo: 12mm | Mancal: P201 | Rolamento: UC201 | Fixacao: 2x M10
+SKU: IND-MAN-UCP202 | Eixo: 15mm | Mancal: P202 | Rolamento: UC202 | Fixacao: 2x M10
+SKU: IND-MAN-UCP203 | Eixo: 17mm | Mancal: P203 | Rolamento: UC203 | Fixacao: 2x M10
+SKU: IND-MAN-UCP204 | Eixo: 20mm | Mancal: P204 | Rolamento: UC204 | Fixacao: 2x M10
+SKU: IND-MAN-UCP205 | Eixo: 25mm | Mancal: P205 | Rolamento: UC205 | Fixacao: 2x M10
+SKU: IND-MAN-UCP206 | Eixo: 30mm | Mancal: P206 | Rolamento: UC206 | Fixacao: 2x M12
+SKU: IND-MAN-UCP207 | Eixo: 35mm | Mancal: P207 | Rolamento: UC207 | Fixacao: 2x M12
+SKU: IND-MAN-UCP208 | Eixo: 40mm | Mancal: P208 | Rolamento: UC208 | Fixacao: 2x M12
+
+--- DESCRICAO CURTA ---
+Mancal pedestal de ferro fundido tipo Pillow Block série UCP com rolamento autocompensador e pino de lubrificação. Disponível para eixos de 12mm a 40mm.
+
+--- DESCRICAO LONGA ---
+Os Mancais da Série UCP (tipo Pillow Block / Pedestal) são conjuntos de suporte mecânico para eixos rotativos amplamente utilizados em máquinas agrícolas, esteiras transportadoras, ventiladores industriais e sistemas de transmissão.
+
+O conjunto é formado por uma carcaça monobloco em ferro fundido cinzento de alta resistência (P200) com base reforçada de dois furos oblíquos para fixação por parafusos, e um rolamento de esferas autoalinhável (UC200) com anel de fixação por parafusos Allen e bico graxeiro para relubrificação periódica.
+
+Diferenciais da Linha:
+- Rolamento autoalinhável que absorve pequenos desalinhamentos do eixo
+- Carcaça robusta em ferro fundido com tratamento anticorrosivo
+- Sistema de fixação no eixo por parafusos Allen sem cabeça (parafusos de pressão)
+- Bico graxeiro integrado para manutenção preventiva de lubrificação
+- Proteção dupla com retentores para retenção da graxa e bloqueio de sujeira
