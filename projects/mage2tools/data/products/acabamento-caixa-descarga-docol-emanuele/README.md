@@ -35,7 +35,7 @@ O Acabamento para Caixa de Descarga Embutida Emanuele Salvágua da Docol une des
 
 ---
 
-## 📁 Estrutura de Arquivos da Pasta
+## 📁 Estrutura dos Arquivos
 - `info.txt`: Staging dos dados brutos e variações.
 - `product.yml`: Mapeamento YAML do produto configurável e suas variações.
 - `README.md`: Exibição formatada do catálogo no GitHub.
