@@ -1,0 +1,39 @@
+sku: FERJ-NIV-MAG-40
+nome: Nível Viga I Alumínio Magnético 40" 3 Bolhas Ferjá
+slug: nivel-viga-i-aluminio-magnetico-40-3-bolhas-ferja
+tipo: simples
+categoria: Ferramentas Manuais > Medição e Marcação > Níveis e Esquadros
+marca: Ferjá
+
+--- DESCRICAO CURTA ---
+Nível de alumínio modelo Viga I magnético de 40 polegadas (100 cm) com 3 bolhas de medição (prumo, nível e 45°). Estrutura leve, resistente e com base magnética para fixação em superfícies metálicas.
+
+--- DESCRICAO LONGA ---
+O Nível Viga I em Alumínio Magnético de 40" (100 cm) da Ferjá é uma ferramenta de medição indispensável para profissionais da construção civil, carpintaria, serralheria e instalação de estruturas.
+
+Sua estrutura reforçada em formato de Viga I proporciona excelente rigidez torcional aliada a um peso reduzido. A base conta com fita magnética de forte atração, permitindo trabalhar de mãos livres em vigas de aço, tubulações metálicas e perfis de drywall.
+
+Possui 3 ampolas (bolhas) de alta visibilidade posicionadas para leituras em 0° (horizontal/nível), 90° (vertical/prumo) e 45°, garantindo precisão em múltiplos ângulos de trabalho.
+
+Diferenciais do Produto:
+- Base magnética com potente atração em superfícies ferrosas
+- Corpo em alumínio estruturado tipo Viga I resistente a impactos moderados
+- 3 ampolas antichoque de acrílico para leituras em nível, prumo e 45°
+- Protetores plásticos nas extremidades que absorvem impactos em caso de quedas
+- Tamanho amplo de 40" (100 cm) ideal para alinhamento de grandes superfícies
+
+--- ESPECIFICACOES ---
+Atributo: Comprimento
+Especificacao: 40" (100 cm / 1000 mm)
+
+Atributo: Material do Corpo
+Especificacao: Alumínio Extrudado (Perfil Viga I)
+
+Atributo: Base Magnética
+Especificacao: Sim (Fita magnética longitudinal)
+
+Atributo: Número de Ampolas
+Especificacao: 3 Bolhas (0°, 45° e 90°)
+
+Atributo: Proteção de Impacto
+Especificacao: Batentes plásticos nas pontas (ABS)
