@@ -1,0 +1,38 @@
+tipo: configuravel
+atributo_variacao: bitola
+sku_pai: CABO-SOLDA-FLEX
+nome: Cabo de Solda Flexível Extra Cobre para Solda MIG/MAG e Arco
+slug: cabo-de-solda-flexivel-mig-mag
+categoria: Solda e Corte > Acessórios para Solda > Cabos e Conectores
+
+--- DESCRICAO CURTA ---
+Cabo de solda extra flexível em cobre multifilar com isolamento de alta resistência. Ideal para máquinas de solda MIG/MAG, TIG e eletrodo revestido.
+
+--- DESCRICAO LONGA ---
+O Cabo para Solda Flexível foi projetado para condução de alta corrente em equipamentos de soldagem elétrica. Possui condutores de cobre puro multifilar que garantem máxima flexibilidade e fácil manuseio pelo soldador, além de capa protetora resistente a respingos de solda, calor e abrasão.
+
+Especificações Técnicas:
+- Condutor: Cobre eletrolítico nu multifilar (Classe 6 de flexibilidade)
+- Isolamento: Composto termoplástico / emborrachado altamente resistente
+- Aplicação: Ligações de porta-eletrodos, garras negativas e tochas MIG/MAG/TIG
+- Tensão de isolamento: 600V
+
+--- VARIACOES ---
+[variacao]
+sku: CABO-SOLDA-FLEX-25
+bitola: 25mm²
+
+
+[variacao]
+sku: CABO-SOLDA-FLEX-35
+bitola: 35mm²
+
+
+[variacao]
+sku: CABO-SOLDA-FLEX-50
+bitola: 50mm²
+
+
+[variacao]
+sku: CABO-SOLDA-FLEX-70
+bitola: 70mm²
