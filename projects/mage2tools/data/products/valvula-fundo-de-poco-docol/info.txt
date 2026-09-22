@@ -1,0 +1,36 @@
+sku: DOC-VALV-FP-114
+nome: Válvula Fundo de Poço Docol
+slug: valvula-fundo-de-poco-docol
+tipo: simples
+categoria: Encanamentos e Hidráulica > Válvulas Hidráulicas > Válvulas de Retenção e Sucção
+
+--- DESCRICAO CURTA ---
+Válvula de fundo de poço (válvula de pé com crivo) de 1.1/4 polegada Docol em latão usinado. Garante a retenção da coluna de água na tubulação de sucção das bombas e impede a entrada de detritos no sistema.
+
+--- DESCRICAO LONGA ---
+A Válvula de Fundo de Poço Docol foi projetada para instalação na extremidade inferior das tubulações de sucção em poços, reservatórios e cisternas. 
+
+Sua função principal é manter a tubulação de sucção permanentemente cheia de água (escorvada), evitando o funcionamento a seco das bombas e garantindo sua eficiência e durabilidade. Conta com crivo (grade de proteção) integrado em latão que filtra sujeiras e sujeiras sólidas antes de entrarem no sistema hidráulico.
+
+Diferenciais do Produto:
+- Corpo e crivo fabricados em liga de cobre (latão) de alta resistência e durabilidade
+- Sistema de vedação eficiente que mantém a coluna de água sob pressão de sucção
+- Crivo metálico integrado para filtragem de partículas grossas e proteção da bomba
+- Bitola em polegada (DN32) com rosca padrão BSP/NPT de fácil instalação
+- Marca reconhecida com alta precisão usinada
+
+--- ESPECIFICACOES ---
+Atributo: Bitola / Medida
+Especificacao: 
+
+Atributo: Material do Corpo
+Especificacao: Liga de Cobre (Latão)
+
+Atributo: Material do Crivo
+Especificacao: Latão Usinado
+
+Atributo: Tipo de Conexão
+Especificacao: Rosca Fêmea BSP
+
+Atributo: Aplicação
+Especificacao: Tubulações de Sucção de Bombas (Poços, Cisternas e Reservatórios)
