@@ -1,0 +1,37 @@
+sku: INX-TEE-ROS-90-304
+nome: Tee Reto Roscável 90° Aço Inox 304
+slug: tee-reto-roscavel-90-polegada-aco-inox-304
+tipo: simples
+categoria: Encanamentos e Hidráulica > Conexões Industriais > Conexões em Inox
+marca: Generico
+
+--- DESCRICAO CURTA ---
+Tee reto de 90 graus roscável fabricado em aço inoxidável AISI 304. Projetado para derivação de tubulações em sistemas hidráulicos e industriais de alta resistência química e corrosiva.
+
+--- DESCRICAO LONGA ---
+O Tee Reto Roscável 90° em Aço Inox 304 é uma conexão industrial de alta performance projetada para interligar três segmentos de tubulação em um ângulo de 90 graus, permitindo a divisão ou junção de fluxos de líquidos e gases.
+
+Fabricado em aço inoxidável de liga AISI 304, oferece elevada resistência mecânica, excelente proteção contra corrosão e resistência a variações severas de temperatura. Possui roscas internas (fêmea) padrão BSP/NPT com acabamento de alta precisão que garante vedação firme e segura.
+
+Diferenciais do Produto:
+- Liga de aço inoxidável AISI 304 de alta durabilidade anticorrosiva
+- Extremidades roscadas fêmea para instalação rápida e manutenção simplificada
+- Ideal para indústrias químicas, alimentícias, farmacêuticas e tubulações de água potável
+- Suporta elevadas pressões de trabalho e fluidos agressivos
+- Bitola industrial (DN50)
+
+--- ESPECIFICACOES ---
+Atributo: Bitola / Diâmetro
+Especificacao: (DN50)
+
+Atributo: Material
+Especificacao: Aço Inoxidável AISI 304
+
+Atributo: Tipo de Conexão
+Especificacao: Roscável (Rosca Fêmea BSP/NPT)
+
+Atributo: Ângulo de Derivação
+Especificacao: 90° (Tee Reto Equalizado)
+
+Atributo: Aplicação
+Especificacao: Indústria alimentícia, farmacêutica, química, cervejeira e tubulações hidráulicas em inox
