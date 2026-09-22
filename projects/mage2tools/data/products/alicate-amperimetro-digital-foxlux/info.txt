@@ -1,0 +1,20 @@
+Nome: Alicate Amperímetro Digital Foxlux
+Marca: Foxlux
+SKU: FX-AMP-DIG
+Categorias: Ferramentas Elétricas, Medição e Testes
+
+Descrição Curta:
+O Alicate Amperímetro Digital Foxlux é indicado para medições de tensão AC/DC, corrente alternada, resistência e testes de continuidade com sinal sonoro.
+
+Descrição Completa:
+Desenvolvido para eletricistas, técnicos e hobbistas, o Alicate Amperímetro Digital Foxlux oferece precisão e segurança na medição de parâmetros elétricos. Possui display LCD de fácil leitura, função Data Hold para congelar medições na tela e aviso sonoro de continuidade. Compacto e resistente, é uma ferramenta indispensável para diagnósticos de instalações elétricas residenciais e comerciais.
+
+Especificações Técnicas:
+- Corrente AC: 20A a 1000A
+- Tensão DC: 1000V
+- Tensão AC: 750V
+- Resistência: 200Ω a 2MΩ
+- Display: LCD 3 ½ dígitos (contagem até 1999)
+- Abertura da Garra: 50 mm
+- Alimentação: Bateria 9V
+- Recursos: Teste de Continuidade com Bipe Sonoro, Função Data Hold, Indicador de Bateria Fraca
