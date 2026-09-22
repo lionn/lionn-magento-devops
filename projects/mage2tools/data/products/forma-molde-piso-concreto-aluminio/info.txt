@@ -1,0 +1,42 @@
+tipo: configuravel
+atributos_variacao: modelo, tamanho
+sku_pai: FORM-PISO-ALUM
+nome: Forma Molde para Piso e Calçada de Concreto em Alumínio
+slug: forma-molde-piso-concreto-aluminio
+categoria: Construção Civil > Formas e Moldes > Formas para Pisos e Pavimentos
+
+--- DESCRICAO CURTA ---
+Forma molde em alumínio reforçado para fabricação de pisos, ladrilhos e calçadas de concreto. Alta durabilidade, desmolde fácil e acabamento de alta precisão.
+
+--- DESCRICAO LONGA ---
+A Forma Molde em Alumínio é desenvolvida para a produção artesanal e industrial de pisos fundidos em cimento e pavimento estampado. Fabricada em liga de alumínio fundido de liga especial, garante estrutura rígida que não deformar com o peso do concreto e bordas reforçadas para vida útil prolongada.
+
+Especificações Técnicas:
+- Material: Alumínio fundido de alta resistência (Liga A)
+- Acabamento interno: Polido para facilitar a descolagem do cimento
+- Uso recomendado: Produção de pisos tátil, Mosaicos, Copacabana e ladrilhos hidráulicos de concreto
+- Manutenção: Recomenda-se a aplicação de desmoldante líquido antes de cada concretagem
+
+--- VARIACOES ---
+[variacao]
+sku: FORM-PISO-ALUM-MOS-40404
+modelo: Mosaico
+tamanho: 40x40x4 cm
+
+
+[variacao]
+sku: FORM-PISO-ALUM-MOS-30303
+modelo: Mosaico
+tamanho: 30x30x3 cm
+
+
+[variacao]
+sku: FORM-PISO-ALUM-COP-40404
+modelo: Copacabana
+tamanho: 40x40x4 cm
+
+
+[variacao]
+sku: FORM-PISO-ALUM-RUST-40404
+modelo: Rústico / Pedras
+tamanho: 40x40x4 cm
