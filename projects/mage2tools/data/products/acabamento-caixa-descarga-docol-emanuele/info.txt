@@ -1,0 +1,39 @@
+tipo: configuravel
+atributo_variacao: acabamento
+sku_pai: DOCOL-EMAN-SALV
+nome: Acabamento para Caixa de Descarga Embutida Docol Emanuele Salvágua
+slug: acabamento-caixa-descarga-docol-emanuele-salvagua
+categoria: Banheiros > Metais Sanitários > Acabamentos para Descarga
+
+--- DESCRICAO CURTA ---
+Acabamento para caixa de descarga embutida Docol linha Emanuele com tecnologia Salvágua. Acionamento duplo parcial (3L) e total (6L) para maior economia de água.
+
+--- DESCRICAO LONGA ---
+O Acabamento para Caixa de Descarga Embutida Emanuele Salvágua da Docol une design refinado, alta durabilidade e sustentabilidade. A tecnologia Salvágua possui dois botões de acionamento, permitindo a escolha entre descarga parcial para líquidos ou total para sólidos, economizando até 60% de água.
+
+Diferenciais do Produto:
+- Tecnologia Salvágua: Acionamento duplo de 3 litros e 6 litros
+- Acabamento biníquel de alta resistência à corrosão e riscos
+- Design exclusivo da linha Emanuele com linhas fluidas e sofisticadas
+- Compatível com caixas de descarga embutidas Docol
+- Garantia Toda Vida Docol (conforme condições do fabricante)
+
+--- VARIACOES ---
+[variacao]
+sku: DOCOL-EMAN-SALV-CR
+acabamento: Cromado
+
+
+[variacao]
+sku: DOCOL-EMAN-SALV-NK
+acabamento: Níquel Escovado
+
+
+[variacao]
+sku: DOCOL-EMAN-SALV-GF
+acabamento: Grafite Escovado
+
+
+[variacao]
+sku: DOCOL-EMAN-SALV-PF
+acabamento: Preto Fosco
