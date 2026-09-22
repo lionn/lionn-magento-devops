@@ -1,0 +1,42 @@
+sku: PLA-TST-FF1500
+nome: Teste De Fluido De Freio Tipo Caneta Planatc FF-1500
+slug: teste-de-fluido-de-freio-tipo-caneta-planatc-ff-1500
+tipo: simples
+categoria: Ferramentas Automotivas > Diagnóstico Automotivo > Testadores de Fluido
+marca: Planatc
+
+--- DESCRICAO CURTA ---
+Caneta testadora de fluido de freio Planatc FF-1500 para diagnósticos rápidos de porcentagem de água/umidade em fluidos DOT 3, DOT 4 e DOT 5.1 através de LEDs indicativos.
+
+--- DESCRICAO LONGA ---
+O Testador de Fluido de Freio tipo Caneta Planatc FF-1500 é um equipamento portátil e indispensável para oficinas mecânicas, centros automotivos e diagnósticos preventivos de segurança veicular.
+
+O aparelho analisa a condutividade elétrica do fluido de freio para identificar a porcentagem de água/umidade acumulada no reservatório. Como o fluido de freio é higroscópico (absorve umidade do ar), o excesso de água reduz o ponto de ebulição do fluido, podendo provocar falha total na frenagem por formação de bolhas de ar (vapor lock).
+
+Com indicação clara por LEDs coloridos (Verde, Amarelo e Vermelho), o FF-1500 indica instantaneamente se o fluido está em condições ideais de uso ou se necessita ser substituído. Compatível com fluidos DOT 3, DOT 4 e DOT 5.1.
+
+Diferenciais do Produto:
+- Diagnóstico em poucos segundos direto no reservatório do veículo
+- Painel intuitivo com 5 LEDs indicativos de níveis de água (0% a > 3%)
+- Ampla compatibilidade com normas de fluido: DOT 3, DOT 4 e DOT 5.1
+- Formato compacto tipo caneta com clipe de bolso para fácil transporte
+- Desligamento automático para economia de bateria (alimentação por pilha AAA)
+
+--- ESPECIFICACOES ---
+Atributo: Modelo
+Especificacao: FF-1500
+
+Atributo: Fabricante
+Especificacao: Planatc
+
+Atributo: Fluidos Compatíveis
+Especificacao: DOT 3, DOT 4, DOT 5.1
+
+Atributo: Indicação Visual
+Especificacao: 5 LEDs (Verde: OK | Amarelo: Atenção | Vermelho: Substituir)
+
+Atributo: Alimentação
+Especificacao: 1 Pilha AAA (1.5V)
+
+Atributo: Função
+Especificacao: Medição do teor de umidade/água no fluido de freio
