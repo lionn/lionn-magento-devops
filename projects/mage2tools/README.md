@@ -10,7 +10,7 @@ O projeto atua como ambiente de testes para arquitetura em containers, integraç
 
 Prover uma estrutura ágil e em containers Docker para o gerenciamento de catálogos técnicos de alta complexidade em Magento 2, incluindo:
 - **Gestão de Catálogo (PIM):** Ingestão e padronização de produtos simples e configuráveis (info.txt, product.yml e README.md por produto).
-- **E-mails Transacionais:** Organização, higienização e internacionalização dos e-mails nativos em pt_BR.
+- **E-mails Transacionais:** Organização e internacionalização dos e-mails nativos em pt_BR.
 - **Infraestrutura e CI/CD:** Ambientes isolados via Docker e automação de imagens via GitHub Actions.
 
 ---
