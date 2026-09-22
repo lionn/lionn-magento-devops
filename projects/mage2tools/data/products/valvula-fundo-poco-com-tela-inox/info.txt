@@ -1,0 +1,43 @@
+tipo: configuravel
+atributo_variacao: tamanho
+sku_pai: VALV-POCO-TELA
+nome: Válvula Fundo de Poço com Tela Inox
+slug: valvula-fundo-de-poco-com-tela-inox
+categoria: Encanamento e Hidráulica > Válvulas > Válvulas de Retenção
+
+--- DESCRICAO CURTA ---
+Válvula de fundo de poço (pé de galinha) com corpo em latão e tela de retenção em aço inox. Mantém a tubulação de sucção cheia d'água e previne a entrada de detritos na bomba.
+
+--- DESCRICAO LONGA ---
+A Válvula de Fundo de Poço com Tela Inox é instalada na extremidade inferior da tubulação de sucção em poços, reservatórios e cisternas. Sua função principal é manter a tubulação de sucção preenchida (cebada) para impedir o trabalho a seco da bomba hidráulica, enquanto a tela em aço inox filtra partículas sólidas e detritos que poderiam danificar o rotor.
+
+Especificações Técnicas:
+- Corpo: Latão de alta durabilidade
+- Tela/Filtro: Aço Inoxidável
+- Vedação: Borracha nitrílica
+- Mola interna: Aço inox
+- Mídia recomendada: Água limpa ou com pequenas partículas em suspensão
+
+--- VARIACOES ---
+[variacao]
+sku: VALV-POCO-TELA-12
+tamanho: 1/2 polegada
+
+[variacao]
+sku: VALV-POCO-TELA-34
+tamanho: 3/4 polegada
+
+
+[variacao]
+sku: VALV-POCO-TELA-1
+tamanho: 1 polegada
+
+
+[variacao]
+sku: VALV-POCO-TELA-112
+tamanho: 1.1/2 polegada
+
+
+[variacao]
+sku: VALV-POCO-TELA-2
+tamanho: 2 polegadas
