@@ -1,0 +1,45 @@
+tipo: configuravel
+atributos_variacao: tomadas, cor
+sku_pai: FILT-LINH-MEG
+nome: Filtro de Linha Bivolt Megatron
+slug: filtro-de-linha-bivolt-megatron
+categoria: Elétrica > Filtros de Linha e Extensões
+
+--- DESCRICAO CURTA ---
+Filtro de linha Bivolt (127V/220V) Megatron com fusível de proteção e chave liga/desliga armada. Proteção contra sobretensões e picos de energia para eletrodomésticos e eletrônicos.
+
+--- DESCRICAO LONGA ---
+O Filtro de Linha Bivolt Megatron foi desenvolvido para proteger equipamentos eletroeletrônicos contra sobretensões, ruídos de rede e picos de corrente. Equipado com chave microdisjuntor/fusível de proteção e gabinete em material termoplástico anti-chamas.
+
+Especificações Técnicas:
+- Tensão de Operação: Bivolt Automático (127V / 220V)
+- Corrente Máxima: 10A
+- Padrão das Tomadas: NBR 14136 (3 pinos)
+- Cabo: PP plano certificado pelo INMETRO
+- Comprimento do cabo: 1 metro
+- Recursos de Segurança: Fusível de proteção substituível + chave liga/desliga iluminada
+- Marca: Megatron
+
+--- VARIACOES ---
+[variacao]
+sku: FILT-LINH-MEG-4T-PT
+tomadas: 4 tomadas
+cor: Preto
+
+
+[variacao]
+sku: FILT-LINH-MEG-4T-BR
+tomadas: 4 tomadas
+cor: Branco
+
+
+[variacao]
+sku: FILT-LINH-MEG-5T-PT
+tomadas: 5 tomadas
+cor: Preto
+
+
+[variacao]
+sku: FILT-LINH-MEG-6T-PT
+tomadas: 6 tomadas
+cor: Preto
