@@ -1,0 +1,30 @@
+sku_pai: CNC-ROL-SMA
+nome: Rolamento Linear Com Mancal SMA (Bloco para Eixo)
+slug: rolamento-linear-com-mancal-sma
+tipo: configuravel
+atributo_configuracao: diametro_eixo
+categoria: Automação e CNC > Guias e Rolamentos Lineares > Blocos e Mancais
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: CNC-ROL-SMA08UU | Eixo: 8mm  | Mancal: SMA8UU  / SCS8UU  | Fixacao: 4x M4
+SKU: CNC-ROL-SMA10UU | Eixo: 10mm | Mancal: SMA10UU / SCS10UU | Fixacao: 4x M4
+SKU: CNC-ROL-SMA12UU | Eixo: 12mm | Mancal: SMA12UU / SCS12UU | Fixacao: 4x M4
+SKU: CNC-ROL-SMA16UU | Eixo: 16mm | Mancal: SMA16UU / SCS16UU | Fixacao: 4x M5
+SKU: CNC-ROL-SMA20UU | Eixo: 20mm | Mancal: SMA20UU / SCS20UU | Fixacao: 4x M6
+SKU: CNC-ROL-SMA25UU | Eixo: 25mm | Mancal: SMA25UU / SCS25UU | Fixacao: 4x M6
+SKU: CNC-ROL-SMA30UU | Eixo: 30mm | Mancal: SMA30UU / SCS30UU | Fixacao: 4x M8
+
+--- DESCRICAO CURTA ---
+Mancal de alumínio com rolamento linear integrado série SMA (SCS-UU) para eixos cilíndricos retificados. Disponível para eixos de 8mm a 30mm. Ideal para impressoras 3D, CNCs e robótica.
+
+--- DESCRICAO LONGA ---
+Os Rolamentos Lineares com Mancal da Série SMA (equivalente ao padrão SCS-UU) são blocos de suporte mecânico projetados para proporcionar movimentação suave, rígida e de baixo atrito ao longo de eixos cilíndricos temperados.
+
+Cada conjunto conta com mancal externo em alumínio usinado anidrizado com 4 furos roscados para fixação direta, e um rolamento linear interno de esferas recirculantes equipado com vedação dupla em borracha (UU) para contenção do lubrificante e proteção contra resíduos de usinagem e poeira.
+
+Diferenciais da Linha:
+- Mancal em liga de alumínio leve, robusto e anticorrosivo
+- Múltiplas opções de diâmetro para atender desde projetos maker até máquinas CNC industriais
+- Rolamento linear interno com recirculação de esferas de alto desempenho
+- Dupla vedação de borracha sintética (UU) em todas as variações
