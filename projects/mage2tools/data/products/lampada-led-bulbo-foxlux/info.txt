@@ -1,0 +1,43 @@
+tipo: configuravel
+atributos_variacao: potencia, cor
+sku_pai: LAMP-LED-FOX
+nome: Lâmpada LED Bulbo Foxlux
+slug: lampada-led-bulbo-foxlux
+categoria: Iluminação > Lâmpadas LED > Lâmpadas Bulbo
+
+--- DESCRICAO CURTA ---
+Lâmpada LED Bulbo Foxlux de alta eficiência energética e longa vida útil. Disponível em diversas potências e cores para iluminação decorativa e residencial.
+
+--- DESCRICAO LONGA ---
+A Lâmpada LED Bulbo Foxlux proporciona excelente iluminação com economia de até 85% de energia em comparação com lâmpadas incandescentes tradicionais. Ideal para uso residencial, comercial e projetos decorativos.
+
+Especificações Técnicas:
+- Tensão: Bivolt Automático (100V - 240V)
+- Soquete: E27 (Padrão)
+- Vida útil estimada: 25.000 horas
+- Fator de Potência: > 0,5
+- Marca: Foxlux
+
+--- VARIACOES ---
+[variacao]
+sku: LAMP-LED-FOX-7W-VD
+potencia: 7W
+cor: Verde
+
+
+[variacao]
+sku: LAMP-LED-FOX-7W-AZ
+potencia: 7W
+cor: Azul
+
+
+[variacao]
+sku: LAMP-LED-FOX-7W-VM
+potencia: 7W
+cor: Vermelha
+
+
+[variacao]
+sku: LAMP-LED-FOX-9W-BF
+potencia: 9W
+cor: Branco Frio 6500K
