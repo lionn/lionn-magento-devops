@@ -1,0 +1,32 @@
+sku_pai: CNC-ROL-LMF
+nome: Rolamento Linear LMF Com Flange Redonda
+slug: rolamento-linear-lmf-com-flange-redonda
+tipo: configuravel
+atributo_configuracao: diametro_eixo
+categoria: Automação e CNC > Guias e Rolamentos Lineares > Rolamentos com Flange
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: CNC-ROL-LMF08UU | Eixo: 8mm  | Modelo: LMF8UU  | Flange: Redonda
+SKU: CNC-ROL-LMF10UU | Eixo: 10mm | Modelo: LMF10UU | Flange: Redonda
+SKU: CNC-ROL-LMF12UU | Eixo: 12mm | Modelo: LMF12UU | Flange: Redonda
+SKU: CNC-ROL-LMF16UU | Eixo: 16mm | Modelo: LMF16UU | Flange: Redonda
+SKU: CNC-ROL-LMF20UU | Eixo: 20mm | Modelo: LMF20UU | Flange: Redonda
+SKU: CNC-ROL-LMF25UU | Eixo: 25mm | Modelo: LMF25UU | Flange: Redonda
+SKU: CNC-ROL-LMF30UU | Eixo: 30mm | Modelo: LMF30UU | Flange: Redonda
+
+--- DESCRICAO CURTA ---
+Rolamentos lineares com flange redonda integrada série LMF (LMF-UU) para eixos cilíndricos de 8mm a 30mm. Permitem montagem perpendicular rígida em máquinas CNC, impressoras 3D e automação.
+
+--- DESCRICAO LONGA ---
+A linha de Rolamentos Lineares com Flange Redonda Série LMF é projetada para oferecer suporte rígido, estabilidade e movimentação suave de baixo atrito ao longo de eixos cilíndricos temperados/retificados.
+
+O grande diferencial do modelo LMF é sua flange redonda integrada ao corpo do rolamento em aço cromo, facilitando a montagem plana e perpendicular diretamente em painéis, placas estruturais e suportes de máquinas sem a necessidade de mancais externos adicionais.
+
+Possui circuito interno de esferas recirculantes e vedação dupla em borracha sintética (UU) nas duas extremidades, garantindo retenção da graxa lubrificante e proteção contra poeira e cavacos.
+
+Diferenciais da Linha:
+- Flange redonda usinada diretamente na carcaça para acoplamento direto e estável
+- Múltiplas opções de bitolas para projetos leves até equipamentos industriais pesados
+- Estrutura robusta em aço cromo para alta capacidade de carga
+- Retentores duplos de borracha (UU) contra poeira e detritos em todas as variações
