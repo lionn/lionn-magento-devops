@@ -1,0 +1,32 @@
+tipo: configuravel
+atributo_variacao: tamanho
+sku_pai: VALV-RET-VERT
+nome: Válvula de Retenção Vertical
+slug: valvula-de-retencao-vertical
+categoria: Encanamento e Hidráulica > Válvulas
+
+--- DESCRICAO CURTA ---
+Válvula de retenção vertical em latão reforçado. Impede o retorno de água em tubulações e sistemas de bombeamento.
+
+--- DESCRICAO LONGA ---
+A Válvula de Retenção Vertical foi desenvolvida para garantir o fluxo de água em uma única direção, evitando o golpe de aríete e protegendo bombas hidráulicas.
+
+Características:
+- Corpo em latão de alta resistência
+- Mola de aço inox
+- Vedação em borracha nitrílica
+
+--- VARIACOES ---
+[variacao]
+sku: VALV-RET-VERT-34
+tamanho: 3/4 polegada
+
+[variacao]
+sku: VALV-RET-VERT-1
+tamanho: 1 polegada
+
+
+[variacao]
+sku: VALV-RET-VERT-2
+tamanho: 2 polegadas
+
