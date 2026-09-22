@@ -1,0 +1,44 @@
+tipo: configuravel
+atributo_variacao: modelo
+sku_pai: ROLAM-LIN-LM
+nome: Rolamento Linear Esferico Série LM UU
+slug: rolamento-linear-esferico-serie-lm-uu
+categoria: Automação e CNC > Rolamentos e Buchas Lineares
+
+--- DESCRICAO CURTA ---
+Rolamento linear de precisão série LM..UU com retentor emborrachado duplo. Ideal para guias e eixos retificados em impressoras 3D, CNC e automação.
+
+--- DESCRICAO LONGA ---
+O Rolamento Linear da série LM UU foi projetado para proporcionar movimentação suave, de baixo atrito e alta precisão ao longo de eixos retificados. Possui gaiola interna em polímero resistente para suporte de esferas de aço cromo e vedações de borracha sintética em ambas as extremidades (sufixo UU) que impedem a entrada de poeira e cavacos.
+
+Especificações Técnicas:
+- Corpo: Aço Cromo SAE 52100 temperado
+- Esferas: Aço Cromo de alta precisão
+- Vedação: Retentor duplo de borracha (UU) em ambos os lados
+- Temperatura de operação: -20°C a +80°C
+- Compatibilidade: Eixos retificados temperados de mesmo diâmetro nominal
+
+--- VARIACOES ---
+[variacao]
+sku: ROLAM-LIN-LM6UU
+modelo: LM6UU (Eixo 6mm)
+
+
+[variacao]
+sku: ROLAM-LIN-LM8UU
+modelo: LM8UU (Eixo 8mm)
+
+
+[variacao]
+sku: ROLAM-LIN-LM10UU
+modelo: LM10UU (Eixo 10mm)
+
+
+[variacao]
+sku: ROLAM-LIN-LM12UU
+modelo: LM12UU (Eixo 12mm)
+
+
+[variacao]
+sku: ROLAM-LIN-LM16UU
+modelo: LM16UU (Eixo 16mm)
