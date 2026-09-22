@@ -1,0 +1,17 @@
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "Obrigado por se inscrever em nossa newsletter!"}}</p>
+            <p>
+                {{trans "Para começar a receber as nossas novidades e ofertas exclusivas, por favor confirme a sua inscrição clicando no link abaixo:"}}
+            </p>
+            <p>
+                <a href="{{var subscriber_data.confirmation_link}}">{{var subscriber_data.confirmation_link}}</a>
+            </p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}
