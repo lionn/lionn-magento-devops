@@ -35,15 +35,17 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 ├── projects/
 │   └── mage2tools/              # Núcleo do projeto Mage2Tools
 │       ├── data/
+│       │   ├── db/              # Banco de dados (MariaDB)
 │       │   ├── emails/pt_BR/    # E-mails transacionais organizados por módulo
 │       │   │   ├── clientes/
 │       │   │   ├── componentes/
 │       │   │   ├── sistema/
 │       │   │   └── vendas/
-│       │   ├── products/        # Base de dados e catálogo de produtos
-│       │   └── html/            # Templates e componentes visuais
+│       │   ├── opensearch/      # Índices e configurações do mecanismo de busca (Open Search)
+│       │   ├── products/        # Base de dados e catálogo de produtos organizados fora do Magento 2
+│       │   └── html/            # Templates e componentes visuais (Diretório Principal Magento 2)
 │       ├── nginx/               # Configurações do servidor Nginx
-│       └── scripts/             # Scripts de automação e ingestão de dados
+│       └── scripts/             # Scripts de automação e gestão
 ├── .env.example                 # Exemplo de variáveis de ambiente
 ├── Dockerfile                   # Imagem Docker principal da aplicação
 ├── docker-compose.yml           # Orquestração local dos serviços
