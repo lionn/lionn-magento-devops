@@ -1,0 +1,25 @@
+{{template config_path="design/email/header_template"}}
+
+<p class="greeting">{{trans "%name" name=$customer.name}}</p>
+<p>{{trans "Recentemente, houve uma solicitação para alterar a senha de sua conta."}}{{trans "Caso você tenha solicitado essa alteração, defina uma nova senha aqui:"}}</p>
+
+<table class="button" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <table class="inner-wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td align="center">
+                        <a href="{{var this.getUrl($store,'customer/account/createPassword/',[_query:[token:$customer.rp_token],_nosid:1])}}"
+                           title="{{trans 'Definir uma Nova Senha'}}"
+                           aria-label="{{trans 'Definir uma Nova Senha'}}"
+                           target="_blank">{{trans "Definir uma Nova Senha"}}</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<p class="email-notice">{{trans "Se você não fez esta solicitação, você pode ignorar este e-mail e sua senha permanecerá a mesma."}}</p>
+
+{{template config_path="design/email/footer_template"}}
