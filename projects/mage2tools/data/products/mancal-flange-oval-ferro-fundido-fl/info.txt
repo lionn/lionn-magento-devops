@@ -1,0 +1,32 @@
+sku_pai: IND-MAN-FL
+nome: Mancal Flange Oval Ferro Fundido 2 Furos Série FL
+slug: mancal-flange-oval-fl
+tipo: configuravel
+atributo_configuracao: diametro_eixo
+categoria: Transmissão Mecânica > Mancais e Rolamentos > Mancais Flangeados
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: IND-MAN-FL201 | Eixo: 12mm | Mancal: FL201 | Rolamento Compatível: UC201 | Fixação: 2x M10
+SKU: IND-MAN-FL202 | Eixo: 15mm | Mancal: FL202 | Rolamento Compatível: UC202 | Fixação: 2x M10
+SKU: IND-MAN-FL203 | Eixo: 17mm | Mancal: FL203 | Rolamento Compatível: UC203 | Fixação: 2x M10
+SKU: IND-MAN-FL204 | Eixo: 20mm | Mancal: FL204 | Rolamento Compatível: UC204 | Fixação: 2x M10
+SKU: IND-MAN-FL205 | Eixo: 25mm | Mancal: FL205 | Rolamento Compatível: UC205 | Fixação: 2x M10
+SKU: IND-MAN-FL206 | Eixo: 30mm | Mancal: FL206 | Rolamento Compatível: UC206 | Fixação: 2x M12
+SKU: IND-MAN-FL207 | Eixo: 35mm | Mancal: FL207 | Rolamento Compatível: UC207 | Fixação: 2x M12
+SKU: IND-MAN-FL208 | Eixo: 40mm | Mancal: FL208 | Rolamento Compatível: UC208 | Fixação: 2x M12
+
+--- DESCRICAO CURTA ---
+Mancal de flange oval em ferro fundido cinzento com 2 furos de fixação lateral. Compatível com rolamentos autocompensadores da série UC200 para eixos de 12mm a 40mm.
+
+--- DESCRICAO LONGA ---
+Os Mancais Flangeados Oviais da Série FL (UCFL / SFT) são suportes mecânicos projetados para montagem em superfícies verticais ou perpendiculares ao eixo rotativo.
+
+Fabricados em ferro fundido cinzento de alta resistência estrutural, contam com formato compacto de dois furos oblíquos que otimiza o espaço de instalação em chassis de máquinas, esteiras transportadoras, agitadores, exaustores e maquinários agrícolas.
+
+Diferenciais da Linha FL:
+- Design compacto oval de 2 furos para espaços reduzidos de fixação
+- Corpo monobloco em ferro fundido com pintura protetora anticorrosiva
+- Alojamento esférico para acoplamento de rolamento autocompensador (Série UC)
+- Entrada para bico graxeiro (zerk) permitindo relubrificação periódica
+- Alta capacidade para cargas radiais e axiais moderadas
