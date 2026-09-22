@@ -1,0 +1,33 @@
+tipo: configuravel
+atributo_variacao: acabamento
+sku_pai: ACAB-VALV-CLASS
+nome: Acabamento para Válvula de Descarga Clássica
+slug: acabamento-valvula-descarga-classica
+categoria: Banheiros > Metais Sanitários > Acabamentos para Descarga
+
+--- DESCRICAO CURTA ---
+Acabamento para válvula de descarga modelo clássico. Design atemporal em liga de cobre e plásticos de engenharia, com alta durabilidade e facilidade na acionamento.
+
+--- DESCRICAO LONGA ---
+O Acabamento para Válvula de Descarga Clássica oferece o equilíbrio perfeito entre o design tradicional e a eficiência no acionamento de sistemas de descarga residenciais e comerciais. Produzido com materiais resistentes à umidade e ao uso contínuo.
+
+Especificações Técnicas:
+- Material: Liga de cobre (latão), resina de engenharia e elastômeros
+- Tipo de acionamento: Botão mecânico frontal
+- Fixação: Acompanha parafusos e elemento de fixação
+- Compatibilidade: Válvulas de descarga padrão clássico (Hydra / Docol / Deca)
+
+--- VARIACOES ---
+[variacao]
+sku: ACAB-VALV-CLASS-CRBG
+acabamento: Chrome e Bege
+
+
+[variacao]
+sku: ACAB-VALV-CLASS-BGF
+acabamento: Bege Fosco
+
+
+[variacao]
+sku: ACAB-VALV-CLASS-CR
+acabamento: Cromado
