@@ -1,0 +1,20 @@
+sku: MED-PRESS-PLAN-PCA500I
+nome: Medidor de Pressão de Combustível PCA-500/I Planatc
+slug: medidor-de-pressao-de-combustivel-pca500i-planatc
+
+categoria: Ferramentas Automotivas > Testes e Diagnósticos > Medidores de Pressão
+
+--- DESCRICAO CURTA ---
+Medidor de pressão para teste de bomba de combustível em veículos com injeção eletrônica. Modelo PCA-500/I da Planatc com manômetro protegido e kit de mangueiras.
+
+--- DESCRICAO LONGA ---
+O Medidor de Pressão de Injeção Eletrônica PCA-500/I da Planatc é um equipamento essencial para oficinas mecânicas e diagnóstico automotivo. Desenvolvido para medir a pressão de trabalho da bomba de combustível, estanqueidade e retenção do sistema de alimentação.
+
+Características e Especificações Técnicas:
+- Manômetro analógico com capa emborrachada de proteção contra impactos
+- Escala de medição dupla: 0 a 10 Bar / 0 a 140 PSI
+- Válvula de alívio de pressão para despressurização segura da linha
+- Acompanha jogo de mangueiras flexíveis e conectores padrão de mercado
+- Indicado para veículos leves à gasolina, etanol e flex
+- Marca: Planatc
+- Modelo: PCA-500/I
