@@ -1,0 +1,31 @@
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "Olá, %name," name=$customer.name}}</p>
+            <p>
+                {{trans "Por favor, confirme o seu endereço de e-mail (%customer_email) para ativar a sua conta e realizar o primeiro acesso à loja (este link é válido apenas uma vez):" customer_email=$customer.email}}
+            </p>
+        </td>
+    </tr>
+    <tr class="email-action">
+        <td>
+            <table class="button" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <table class="inner-wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td align="center">
+                                    <a href="{{var this.getUrl($store,'customer/account/confirm/',[_query:[id:$customer.id,key:$customer.confirmation,back_url:$back_url],_nosid:1])}}" target="_blank">{{trans "Confirmar Minha Conta"}}</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}
