@@ -27,6 +27,7 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ## 📂 Estrutura do Repositório
 
+```
 / (Raiz do Repositório)
 ├── .github/
 │   └── workflows/
@@ -47,6 +48,7 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 ├── Dockerfile                   # Imagem Docker principal da aplicação
 ├── docker-compose.yml           # Orquestração local dos serviços
 └── README.md                    # Documentação do projeto (este arquivo)
+```
 
 ---
 
