@@ -1,0 +1,43 @@
+tipo: configuravel
+atributos_variacao: tamanho, cor
+sku_pai: PATCH-FUR-CAT5E
+nome: Patch Cord Furukawa Multilan Cat.5e U/UTP
+slug: patch-cord-furukawa-multilan-cat5e
+categoria: Redes e Cabeamento > Patch Cords
+
+--- DESCRICAO CURTA ---
+Patch Cord Cat.5e Furukawa Multilan montado e testado de fábrica. Conectores RJ45 com proteção na trava, ideal para sistemas de cabeamento estruturado.
+
+--- DESCRICAO LONGA ---
+O Patch Cord Multilan Cat.5e da Furukawa é desenvolvido para tráfego de voz, dados e imagem em redes corporativas e residenciais. Produzido com condutores flexíveis de cobre e capas injetadas de fábrica que garantem máxima performance e imunidade a ruídos.
+
+Especificações:
+- Categoria: Cat.5e U/UTP
+- Padrão de conectorização: T568A/B
+- Condutor: Cobre multifilar
+- Classe de flamabilidade: CM
+- Marca: Furukawa (Linha Multilan)
+
+--- VARIACOES ---
+[variacao]
+sku: PATCH-FUR-CAT5E-1M-AZ
+tamanho: 1 metro
+cor: Azul
+
+
+[variacao]
+sku: PATCH-FUR-CAT5E-25M-AZ
+tamanho: 2.5 metros
+cor: Azul
+
+
+[variacao]
+sku: PATCH-FUR-CAT5E-1M-AM
+tamanho: 1 metro
+cor: Amarelo
+
+
+[variacao]
+sku: PATCH-FUR-CAT5E-25M-AM
+tamanho: 2.5 metros
+cor: Amarelo
