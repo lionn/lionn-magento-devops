@@ -1,0 +1,42 @@
+sku: HID-VAL-VRP12P10
+nome: Válvula Redutora Pressão 1/2 - P10 Metal Filtro Bebedouro
+slug: valvula-redutora-pressao-1-2-p10-metal-filtro-bebedouro
+tipo: simples
+categoria: Hidráulica > Conexões e Válvulas > Reguladores de Pressão
+marca: Generico
+
+--- DESCRICAO CURTA ---
+Válvula redutora e reguladora de pressão em metal cromado com rosca de 1/2 polegada padrão P10. Protege purificadores, filtros e bebedouros contra vazamentos e golpes de aríete causados por alta pressão hídrica.
+
+--- DESCRICAO LONGA ---
+A Válvula Redutora de Pressão 1/2" P10 de Metal é um componente essencial de segurança para a instalação hidráulica de filtros de água, purificadores, bebedouros industriais e de coluna.
+
+Sua função principal é estabilizar e reduzir a pressão excessiva da rede de água da rua ou de caixas d'água elevadas, evitando o estouro de mangueiras, vazamentos nos elementos filtrantes, estufamento de carcaças e danos às vedações internas do aparelho.
+
+Fabricada em corpo metálico de alta resistência mecânica e durabilidade (latão/liga metálica cromada), conta com regulagem interna ajustável e padrão de rosca 1/2" BSP (conexão P10), sendo compatível com as principais marcas de purificadores do mercado.
+
+Diferenciais do Produto:
+- Estrutura em metal resistente a picos de pressão e fissuras
+- Proteção eficaz contra vazamentos provocados por golpe de aríete
+- Preserva a vida útil do elemento filtrante (refil) e das mangueiras
+- Conexão de entrada e saída padrão 1/2 polegada (P10) de fácil instalação
+- Permite regulagem do fluxo de água de acordo com a pressão local
+
+--- ESPECIFICACOES ---
+Atributo: Modelo
+Especificacao: VRP 1/2" P10 Metal
+
+Atributo: Material do Corpo
+Especificacao: Metal / Latão Cromado
+
+Atributo: Bitola das Roscas
+Especificacao: 1/2" x 1/2" (Padrão P10 / BSP)
+
+Atributo: Aplicação
+Especificacao: Filtros de Água, Purificadores, Bebedouros e Areatores
+
+Atributo: Função Principal
+Especificacao: Estabilização e redução da pressão hídrica da rede
+
+Atributo: Compatibilidade
+Especificacao: IBBL, Soft Everest, Electrolux, Consul, Europa, Colormaq, Latina (com adaptador)
