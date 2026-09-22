@@ -1,0 +1,27 @@
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "Olá, %name," name=$name}}</p>
+            <p>
+                {{trans "%sender_name gostaria de compartilhar um produto com você:" sender_name=$sender_name}}
+                <a href="{{var product_url}}">{{var product_name}}</a>
+            </p>
+        </td>
+    </tr>
+</table>
+
+{{depend message}}
+<table class="message-info">
+    <tr>
+        <td>
+            <h3>{{trans "Mensagem de %sender_name:" sender_name=$sender_name}}</h3>
+            {{var message|raw}}
+        </td>
+    </tr>
+</table>
+<br />
+{{/depend}}
+
+{{template config_path="design/email/footer_template"}}
