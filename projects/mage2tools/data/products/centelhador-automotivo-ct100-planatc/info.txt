@@ -1,0 +1,21 @@
+sku: AUT-FER-CT100
+nome: Centelhador Automotivo CT-100 Planatc
+slug: centelhador-automotivo-ct100-planatc
+tipo: simples
+categoria: Ferramentas Automotivas > Elétrica Automotiva > Diagnosticadores de Ignição
+marca: Planatc
+
+--- DESCRICAO CURTA ---
+Equipamento para teste visual e medição do salto de centelha (alta tensão) no sistema de ignição (bobinas, cabos e velas) de carros e motos.
+
+--- DESCRICAO LONGA ---
+O Centelhador Automotivo CT-100 da Planatc é um equipamento essencial para diagnósticos rápidos e precisos no sistema de ignição de veículos leves e motocicletas.
+
+Desenvolvido para testar a eficiência da alta tensão gerada pelas bobinas de ignição e o fluxo de corrente até as velas, ele permite identificar falhas de isolamento, interrupções em cabos e deficiência no centelhamento sem o risco de danificar os módulos eletrônicos de injeção (ECU).
+
+Diferenciais do CT-100:
+- Corpo transparente em acrílico resistente de alta visibilidade
+- Escala graduada para ajuste e medição do salto da faísca
+- Cabo altamente isolado com garra jacaré para aterramento seguro
+- Evita choques elétricos e protege componentes eletrônicos do veículo
+- Compatível com veículos a gasolina, etanol, flex e motocicletas
