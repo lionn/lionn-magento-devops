@@ -5,10 +5,14 @@ on:
     branches: [ "main" ]
     paths:
       - 'projects/mage2tools/**'
+    paths-ignore:
+      - 'projects/mage2tools/data/products/**'
   pull_request:
     branches: [ "main" ]
     paths:
       - 'projects/mage2tools/**'
+    paths-ignore:
+      - 'projects/mage2tools/data/products/**'
 
 jobs:
 
