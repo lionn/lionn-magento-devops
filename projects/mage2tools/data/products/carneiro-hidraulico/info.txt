@@ -1,1 +1,17 @@
+sku: CARN-HIDR-001
+nome: Carneiro Hidráulico
+slug: carneiro-hidraulico
+categoria: Equipamentos Agrícolas > Bombas e Irrigação
 
+--- DESCRICAO CURTA ---
+Bomba de água ecológica que funciona sem eletricidade nem combustível. Utiliza a própria força da água (golpe de aríete) para bombeamento contínuo.
+
+--- DESCRICAO LONGA ---
+O Carneiro Hidráulico é a solução ideal e sustentável para elevação de água em sítios, chácaras e fazendas. Ele funciona 24 horas por dia sem consumo de energia elétrica ou combustíveis, aproveitando a energia cinética do fluxo de água para transportá-la a alturas elevadas.
+
+Características:
+- Funcionamento 100% automático e contínuo
+- Custo zero de energia elétrica ou combustível
+- Válvula de retenção e impacto de alta durabilidade
+- Entrada padrão para tubulação de água
+- Fácil instalação e baixíssima necessidade de manutenção
