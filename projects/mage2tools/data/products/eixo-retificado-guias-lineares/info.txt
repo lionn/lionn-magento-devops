@@ -1,0 +1,46 @@
+tipo: configuravel
+atributos_variacao: diametro, comprimento, tolerancia
+sku_pai: EIXO-RET
+nome: Eixo Retificado para Guias Lineares
+slug: eixo-retificado-guias-lineares
+categoria: Automação e CNC > Guias e Eixos Lineares
+
+--- DESCRICAO CURTA ---
+Eixo em aço temperado e retificado para movimentação linear em impressoras 3D, router CNC e automação industrial. Alta precisão e dureza superficial.
+
+--- DESCRICAO LONGA ---
+O Eixo Retificado foi desenvolvido para aplicação em sistemas de guias e rolamentos lineares (como buchas/mancais mecânicos). Possui camada superficial temperada por indução, garantindo resistência ao desgaste e mantendo a precisão dimensional ao longo do uso.
+
+Especificações Técnicas:
+- Material: Aço Cromo SAE 52100 / CK45
+- Dureza superficial: 58-62 HRC
+- Acabamento: Retificado e polido
+- Aplicações: Máquinas CNC, impressoras 3D, automação mecânica e dispositivos industriais.
+
+--- VARIACOES ---
+[variacao]
+sku: EIXO-RET-08-700-H7
+diametro: 8mm
+comprimento: 700mm
+tolerancia: H7
+
+
+[variacao]
+sku: EIXO-RET-08-1000-H7
+diametro: 8mm
+comprimento: 1000mm
+tolerancia: H7
+
+
+[variacao]
+sku: EIXO-RET-12-500-H9
+diametro: 12mm
+comprimento: 500mm
+tolerancia: H9
+
+
+[variacao]
+sku: EIXO-RET-16-700-H7
+diametro: 16mm
+comprimento: 700mm
+tolerancia: H7
