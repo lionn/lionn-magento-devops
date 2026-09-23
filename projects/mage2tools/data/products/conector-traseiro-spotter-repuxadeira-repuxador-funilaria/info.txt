@@ -1,0 +1,24 @@
+sku: FER-AUT-SPO-CON-TRAS
+nome: Conector Traseiro para Spotter Repuxadeira Elétrica de Funilaria
+slug: conector-traseiro-spotter-repuxadeira-repuxador-funilaria
+tipo: simples
+categoria: Ferramentas Automotivas > Funilaria e Pintura > Acessórios e Peças para Spotter
+marca: Generico
+modelo_referencia: Conector Traseiro M12/M14 Spotter
+
+--- DESCRICAO CURTA ---
+Conector traseiro de latão/cobre para martelo de inércia e pistolas de repuxadeira elétrica Spotter. Garante alta condutividade elétrica e fixação precisa na mangueira ou cabo de massa da funilaria.
+
+--- DESCRICAO LONGA ---
+O Conector Traseiro para Spotter / Repuxadeira Elétrica é uma peça de reposição fundamental para manter a eficiência, condutividade e segurança em sistemas de desamassamento de lataria em oficinas de funilaria e pintura.
+
+Fabricado em liga metálica pesada de alta condutividade elétrica (latão/cobre), o conector é responsável por realizar o acoplamento do cabo de potência/massa à parte traseira do martelo de inércia ou suporte da ponta de repuxo.
+
+Sua construção robusta suporta picos elevados de corrente elétrica sem superaquecer, garantindo que o ponto de solda do arruela ou estrela adira com firmeza à chapa metálica sem perdas de carga ou faíscas indesejadas por mau contato.
+
+Diferenciais do Conector Traseiro Spotter:
+- Confeccionado em liga de alta condutividade elétrica que reduz o aquecimento do cabo
+- Rosca de fixação precisa padronizada para diversas marcas de repuxadeiras
+- Excelente resistência mecânica contra impactos do martelo de inércia
+- Peça essencial para substituição de conectores desgastados por folga ou oxidação
+- Compatível com equipamentos de repuxo elétrico tipo Spotter (V8 Brasil, Bandequip, Tork, entre outras)
