@@ -1,0 +1,21 @@
+sku_matriz: SAN-TOR-COZ-C34
+nome: Torneira de Cozinha Bica Móvel Metal 1/4 Volta C-34
+slug: torneira-cozinha-bica-movel-metal-c34
+tipo: configuravel
+atributos_configuracao: tipo_instalacao
+categoria: Metais e Sanitários > Torneiras > Torneiras de Cozinha
+marca: Higiban
+
+--- VARIATION MATRIX ---
+SKU: SAN-TOR-COZ-C34-MES | Instalação: Mesa (Bancada) | Bitola: 1/2" (Acompanha bucha 3/4") | Acionamento: 1/4 Volta Cerâmico | Volante: C-34 Cruzeta
+SKU: SAN-TOR-COZ-C34-PAR | Instalação: Parede | Bitola: 1/2" (Acompanha bucha 3/4") | Acionamento: 1/4 Volta Cerâmico | Volante: C-34 Cruzeta
+
+--- DESCRICAO CURTA ---
+Torneira de cozinha com bica móvel $360^\circ$ em metal cromado, acionamento $1/4$ de volta cerâmico e volante modelo C-34 (cruzeta). Alta economia de água, durabilidade e facilidade no manuseio diário.
+
+--- DESCRICAO LONGA ---
+A Torneira para Pia de Cozinha com Bica Móvel em Metal foi projetada para oferecer praticidade, conforto e sofisticação no uso diário da cozinha.
+
+Possui tubo com giro de $360^\circ$ que facilita a lavagem de louças e a higienização de bancadas, além de contar com arejador articulado/embutido que proporciona um jato suave e sem respingos, garantindo economia de água.
+
+Equipada com mecanismo de vedação cerâmica de $1/4$ de volta, permite o controle preciso do fluxo de água com um toque leve e rápido, reduzindo o desgaste do reparo e aumentando a vida útil do produto. Seu acabamento triplo de cromo garante alta durabilidade e brilho constante contra oxidação.
