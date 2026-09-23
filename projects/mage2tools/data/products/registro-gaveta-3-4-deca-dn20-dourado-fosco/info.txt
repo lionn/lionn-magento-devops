@@ -1,0 +1,26 @@
+sku: DEC-REG-GAV-034-GLM
+nome: Registro de Gaveta 3/4" Deca DN20 Dourado Fosco (Gold Matte)
+slug: registro-gaveta-3-4-deca-dn20-dourado-fosco
+tipo: simples
+categoria: Encanamento e Conexões > Válvulas e Registros > Registros de Gaveta
+marca: Deca
+codigo_fabricante: 4509.GL.034.MT
+bitola: 3/4" (DN20)
+acabamento: Dourado Fosco (Gold Matte)
+
+--- DESCRICAO CURTA ---
+Registro de gaveta bruto/bruto 3/4" (DN20) Deca em acabamento exclusivo Dourado Fosco (Gold Matte). Indicado para bloqueio e manutenção em redes de água fria ou quente.
+
+--- DESCRICAO LONGA ---
+O Registro de Gaveta 3/4" (DN20) Deca Dourado Fosco (Gold Matte) combina a máxima eficiência de bloqueio da engenharia Deca com um acabamento sofisticado para ambientes de alto padrão.
+
+Desenvolvido para trabalhar totalmente aberto ou totalmente fechado, é o componente ideal para a interrupção geral do fluxo de água em banheiros, cozinhas e áreas de serviço durante manutenções residenciais ou prediais.
+
+O acabamento Dourado Fosco utiliza tecnologia PVD (Physical Vapor Deposition), garantindo alta resistência contra riscos, corrosão, manchas de água e desbotamento ao longo dos anos.
+
+Diferenciais do Produto:
+- Bitola padrão de 3/4" (DN20) com alta vazão
+- Acabamento PVD Dourado Fosco (Gold Matte) de altíssima durabilidade
+- Compatível com água fria e água quente (até 70°C)
+- Vedação estanque e haste em liga de cobre para manuseio suave
+- Padrão de qualidade e garantia Deca
