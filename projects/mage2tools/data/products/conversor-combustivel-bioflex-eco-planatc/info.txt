@@ -1,0 +1,25 @@
+sku: AUT-ELE-CON-BIO-PLA
+nome: Módulo Conversor de Combustível Automotivo Bioflex Eco Planatc
+slug: conversor-combustivel-bioflex-eco-planatc
+tipo: simples
+categoria: Peças Automotivas > Elétrica e Injeção Eletrônica > Módulos e Conversores
+marca: Planatc
+modelo_referencia: Bioflex Eco
+
+--- DESCRICAO CURTA ---
+Módulo conversor de combustível Bioflex Eco da Planatc. Permite que veículos com injeção eletrônica multiponto passem a operar com Etanol, Gasolina ou qualquer mistura de ambos de forma automática e otimizada.
+
+--- DESCRICAO LONGA ---
+O Módulo Conversor Bioflex Eco da Planatc é um equipamento eletrônico microprocessado projetado para possibilitar o uso de etanol (álcool) ou mistura em veículos com motores movidos originalmente a gasolina com injeção eletrônica multiponto.
+
+Ele atua ajustando o tempo de injeção dos bicos injetores para garantir a estequiometria ideal, partida a frio rápida e funcionamento suave do motor, prevenindo falhas de aceleração e perda de potência.
+
+Possui chicote de instalação com conectores universais/específicos, facilitando a montagem e permitindo o retorno ao sistema original sem corte de fios no chicote da injeção do veículo.
+
+Diferenciais do Bioflex Eco Planatc:
+- Microcontrolado para ajuste dinâmico do tempo de injeção
+- Permite rodar com Etanol, Gasolina ou qualquer proporção (Flex)
+- Sistema auxiliar de partida a frio integrado
+- Chicote com conexões plug and play fáceis de instalar
+- Proteção contra sobretensões e curto-circuito no sistema elétrico
+- Compatível com a maioria dos veículos monoponto e multiponto
