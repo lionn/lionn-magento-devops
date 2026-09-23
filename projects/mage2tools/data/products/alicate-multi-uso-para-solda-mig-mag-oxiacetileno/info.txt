@@ -1,0 +1,22 @@
+sku: SOL-ACC-ALI-MUL-MIG
+nome: Alicate Multiuso para Solda MIG/MAG e Oxiacetileno
+slug: alicate-multi-uso-para-solda-mig-mag-oxiacetileno
+tipo: simples
+categoria: Solda e Corte > Ferramentas e Acessórios de Solda > Alicates para Soldador
+marca: Generico
+
+--- DESCRICAO CURTA ---
+Alicate multiuso para solda MIG/MAG e corte oxiacetilênico. Projetado para corte de arames, remoção de respingos no bocal, montagem e desmontagem de bicos de contato e isoladores de tocha.
+
+--- DESCRICAO LONGA ---
+O Alicate Multiuso para Soldagem MIG/MAG e Oxiacetileno é a ferramenta essencial para o dia a dia do soldador profissional e praticantes.
+
+Sua cabeça multifuncional permite realizar até 8 operações fundamentais na manutenção e preparação de tochas de soldagem sem a necessidade de trocar de ferramenta no meio do trabalho.
+
+Fabricado em aço cromo-vanádio forjado de alta resistência mecânica, conta com lâminas temperadas para corte afiado de arames de solda e mandíbulas serrilhadas projetadas para agarrar e rosquear bicos de contato M6/M8, bocais de retenção e capas de isolamento de forma firme.
+
+Diferenciais do Alicate Multiuso de Solda:
+- 8 Funções Integradas: Corte de arame, remoção de respingos internos/externos do bocal, fixação/remoção de bico de contato, martelamento de escoria e puxamento de arame
+- Forjado em Aço Cromo Vanádio com acabamento fosfatizado anticorrosivo
+- Cabos ergonômicos com revestimento emborrachado antiderrapante e mola de retorno
+- Aumenta a produtividade reduzindo o tempo de parada para limpeza da tocha
