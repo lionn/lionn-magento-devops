@@ -1,0 +1,25 @@
+sku: FER-ELE-POL-LP1018-TRK-127
+nome: Lixadeira Politriz 7" 1500W LP 1018/1 Super Tork 127V
+slug: lixadeira-politriz-7-1500w-lp-1018-1-super-tork-127v
+tipo: simples
+categoria: Ferramentas Elétricas > Lixadeiras e Politrizes > Politrizes e Lixadeiras de Ângulo
+marca: Super Tork
+modelo_referencia: LP 1018/1
+
+--- DESCRICAO CURTA ---
+Lixadeira Politriz 7" (180mm) 1500W modelo LP 1018/1 Super Tork 127V. Possui controle eletrônico de velocidade variável, motor de alta performance rolamentado e empunhadura ergonômica tipo D.
+
+--- DESCRICAO LONGA ---
+A Lixadeira Politriz 7" LP 1018/1 da Super Tork 127V é uma ferramenta elétrica potente e versátil desenvolvida para atender às exigências de profissionais de estéticas automotivas, funilarias, marcenarias e marmorarias.
+
+Equipada com motor de alta performance de 1500W 100% rolamentado, oferece excelente torque e estabilidade sob carga pesada, garantindo acabamentos homogêneos, espelhamento de pintura e lixamento eficiente em diversas superfícies.
+
+Possui seletor de velocidade variável eletrônico, permitindo ajustar a rotação precisa para cada tipo de aplicação (desde o polimento delicado até o lixamento mais agressivo). Conta ainda com empunhadura auxiliar tipo D, trava de gatilho para uso contínuo e sistema de partida suave que previne solavancos na inicialização.
+
+Diferenciais da Lixadeira Politriz LP 1018/1 Super Tork:
+- Potente motor de 1500W com rotor e estator blindados
+- Controle eletrônico de velocidade variável com mostrador numérico
+- Disco de 7" (180mm) com encaixe de rosca padrão M14
+- Empunhadura principal anatômica e empunhadura auxiliar ajustável tipo D
+- Trava do eixo para substituição rápida do disco ou boina de polimento
+- Arranque suave (Soft Start) para maior segurança do operador
