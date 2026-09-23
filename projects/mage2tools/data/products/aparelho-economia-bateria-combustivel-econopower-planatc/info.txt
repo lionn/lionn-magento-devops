@@ -1,0 +1,24 @@
+sku: AUT-EQU-TST-ECO-PLA
+nome: Analisador de Bateria e Sistema de Carga Econopower Planatc
+slug: aparelho-economia-bateria-combustivel-econopower-planatc
+tipo: simples
+categoria: Ferramentas e Equipamentos > Equipamentos Automotivos > Testadores e Analisadores Automotivos
+marca: Planatc
+modelo_referencia: Econopower
+
+--- DESCRICAO CURTA ---
+Equipamento analisador de bateria, alternador e sistema elétrico automotivo Econopower da Planatc. Permite diagnosticar a saúde da bateria e a eficiência do sistema de carga/ignição do veículo de forma rápida e segura.
+
+--- DESCRICAO LONGA ---
+O Econopower da Planatc é um equipamento de diagnóstico elétrico automotivo projetado para testar a eficiência do sistema de carga (alternador), a capacidade de retenção de carga da bateria e verificar oscilações de tensão que impactam no rendimento elétrico e no consumo do veículo.
+
+Com garras de conexão tipo jacaré de alta condutividade e indicadores visuais em LED, ele permite diagnósticos rápidos no ponto de atendimento ou na oficina mecânica sem a necessidade de desmontar componentes do veículo.
+
+Auxilia na identificação de fugas de corrente, falhas de regulador de voltagem e queda de tensão na partida, prevenindo desgastes prematuros da bateria e falhas na ignição.
+
+Diferenciais do Econopower Planatc:
+- Diagnóstico prático e preciso do alternador e bateria 
+- Leitura de estado de carga e oscilações no sistema de ignição/alimentação
+- Garras isoladas e reforçadas para conexão segura nos polos
+- Estrutura em ABS resistente a impactos e óleos automotivos
+- Indispensável para oficinas mecânicas, autoelétricas e centros automotivos
