@@ -1,0 +1,25 @@
+sku: FER-SOL-GAR-NEG-300A-PRT
+nome: Garra Negativa 300a Terra Maquina Migmag Solda Prata
+slug: garra-negativa-300a-terra-maquina-migmag-solda-prata
+tipo: simples
+categoria: Ferramentas > Equipamentos de Solda > Acessórios de Soldagem
+marca: Genérico / Universal
+modelo_referencia: Garra de Aterramento 300 Amperes Prata
+
+--- DESCRICAO CURTA ---
+Garra negativa de aterramento para máquina de solda com capacidade de 300 Amperes e acabamento prateado. Indicada para processos MIG/MAG, TIG e Eletrodo Revestido, oferecendo fixação firme e excelente condutividade elétrica.
+
+--- DESCRICAO LONGA ---
+A Garra Negativa 300A Terra é um componente vital de segurança e eficiência no processo de soldagem elétrica, responsável por realizar a conexão de aterramento entre a máquina de solda e a peça a ser trabalhada.
+
+Compatível com transformadores e inversores de solda dos processos MIG/MAG, TIG e MMA (Eletrodo Revestido), esta garra suporta corrente de até 300 Amperes.
+
+Fabricada em liga metálica de alta condutividade com mola de alta pressão e acabamento prateado (zincado/niquelado), proporciona um aperto firme na bancada ou na peça, reduzindo o sobreaquecimento da conexão elétrico-mecânica e prevenindo perdas de arco durante a soldagem.
+
+Diferenciais da Garra Negativa 300A Prata:
+- Capacidade nominal para correntes de até 300 Amperes em ciclos de trabalho contínuos
+- Mola de compressão em aço reforçado para fixação e contato constante
+- Acabamento prateado anticorrosivo de alta condutividade elétrica
+- Mordeça plana com excelente área de contato para evitar faíscas indesejadas
+- Conexão simplificada para o cabo terra via terminal ou parafuso de fixação
+- Universal: compatível com máquinas MIG/MAG, TIG e Inversores de Solda
