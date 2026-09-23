@@ -1,0 +1,26 @@
+sku: MAT-CRA-FLT-IRR-2IN-120M
+nome: Filtro Irrigação Irrigador 2 Polegadas 120 Mesh Reto
+slug: filtro-irrigacao-irrigador-2-polegadas-120-mesh-reto
+tipo: simples
+categoria: Materiais de Construção > Encanamentos e Hidráulica > Irrigação e Jardim
+marca: Genérico / Universal
+modelo_referencia: Filtro de Linha para Irrigação 2" 120 Mesh Reto
+
+--- DESCRICAO CURTA ---
+Filtro para sistemas de irrigação agrícola e paisagística com conexões de 2 polegadas e filtragem de 120 mesh (130 mícrons). Corpo em polipropileno de alta densidade e elemento filtrante extraível, ideal para proteção de gotejadores e microaspersores.
+
+--- DESCRICAO LONGA ---
+O Filtro de Irrigação 2 Polegadas 120 Mesh Reto é essencial para garantir a eficiência hidráulica e evitar a obstrução de emissores em sistemas de irrigação por gotejamento, microaspersão e canhões de rega.
+
+Com elemento filtrante de alta capacidade na vazão de 120 mesh (filtragem de partículas até 130 mícrons), ele retém sólidos em suspensão, areia e resíduos orgânicos presentes na água do reservatório ou poço antes de entrar na rede de distribuição.
+
+Construído em termoplástico de engenharia (Polipropileno) com tratamento anti-UV, possui excelente estabilidade contra intempéries, raios solares e produtos químicos aplicados via fertirrigação.
+
+Sua carcaça conta com abertura rosqueável reforçada que permite fácil remoção do elemento interno (disco ou tela) para retrolavagem e higienização periódica sem a necessidade de ferramentas complexas.
+
+Diferenciais do Filtro de Irrigação 2" 120 Mesh:
+- Elevada vazão com baixa perda de carga hidráulica na tubulação
+- Grau de filtragem de 120 mesh que preserva a vida útil dos gotejadores e emissores
+- Estrutura em polipropileno resistente à oxidação, intempéries e raios UV
+- Compatível com sistemas de fertirrigação (resistente a soluções fertilizantes)
+- Limpeza rápida e prática do cesto filtrante por rosqueamento manual da tampa
