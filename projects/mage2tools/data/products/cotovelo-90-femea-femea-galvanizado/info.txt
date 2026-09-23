@@ -1,0 +1,31 @@
+sku_matriz: HID-CON-CG90
+nome: Cotovelo 90º Fêmea/Fêmea Galvanizado NBR 6943
+slug: cotovelo-90-femea-femea-galvanizado
+tipo: configuravel
+atributo_configuracao: bitola_rosca
+categoria: Hidráulica > Conexões Galvanizadas > Cotovelos e Joelhos
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: HID-CON-CG90-012 | Bitola: 1/2" (DN15) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-034 | Bitola: 3/4" (DN20) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-100 | Bitola: 1" (DN25) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-114 | Bitola: 1.1/4" (DN32) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-112 | Bitola: 1.1/2" (DN40) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-200 | Bitola: 2" (DN50) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-212 | Bitola: 2.1/2" (DN65) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+SKU: HID-CON-CG90-300 | Bitola: 3" (DN80) | Rosca: BSP (Fêmea/Fêmea) | Pressão: 150 lbs
+
+--- DESCRICAO CURTA ---
+Cotovelo (Joelho) 90º fêmea/fêmea em ferro fundido maleável galvanizado a fogo. Em conformidade com a norma ABNT NBR 6943 para redes de água, ar comprimido, gás, vapor e combate a incêndio.
+
+--- DESCRICAO LONGA ---
+Os Cotovelos 90º Galvanizados Fêmea/Fêmea (Modelo CG90) são projetados para desviar a condução de fluidos e gases em um ângulo de 90º em tubulações rosqueadas.
+
+Fabricados em ferro fundido maleável com revestimento protetor em zinco (galvanização a fogo), oferecem alta resistência mecânica, proteção contra corrosão e excelente vedação sob pressão de trabalho de até 150 lbs (20 bar).
+
+Diferenciais da Linha Galvanizada:
+- Norma de fabricação: ABNT NBR 6943 / ISO 49 / EN 10242
+- Rosca BSP interna paralela em ambas as extremidades
+- Tratamento galvanizado protetor interno e externo contra ferrugem
+- Utilizado em redes hidráulicas prediais e industriais, ar comprimido, gás GLP/GN e sistemas de sprinklers/incêndio
