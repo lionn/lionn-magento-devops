@@ -1,0 +1,23 @@
+sku: FER-ACC-MDR-SDS13
+nome: Kit Mandril Com Chave E Adaptador SDS Plus 1/2 Polegada 13mm
+slug: kit-mandril-com-chave-e-adaptador-sds-1-2-13mm
+tipo: simples
+categoria: Ferramentas > Acessórios para Ferramentas Elétricas > Mandris e Adaptadores
+marca: Generico
+
+--- DESCRICAO CURTA ---
+Kit completo com mandril de 1/2" (1.5-13mm), chave de aperto e adaptador com haste SDS Plus. Permite usar brocas cilíndricas comuns em marteletes e furadeiras SDS.
+
+--- DESCRICAO LONGA ---
+O Kit Mandril de 1/2" com Adaptador SDS Plus é o acessório indispensável para ampliar a versatilidade do seu martelete perfurador/rompedor. 
+
+Com este adaptador, é possível converter o mandril de encaixe rápido SDS Plus para um mandril convencional de castanhas, permitindo a utilização de brocas de haste cilíndrica para madeira, metal, concreto, brocas chatas, serras copo e pontas de parafusadeira.
+
+Acompanha chave de mandril para aperto seguro e parafuso de fixação da haste adaptadora.
+
+Diferenciais do Kit:
+- Capacidade de fixação de brocas de 1,5 mm até 13 mm (1/2")
+- Haste adaptadora com encaixe padrão SDS Plus de alta resistência
+- Rosca de acoplamento do mandril: 1/2" x 20 UNF
+- Corpo reforçado em aço de alta liga para longa durabilidade
+- Compatível com marteletes das principais marcas (Bosch, Makita, Dewalt, Stanley, Gamma, entre outras)
