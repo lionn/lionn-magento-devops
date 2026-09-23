@@ -19,7 +19,7 @@ Possui manômetro de fácil leitura com escalas em PSI ($0\text{ a }300\text{ PS
 
 Diferenciais do Produto:
 - Manômetro analógico com capa emborrachada de proteção contra quedas
-- Dupla escala de medição: $0\text{ a }300\text{ PSI}$ e $0\text{ a }21\text{ BAR}$
+- Dupla escala de medição: 
 - Válvula de retenção e alívio rápido de pressão
 - Mangueira flexível que facilita o acesso a alojamentos profundos de velas
 - Kit com adaptadores para variados diâmetros de roscas de velas de ignição
