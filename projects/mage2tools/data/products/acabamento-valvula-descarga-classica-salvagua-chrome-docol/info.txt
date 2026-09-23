@@ -1,0 +1,24 @@
+sku: MET-ACB-VAL-SAL-CHR
+nome: Acabamento para Válvula de Descarga Clássica Salvágua Chrome Docol
+slug: acabamento-valvula-descarga-classica-salvagua-chrome
+tipo: simples
+categoria: Materiais de Construção > Louças e Metais Sanitários > Acabamentos para Válvulas
+marca: Docol
+linha_referencia: Salvágua Clássica Chrome
+
+--- DESCRICAO CURTA ---
+Acabamento para válvula de descarga modelo Clássica Salvágua Chrome Docol com duplo acionamento. Reduz em até 60% o consumo de água permitindo a escolha de descarga parcial (3L) ou completa (6L).
+
+--- DESCRICAO LONGA ---
+O Acabamento para Válvula de Descarga Clássica Salvágua Chrome da Docol une o design atemporal da linha clássica à tecnologia de sustentabilidade e economia de água Salvágua.
+
+Equipado com dois botões de acionamento distintos, permite ao usuário escolher entre a limpeza parcial da bacia (3 litros para resíduos líquidos) ou a descarga completa (6 litros para resíduos sólidos), gerando uma economia de até 60% na conta de água.
+
+Fabricado em liga de cobre e plásticos de engenharia com acabamento cromado de alta durabilidade (tecnologia DocolChroma), possui excelente resistência à oxidação, riscos e corrosão por agentes de limpeza.
+
+Diferenciais do Acabamento Salvágua Chrome:
+- Sistema de duplo acionamento eco-eficiente
+- Economia de água de até 60% em relação às válvulas convencionais
+- Acabamento cromado biníquel de alta durabilidade e brilho impecável
+- Compatível com bases de válvulas de descarga Docol
+- Design clássico que combina com qualquer estilo de banheiro
