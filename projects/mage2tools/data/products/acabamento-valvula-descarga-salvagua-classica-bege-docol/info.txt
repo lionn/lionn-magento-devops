@@ -1,0 +1,25 @@
+sku: SAN-ACA-VAL-SALVAGUA-BEG
+nome: Acabamento para Válvula de Descarga Salvágua Clássica Bege Docol 00486802
+slug: acabamento-valvula-descarga-salvagua-classica-bege-docol
+tipo: simples
+categoria: Metais e Sanitários > Acabamentos para Válvulas > Válvulas de Descarga
+marca: Docol
+codigo_fabricante: 00486802
+cor: Bege
+
+--- DESCRICAO CURTA ---
+Acabamento para válvula de descarga Docol Salvágua Clássica na cor Bege (Ref. 00486802). Sistema de duplo acionamento (3L para líquidos e 6L para sólidos) com economia de até 60% de água.
+
+--- DESCRICAO LONGA ---
+O Acabamento para Válvula de Descarga Salvágua Clássica Docol na cor Bege une o design clássico à tecnologia de sustentabilidade da Docol.
+
+Equipado com o sistema duplo Salvágua, possui duas teclas de acionamento independente: descarga parcial de 3 Litros (para resíduos líquidos) e descarga completa de 6 Litros (para limpeza total da bacia). Esse sistema proporciona uma economia de água de até 60% em comparação com acabamentos de acionamento único.
+
+Fabricado em plástico de engenharia de alta durabilidade na cor bege com proteção UV, garante resistência ao amarelamento, facilidade de limpeza e perfeita integração a louças e ambientes sanitários de tom Bege/Creme.
+
+Diferenciais do Produto:
+- Duplo acionamento ecológico (3 Litros / 6 Litros)
+- Economia de água de até 60%
+- Cor Bege com proteção UV contra amarelamento
+- Compatível com as bases de Válvula de Descarga Docol (1.1/4" e 1.1/2")
+- Referência de fábrica Docol: 00486802
