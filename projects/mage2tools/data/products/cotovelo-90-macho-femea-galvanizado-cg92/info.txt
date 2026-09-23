@@ -1,0 +1,32 @@
+sku_matriz: CON-COT-MF90-GAL-CFG
+nome: Cotovelo 90° Macho/Fêmea Galvanizado Curva CG92 Rosca BSP
+slug: cotovelo-90-macho-femea-galvanizado-cg92
+tipo: configuravel
+atributos_configuracao: bitola_rosca
+categoria: Encanamento e Hidráulica > Conexões de Tubulação > Cotovelos e Joelhos
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: CON-COT-MF90-GAL-012 | Bitola: 1/2"   | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+SKU: CON-COT-MF90-GAL-034 | Bitola: 3/4"   | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+SKU: CON-COT-MF90-GAL-100 | Bitola: 1"     | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+SKU: CON-COT-MF90-GAL-114 | Bitola: 1.1/4" | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+SKU: CON-COT-MF90-GAL-112 | Bitola: 1.1/2" | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+SKU: CON-COT-MF90-GAL-200 | Bitola: 2"     | Tipo: CG92 / Fig. 92 | Rosca: BSP | Pressão: 150 LBS
+
+--- DESCRICAO CURTA ---
+Cotovelo (joelho) de 90° Macho e Fêmea em ferro fundido maleável galvanizado a fogo (Linha CG92 / Figura 92). Para redes de água, ar comprimido, gás e prevenção contra incêndio.
+
+--- DESCRICAO LONGA ---
+O Cotovelo de 90° Macho/Fêmea Galvanizado (Linha CG92 / Figura 92) é uma conexão hidráulica de alta resistência desenvolvida para alterar a direção da tubulação em um ângulo 90°, conectando diretamente uma extremidade com rosca interna (fêmea) a outra com rosca externa (macho).
+
+Produzido em ferro fundido maleável e submetido ao processo de galvanização a fogo (zincagem por imersão quente), garante proteção superior contra oxidação e corrosão interna e externa.
+
+Sua extremidade Macho/Fêmea elimina em muitos casos a necessidade de usar um niple adicional para conectar a outra peça fêmea, economizando espaço de montagem e reduzindo pontos de vazamento.
+
+Diferenciais da Linha Galvanizada CG92:
+- Revestimento galvanizado a fogo de alta camada
+- Padrão Macho/Fêmea (M/F) para instalações compactas
+- Roscas BSP padronizadas para acoplamento perfeito
+- Classe de pressão de 150 LBS
+- Indicado para instalações de água fria/quente, ar comprimido, combate a incêndio (sprinklers) e gás
