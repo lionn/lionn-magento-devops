@@ -1,0 +1,25 @@
+sku: FER-AUT-SIM-IDS1000-PLA
+nome: Injetor de Sinal e Simulador de Rotação IDS-1000 Planatc
+slug: injetor-de-sinal-e-simulador-de-rotacao-ids-1000-planatc
+tipo: simples
+categoria: Ferramentas Automotivas > Equipamentos de Diagnóstico > Simuladores e Injetores de Sinal
+marca: Planatc
+modelo_referencia: IDS-1000
+
+--- DESCRICAO CURTA ---
+Injetor de sinal e simulador de rotação IDS-1000 Planatc. Equipamento para simulação de sinais de sensores Hall e Indutivos (fônica e distribuidor) e injeção de frequência para testes de módulos de injeção eletrônica.
+
+--- DESCRICAO LONGA ---
+O Injetor de Sinal e Simulador de Rotação IDS-1000 da Planatc é um equipamento portátil e versátil desenvolvido para auxiliar técnicos e reparadores automotivos na análise rápida de falhas no sistema de injeção eletrônica e igNição veicular.
+
+Ele permite simular na bancada ou no veículo o sinal dos principais sensores do motor (como sensores de rotação e fase Hall ou Indutivo) enviando o pulso diretamente para a Central Eletrônica (ECU), possibilitando testar se o módulo e os atuadores (como bicos injetores e bobinas) estão respondendo corretamente.
+
+Com ajuste ajustável de frequência (simulação de RPM) e seleção de padrões de roda fônica, facilita a identificação de defeitos no módulo ou chicote elétrico sem a necessidade de partida no motor.
+
+Diferenciais do IDS-1000 Planatc:
+- Simulação de sinal de rotação tipo Indutivo e Hall (Roda Fônica 60-2, 36-1 e Distribuidor)
+- Ajuste progressivo de rotação (RPM) de forma simples e precisa
+- Injeção de sinais PWM/Frequência para teste de sensores diversos
+- Alimentação 12V DC (bateria do veículo ou fonte de bancada)
+- Proteção contra inversão de polaridade
+- Estrutura robusta com garras tipo jacaré e conectores de alta durabilidade
