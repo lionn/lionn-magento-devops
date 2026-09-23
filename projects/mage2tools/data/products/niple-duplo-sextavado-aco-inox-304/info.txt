@@ -1,0 +1,34 @@
+sku_matriz: CON-NIP-DUP-INX304-CFG
+nome: Niple Duplo Sextavado em Aço Inox 304 Rosca BSP
+slug: niple-duplo-sextavado-aco-inox-304
+tipo: configuravel
+atributos_configuracao: bitola_rosca
+categoria: Encanamento e Hidráulica > Conexões de Tubulação > Niples e Uniões
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: CON-NIP-DUP-INX304-014 | Bitola: 1/4"   | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-038 | Bitola: 3/8"   | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-012 | Bitola: 1/2"   | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-034 | Bitola: 3/4"   | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-100 | Bitola: 1"     | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-114 | Bitola: 1.1/4" | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-112 | Bitola: 1.1/2" | Pressão: 150 LBS | Rosca: BSP
+SKU: CON-NIP-DUP-INX304-200 | Bitola: 2"     | Pressão: 150 LBS | Rosca: BSP
+
+--- DESCRICAO CURTA ---
+Niple duplo sextavado em aço inoxidável AISI 304 com roscas machos BSP nas duas extremidades. Alta resistência à corrosão para redes de água, ar comprimido, produtos químicos e vapor.
+
+--- DESCRICAO LONGA ---
+O Niple Duplo Sextavado em Aço Inoxidável AISI 304 é uma conexão hidráulica de alta durabilidade projetada para união em linha de dois componentes com rosca fêmea de mesmo diâmetro.
+
+Sua construção usinada em aço inox 304 garante excelente resistência mecânica e imunidade contra oxidação e corrosão, sendo amplamente utilizado em indústrias alimentícias, farmacêuticas, químicas, além de instalações hidráulicas prediais e de ar comprimido.
+
+Possui corpo central em formato sextavado que facilita o aperto e o torqueamento com chaves fixas ou ajustáveis durante a montagem, garantindo vedação perfeita em conjunto com veda-rosca ou selantes apropriados.
+
+Diferenciais da Linha de Niples Inox 304:
+- Fabricado em Aço Inox AISI 304 (Alta resistência à corrosão e oxidação)
+- Roscas externas (machos) padrão BSP padronizadas
+- Sextavado central reforçado para facilidade no manuseio e montagem
+- Suporta classe de pressão de $150\text{ LBS}$
+- Adequado para condução de água, vapor, ar, óleo e reagentes químicos leves
