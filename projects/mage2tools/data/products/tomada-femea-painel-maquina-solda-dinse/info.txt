@@ -1,0 +1,27 @@
+sku_matriz: SOL-ACC-PAI-DINSE
+nome: Tomada Fêmea de Painel para Máquina de Solda Tipo Dinse
+slug: tomada-femea-painel-maquina-solda-dinse
+tipo: configuravel
+atributos_configuracao: medida_pino
+categoria: Solda e Corte > Acessórios de Solda > Peças de Reposição e Painel
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: SOL-ACC-PAI-F09 | Tipo: Fêmea Painel | Pino: 9mm  | Cabo Recomendado: 10 a 25mm² | Padrão: Dinse 10-25
+SKU: SOL-ACC-PAI-F13 | Tipo: Fêmea Painel | Pino: 13mm | Cabo Recomendado: 35 a 70mm² | Padrão: Dinse 35-70
+
+--- DESCRICAO CURTA ---
+Conector/Tomada fêmea de painel para embutir em máquinas de solda MIG/MAG, TIG e Inversoras. Corpo em latão usinado com capa isolante de baquelite/borracha, parafuso prisioneiro traseiro e porca de fixação.
+
+--- DESCRICAO LONGA ---
+A Tomada Fêmea de Painel Padrão Dinse é um componente fixo desenvolvido para instalação na carcaça metálica de inversoras e transformadores de solda.
+
+Sua estrutura conta com um prisioneiro roscado na parte traseira com porca e arruela para conexão do terminal do transformador/placa e flange isolante que impede o contato do condutor vivo com o chassi da máquina.
+
+Sua tomada frontal fêmea permite o encaixe e travamento rápido por meio-giro ($1/4$ de volta) dos cabos com engate macho.
+
+Diferenciais:
+- Fixação firme no painel frontal via rosca e porca traseira
+- Isolamento do chassi em polímero resistente a altas temperaturas
+- Núcleo de latão usinado de alta condução elétrica
+- Compatível com engates machos cabo padrão Dinse
