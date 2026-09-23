@@ -1,0 +1,26 @@
+sku: PLA-MED-CMP-MC1000
+nome: Medidor de Compressão Analógico de Cilindros MC-1000 Planatc
+slug: medidor-compressao-analogico-mc-1000-planatc
+tipo: simples
+categoria: Ferramentas > Ferramentas Automotivas > Diagnóstico Automotivo > Medidores de Compressão
+marca: Planatc
+modelo: MC-1000
+escala: 0 a 300 PSI (0 a 21 BAR)
+
+--- DESCRICAO CURTA ---
+Medidor analógico de compressão de cilindros para motores a gasolina, etanol e flex (MC-1000/G Planatc). Acompanha manômetro com capa protetora de borracha, mangueira flexível e adaptadores para velas.
+
+--- DESCRICAO LONGA ---
+O Medidor de Compressão Analógico MC-1000 Planatc é uma ferramenta essencial para oficinas mecânicas e diagnósticos de precisão em motores de combustão interna (Ciclo Otto - Gasolina, Etanol e Flex).
+
+Desenvolvido para medir a pressão de compressão dos cilindros, este equipamento permite identificar rapidamente falhas de vedação em válvulas de admissão e escape, desgastes em anéis de segmento, juntas de cabeçote queimadas e trincas no bloco ou cabeçote.
+
+Possui manômetro de fácil leitura com escalas em PSI ($0\text{ a }300\text{ PSI}$) e BAR ($0\text{ a }21\text{ BAR}$), equipado com capa protetora de borracha contra impactos. Conta com válvula de alívio de pressão para redefinição rápida dos testes e mangueira flexível de alta pressão com conexões/adaptadores de latão para diferentes roscas de velas.
+
+Diferenciais do Produto:
+- Manômetro analógico com capa emborrachada de proteção contra quedas
+- Dupla escala de medição: $0\text{ a }300\text{ PSI}$ e $0\text{ a }21\text{ BAR}$
+- Válvula de retenção e alívio rápido de pressão
+- Mangueira flexível que facilita o acesso a alojamentos profundos de velas
+- Kit com adaptadores para variados diâmetros de roscas de velas de ignição
+- Maleta plástica resistente para transporte e organização na oficina
