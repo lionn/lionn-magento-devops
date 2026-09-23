@@ -1,0 +1,26 @@
+sku: STE-CAB-BAT-3M-AUT
+nome: Cabo para Transferência de Carga de Bateria 3m Auto e Caminhão Stels
+slug: cabo-bateria-3m-auto-caminhao-stels
+tipo: simples
+categoria: Automotivo > Acessórios Veiculares > Ferramentas e Emergência > Cabos de Chupeta
+marca: Stels
+codigo_fabricante: 5773555
+comprimento: 3 metros
+capacidade: Padrão Reforçado (Linha Leve e Pesada)
+
+--- DESCRICAO CURTA ---
+Cabo de transferência de carga para bateria (cabo de chupeta) de 3 metros Stels. Indicado para automóveis, utilitários e caminhões. Garras tipo jacaré emborrachadas e isoladas para máxima segurança.
+
+--- DESCRICAO LONGA ---
+O Cabo de Transferência de Carga de Bateria 3 Metros Stels é um item de emergência indispensável para motoristas de carros passeio, SUVs, picapes, vans e caminhões.
+
+Com 3 metros de comprimento, permite socorrer veículos mesmo em posições de estacionamento desfavoráveis (onde as frentes dos veículos não conseguem ficar coladas). Conta com condutores elétricos de alta condutividade e excelente capacidade de transmissão de corrente para dar a partida sem aquecimento excessivo.
+
+Suas garras tipo jacaré são cobreadas com molas de alta pressão para fixação firme nos polos da bateria. Possuem revestimento isolante e anatômico em PVC colorido (vermelho para polo positivo e preto para polo negativo), reduzindo drasticamente o risco de curtos-circuitos durante o manuseio.
+
+Diferenciais do Produto:
+- Comprimento de 3 metros que facilita o alcance entre os veículos
+- Garras jacaré reforçadas com isolamento emborrachado de segurança
+- Cabo flexível e de fácil manuseio mesmo em baixas temperaturas
+- Acompanha bolsa/estojo para transporte limpo e compacto no porta-malas
+- Indicado para linha leve (carros) e linha pesada (caminhões/utilitários)
