@@ -1,0 +1,24 @@
+sku: SOL-ACC-BOC-PLA-TRK-10P
+nome: Jogo de Bocal Cerâmico para Tocha de Corte Plasma 10 Peças Tork
+slug: bocal-ceramico-plasma-10-pecas-tork
+tipo: simples
+categoria: Solda e Corte > Consumíveis de Corte Plasma > Bocais e Copos Cerâmicos
+marca: Super Tork
+linha_referencia: Consumíveis Plasma Tork
+
+--- DESCRICAO CURTA ---
+Jogo com 10 bocais cerâmicos para tochas de corte plasma Super Tork. Fabricados em cerâmica técnica de alta resistência térmica para isolamento do arco elétrico e proteção da tocha de corte.
+
+--- DESCRICAO LONGA ---
+O Kit de Bocal Cerâmico para Corte Plasma com 10 Unidades da Super Tork é o conjunto de consumíveis indispensável para manter a eficiência, estabilidade do arco e qualidade do acabamento em operações de corte plasma.
+
+Desenvolvidos em cerâmica refratária de alta densidade e excelente resistência ao choque térmico, os bocais atuam no direcionamento preciso do fluxo de gás de proteção e isolamento do eletrodo/bico contra o respingo de metal fundido.
+
+Possuem encaixe sob medida para tochas de cortadoras de plasma Tork e similares de mercado, garantindo fácil substituição e longa vida útil mesmo sob uso contínuo em serralherias e caldeirarias.
+
+Diferenciais do Kit de Bocais Cerâmicos Tork:
+- Embalagem econômica com 10 unidades para reposição contínua
+- Alta resistência a choques térmicos e elevadas temperaturas do arco plasma
+- Rosca/encaixe preciso para instalação rápida sem folgas na tocha
+- Mantém o fluxo de ar/gás estabilizado para cortes mais limpos e sem escória
+- Excelente custo-benefício para oficinas, serralherias e indústrias
