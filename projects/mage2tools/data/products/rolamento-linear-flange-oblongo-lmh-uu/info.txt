@@ -1,0 +1,34 @@
+sku_pai: COM-IND-ROL-LMH-CONF
+nome: Rolamento Linear com Flange Oblongo Série LMH-UU (6mm a 30mm)
+slug: rolamento-linear-flange-oblongo-lmh-uu
+tipo: configuravel
+atributo_variacao: diametro_eixo (Diâmetro do Eixo / Modelo)
+categoria: Componentes Industriais > Guias e Rolamentos Lineares > Rolamentos Lineares com Flange
+marca: Generico
+
+--- VARIANTES (PRODUTOS SIMPLES VINCULADOS) ---
+- SKU: COM-IND-ROL-LMH06UU | Modelo: LMH6UU  | Diâmetro Eixo: 6mm
+- SKU: COM-IND-ROL-LMH08UU | Modelo: LMH8UU  | Diâmetro Eixo: 8mm
+- SKU: COM-IND-ROL-LMH10UU | Modelo: LMH10UU | Diâmetro Eixo: 10mm
+- SKU: COM-IND-ROL-LMH12UU | Modelo: LMH12UU | Diâmetro Eixo: 12mm
+- SKU: COM-IND-ROL-LMH16UU | Modelo: LMH16UU | Diâmetro Eixo: 16mm
+- SKU: COM-IND-ROL-LMH20UU | Modelo: LMH20UU | Diâmetro Eixo: 20mm
+- SKU: COM-IND-ROL-LMH25UU | Modelo: LMH25UU | Diâmetro Eixo: 25mm
+- SKU: COM-IND-ROL-LMH30UU | Modelo: LMH30UU | Diâmetro Eixo: 30mm
+
+--- DESCRICAO CURTA ---
+Rolamento linear de esferas com flange oval/oblongo série LMH-UU para eixos guias retificados de 6mm a 30mm. Ideal para montagem em impressoras 3D, routers CNC e equipamentos de automação industrial.
+
+--- DESCRICAO LONGA ---
+A linha de Rolamentos Lineares com Flange Oblongo (Oval) Série LMH-UU oferece uma solução prática e de alta precisão para sistemas de movimentação e guias lineares em eixos cilíndricos.
+
+Disponível em diversas opções de diâmetro interno (de 6mm a 30mm), esta série conta com flange duplo com 2 furos de fixação paralelos, o que reduz o espaço necessário na estrutura da máquina e facilita o alinhamento em painéis verticais ou horizontais sem a necessidade de suportes externos.
+
+Construídos com corpo metálico usinado e esferas de aço cromo de alta durabilidade com circuito interno recirculante, os rolamentos LMH-UU garantem deslizamento suave e baixo coeficiente de atrito. Todos os modelos possuem dupla vedação de borracha (UU) nas extremidades para retenção da graxa e proteção contra entrada de poeira e cavacos.
+
+Diferenciais da Série LMH-UU:
+- Flange formato oval/oblongo compacto para economia de espaço
+- Variações para eixos de 6mm, 8mm, 10mm, 12mm, 16mm, 20mm, 25mm e 30mm
+- Dupla vedação em borracha (UU) de alta proteção
+- Fixação direta por parafusos com 2 furos na flange
+- Ideal para CNCs, impressoras 3D, gravadoras a laser e automação
