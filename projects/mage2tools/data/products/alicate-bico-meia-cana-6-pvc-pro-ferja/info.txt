@@ -1,0 +1,25 @@
+sku: FER-ALI-BIC-MCN-006-PRO
+nome: Alicate Bico Meia Cana 6" Cabo PVC Pro Ferjá
+slug: alicate-bico-meia-cana-6-pvc-pro-ferja
+tipo: simples
+categoria: Ferramentas > Ferramentas Manuais > Alicates > Alicates de Bico
+marca: Ferjá
+linha: Pro
+tamanho: 6" (150mm)
+
+--- DESCRICAO CURTA ---
+Alicate de bico meia-cana reto de 6" (150mm) da linha Pro Ferjá com cabo revestido em PVC. Ideal para trabalhos de precisão, dobra de arames, manipulação de fios e acesso a locais estreitos.
+
+--- DESCRICAO LONGA ---
+O Alicate Bico Meia Cana 6" PVC Pro Ferjá é uma ferramenta indispensável para eletricistas, mecânicos, artesãos e profissionais de manutenção que necessitam de precisão e acesso a áreas de difícil alcance.
+
+Fabricado em aço carbono forjado de alta resistência com tratamento térmico na lâmina de corte, oferece excelente durabilidade e firmeza na pega. Seu bico longo serrilhado permite segurar, dobrar, puxar e cortar fios e arames com facilidade.
+
+Possui cabo anatômico revestido em PVC emborrachado com abas protetoras, garantindo conforto e segurança no manuseio contínuo sem causar fadiga nas mãos.
+
+Diferenciais do Produto:
+- Bico meia-cana reto com ranhuras internas para agarre firme sem deslizar
+- Corpo forjado em aço de alta qualidade com acabamento niquelado/polido
+- Cabo ergonômico revestido em PVC atóxico e antiderrapante
+- Função integrada para corte de arames e fios macios
+- Padrão profissional para uso industrial, oficina e instalações elétricas
