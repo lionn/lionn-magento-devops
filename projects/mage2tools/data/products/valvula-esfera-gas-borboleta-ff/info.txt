@@ -1,0 +1,28 @@
+sku_matriz: VAL-ESF-GAS-BOR-FF
+nome: Válvula de Esfera para Gás Borboleta Fêmea/Fêmea
+slug: valvula-esfera-gas-borboleta-femea-femea
+tipo: configuravel
+atributos_configuracao: bitola
+categoria: Encanamento e Conexões > Válvulas e Registros > Válvulas de Esfera
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: VAL-ESF-GAS-BOR-FF-012 | Bitola: 1/2" NPT/BSP | Rosca: Fêmea x Fêmea | Acionamento: Borboleta (T-Handle) | Fluido: Gás GLP / GN
+SKU: VAL-ESF-GAS-BOR-FF-034 | Bitola: 3/4" NPT/BSP | Rosca: Fêmea x Fêmea | Acionamento: Borboleta (T-Handle) | Fluido: Gás GLP / GN
+SKU: VAL-ESF-GAS-BOR-FF-100 | Bitola: 1" NPT/BSP   | Rosca: Fêmea x Fêmea | Acionamento: Borboleta (T-Handle) | Fluido: Gás GLP / GN
+
+--- DESCRICAO CURTA ---
+Válvula de esfera para gás com manopla tipo borboleta e conexões fêmea x fêmea. Corpo em latão forjado de alta resistência para controle de vazão de gás GLP, GN e combustíveis.
+
+--- DESCRICAO LONGA ---
+A Válvula de Esfera para Gás com Manopla Borboleta (Rosca Fêmea/Fêmea) é desenvolvida para oferecer bloqueio e estanqueidade absoluta em tubulações e centrais de distribuição de gás.
+
+Fabricada em corpo sólido de latão forjado e niquelado, possui esfera interna em latão cromado com vedação em PTFE, garantindo vida útil prolongada e alta resistência a variações de pressão e temperatura.
+
+O acionamento por manopla borboleta (T-Handle) é ideal para instalações em espaços reduzidos ou dentro de caixas de medição/abrigos de gás, permitindo a interrupção rápida do fluxo com apenas $1/4$ de volta.
+
+Diferenciais do Produto:
+- Dupla conexão interna com rosca fêmea x fêmea (BSP/NPT)
+- Manopla tipo borboleta para fechamento rápido e ergonômico em locais estreitos
+- Esfera com acabamento espelhado para vedação perfeita sem vazamentos
+- Certificada para uso em linhas de Gás Liquefeito de Petróleo (GLP) e Gás Natural (GN)
