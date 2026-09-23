@@ -1,37 +1,34 @@
-sku: INX-TEE-ROS-90-304
-nome: Tee Reto Roscável 90° Aço Inox 304
-slug: tee-reto-roscavel-90-polegada-aco-inox-304
-tipo: simples
-categoria: Encanamentos e Hidráulica > Conexões Industriais > Conexões em Inox
+sku_matriz: CON-TEE-RET-INX304-CFG
+nome: Tê Reto Roscável 90° em Aço Inox 304 Rosca BSP
+slug: tee-reto-roscavel-90-aco-inox-304
+tipo: configuravel
+atributos_configuracao: bitola_rosca
+categoria: Encanamento e Hidráulica > Conexões de Tubulação > Tês e Derivações
 marca: Generico
 
+--- VARIATION MATRIX ---
+SKU: CON-TEE-RET-INX304-014 | Bitola: 1/4"   | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-038 | Bitola: 3/8"   | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-012 | Bitola: 1/2"   | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-034 | Bitola: 3/4"   | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-100 | Bitola: 1"     | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-114 | Bitola: 1.1/4" | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-112 | Bitola: 1.1/2" | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+SKU: CON-TEE-RET-INX304-200 | Bitola: 2"     | Pressão: 150 LBS | Rosca: BSP Fêmea | Ângulo: 90°
+
 --- DESCRICAO CURTA ---
-Tee reto de 90 graus roscável fabricado em aço inoxidável AISI 304. Projetado para derivação de tubulações em sistemas hidráulicos e industriais de alta resistência química e corrosiva.
+Tê reto (igual) roscável a 90° em aço inoxidável AISI 304 com roscas fêmeas BSP nas três saídas. Para derivação em redes industriais, alimentícias, químicas e hidráulicas.
 
 --- DESCRICAO LONGA ---
-O Tee Reto Roscável 90° em Aço Inox 304 é uma conexão industrial de alta performance projetada para interligar três segmentos de tubulação em um ângulo de 90 graus, permitindo a divisão ou junção de fluxos de líquidos e gases.
+O Tê Reto Roscável de 90° em Aço Inoxidável AISI 304 é uma conexão de alta performance projetada para realizar a derivação em ângulo reto de uma linha principal de tubulação em três vias de mesmo diâmetro.
 
-Fabricado em aço inoxidável de liga AISI 304, oferece elevada resistência mecânica, excelente proteção contra corrosão e resistência a variações severas de temperatura. Possui roscas internas (fêmea) padrão BSP/NPT com acabamento de alta precisão que garante vedação firme e segura.
+Fabricado em aço inox 304 microfundido, oferece resistência superior à oxidação, corrosão e ataque químico leve, sendo ideal para instalações em indústrias alimentícias, bebidas, farmacêuticas, químicas e sistemas de tratamento de água.
 
-Diferenciais do Produto:
-- Liga de aço inoxidável AISI 304 de alta durabilidade anticorrosiva
-- Extremidades roscadas fêmea para instalação rápida e manutenção simplificada
-- Ideal para indústrias químicas, alimentícias, farmacêuticas e tubulações de água potável
-- Suporta elevadas pressões de trabalho e fluidos agressivos
-- Bitola industrial (DN50)
+As três extremidades possuem roscas internas (fêmeas) no padrão BSP padronizado, garantindo encaixe perfeito e excelente estanqueidade quando montadas com veda-rosca adequado.
 
---- ESPECIFICACOES ---
-Atributo: Bitola / Diâmetro
-Especificacao: (DN50)
-
-Atributo: Material
-Especificacao: Aço Inoxidável AISI 304
-
-Atributo: Tipo de Conexão
-Especificacao: Roscável (Rosca Fêmea BSP/NPT)
-
-Atributo: Ângulo de Derivação
-Especificacao: 90° (Tee Reto Equalizado)
-
-Atributo: Aplicação
-Especificacao: Indústria alimentícia, farmacêutica, química, cervejeira e tubulações hidráulicas em inox
+Diferenciais da Linha de Tês Inox 304:
+- Construção em Aço Inox AISI 304 de alta durabilidade e pureza
+- Roscas internas fêmeas BSP reforçadas nas 3 saídas
+- Derivação perfeita a 90° com saídas de bitolas iguais
+- Classe de pressão de 150 LBS
+- Adequado para condução de fluidos sanitários, água, vapor, ar comprimido e produtos químicos
