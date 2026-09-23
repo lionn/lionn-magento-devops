@@ -1,0 +1,25 @@
+sku: FER-PNE-COR-3IN-8XL
+nome: Cortador Lateral Pneumático 3" EDA 8XL
+slug: cortador-lateral-pneumatico-3-eda-8xl
+tipo: simples
+categoria: Ferramentas e Equipamentos > Ferramentas Pneumáticas > Cortadores e Esmerilhadeiras
+marca: EDA
+modelo_referencia: 8XL
+
+--- DESCRICAO CURTA ---
+Cortador lateral pneumático (corta-chapa / esmerilhadeira pneumática reta) de 3" EDA modelo 8XL. Design compacto e ergonômico para corte de chapas, parafusos, tubos e perfis metálicos com alta precisão.
+
+--- DESCRICAO LONGA ---
+O Cortador Lateral Pneumático de 3 polegadas EDA Modelo 8XL é uma ferramenta pneumática de alta performance desenvolvida para corte rápido e preciso em oficinas mecânicas, funilarias, caldeirarias e serralherias.
+
+Projetado para operar com discos de corte reforçados, possui corpo compacto em liga de alumínio de alta resistência que facilita o manuseio em locais de difícil acesso onde cortadeiras elétricas tradicionais não conseguem alcançar.
+
+Conta com gatilho de acionamento com trava de segurança contra acionamento acidental, exaustão de ar direcionada e capa de proteção metálica para o disco, garantindo segurança total ao operador.
+
+Diferenciais do Modelo EDA 8XL:
+- Tamanho do disco: 
+- Entrada de ar padrão de 1/4'' NPT
+- Trava de segurança no gatilho que impede acidentes
+- Capa protetora do disco em aço de alta durabilidade
+- Design leve, ergonômico e de baixa vibração
+- Indicado para cortar chapas metálicas, parafusos, hastes e pequenos perfis
