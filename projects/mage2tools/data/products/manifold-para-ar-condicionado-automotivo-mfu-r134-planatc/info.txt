@@ -1,0 +1,27 @@
+sku: FER-AUT-CLI-MFU134-PLA
+nome: Manifold para Ar Condicionado Automotivo MFU-R134 Planatc
+slug: manifold-para-ar-condicionado-automotivo-mfu-r134-planatc
+tipo: simples
+categoria: Ferramentas Automotivas > Climatização e Ar Condicionado > Manifolds e Manômetros
+marca: Planatc
+modelo_referencia: MFU-R134
+
+--- DESCRICAO CURTA ---
+Conjunto manifold completo para ar condicionado automotivo MFU-R134 Planatc. Indicado para teste de pressão, carga de gás R134a e vácuo em sistemas de climatização veicular. Acompanha manômetros protegidos e jogo de mangueiras.
+
+--- DESCRICAO LONGA ---
+O Manifold para Ar Condicionado Automotivo MFU-R134 da Planatc é um equipamento indispensável para profissionais de reparação e manutenção de sistemas de climatização veicular.
+
+Projetado especificamente para operar com o fluido refrigerante R134a, o conjunto permite monitorar com precisão as pressões de alta e baixa do sistema, diagnosticar obstruções na válvula de expansão ou compressor, realizar processo de vácuo e efetuar recargas de gás e óleo lubrificante.
+
+Possui corpo robusto usinado em alumínio anodizado de alta resistência com registros tipo manopla de fácil manuseio. Os manômetros de alta e baixa pressão contam com visores de fácil leitura, escalas coloridas e capas protetoras de borracha contra impactos acidentais.
+
+Acompanha jogo de mangueiras reforçadas com conexões padrão para engates rápidos de alta e baixa pressão, garantindo estanqueidade e segurança durante a operação.
+
+Diferenciais do Manifold MFU-R134 Planatc:
+- Corpo reforçado em liga de alumínio usinado com visor de líquido/fluxo
+- Registros manuais de vedação suave e precisa
+- Manômetros coloridos de baixa (azul) e alta (vermelho) pressão com proteção emborrachada
+- Escalas específicas graduadas para o gás refrigerante R134a
+- Acompanha mangueiras de alta resistência a pressões elevadas
+- Ferramenta essencial para estanqueidade, teste de vácuo e carga de gás em ar condicionado automotivo
