@@ -83,6 +83,15 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ---
 
+
+⚠️ Aviso de Isenção de Responsabilidade (Disclaimer):
+
+As descrições, especificações técnicas, imagens e dados contidos neste repositório são fornecidos exclusivamente para fins de estruturação, testes de catálogo e visualização deste projeto de integração. As informações foram coletadas a partir de conteúdos públicos e processadas/conferidas com auxílio de Inteligência Artificial para análise rápida, podendo conter erros, omissões ou divergências de digitação. Não nos responsabilizamos pela exatidão, atualização ou veracidade das informações dos produtos exibidos neste projeto. Para obter especificações oficiais, manuais técnicos atualizados e suporte, consulte sempre o site e a documentação oficial dos respectivos fabricantes.
+
+
+---
+
+
 ## 📄 Licença
 
 Este projeto está sob a licença [MIT](LICENSE.md).
