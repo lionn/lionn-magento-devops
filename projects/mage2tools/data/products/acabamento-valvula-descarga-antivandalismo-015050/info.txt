@@ -1,0 +1,24 @@
+sku: MET-ACB-VAL-ANT-015050
+nome: Acabamento para Válvula de Descarga Antivandalismo Cromado - Ref. 015050
+slug: acabamento-valvula-descarga-antivandalismo-015050
+tipo: simples
+categoria: Materiais de Construção > Louças e Metais Sanitários > Acabamentos para Válvulas
+marca: Generico / Compatível Docol
+codigo_referencia: 015050
+
+--- DESCRICAO CURTA ---
+Acabamento para válvula de descarga antivandalismo em metal cromado reforçado (Ref. 015050). Projetado para banheiros públicos e institucionais com acionamento seguro e parafusos ocultos contra furto e danos.
+
+--- DESCRICAO LONGA ---
+O Acabamento para Válvula de Descarga Antivandalismo (Código 015050) é a solução ideal para instalações sanitárias públicas, corporativas, escolares, hospitalares e presidenciais que necessitam de elevada resistência mecânica e proteção contra furtos e depredações.
+
+Desenvolvido em liga de cobre (latão) de alta durabilidade com acabamento cromado de alta resistência ao uso constante e produtos de limpeza, possui design robusto e moderno.
+
+Seu sistema de fixação antivandalismo conta com parafusos de travamento especial/ocultos que impedem a remoção do acabamento sem o uso de ferramentas específicas, garantindo a integridade do conjunto e evitando o travamento deliberado do botão de acionamento.
+
+Diferenciais do Produto:
+- Estrutura reforçada em liga metálica com tripla camada de cromo
+- Parafusos de fixação embutidos e ocultos (sistema antivandalismo)
+- Botão de acionamento macio e resistente ao uso intenso
+- Compatível com bases de válvulas de descarga do padrão especificado (Ref. 015050)
+- Preserva a economia de água e evita o desperdício por travamento mecânico
