@@ -1,0 +1,30 @@
+sku: MAT-CRA-VAL-FLT-Y-INX
+nome: Válvula Filtro Y Com Tela Inox
+slug: valvula-filtro-y-com-tela-inox
+tipo: configuravel
+atributo_variacao: bitola (1/2", 3/4", 1")
+categoria: Materiais de Construção > Encanamentos e Hidráulica > Válvulas e Registros
+marca: Genérico / Universal
+modelo_referencia: Filtro Y de Retenção de Impurezas Tela Inox
+
+--- VARIACOES / SIMPLES ASSOCIADOS ---
+- SKU: MAT-CRA-VAL-FLT-Y-12-INX | Bitola: 1/2" | Nome: Válvula Filtro Y Com Tela Inox 1/2"
+- SKU: MAT-CRA-VAL-FLT-Y-34-INX | Bitola: 3/4" | Nome: Válvula Filtro Y Com Tela Inox 3/4"
+- SKU: MAT-CRA-VAL-FLT-Y-10-INX | Bitola: 1"   | Nome: Válvula Filtro Y Com Tela Inox 1"
+
+--- DESCRICAO CURTA ---
+Válvula filtro tipo Y com elemento filtrante em tela de aço inox. Disponível nas bitolas de 1/2", 3/4" e 1". Projetada para retenção de detritos e partículas em tubulações hidráulicas, protegendo equipamentos contra danos e entupimentos.
+
+--- DESCRICAO LONGA ---
+A Válvula Filtro Y Com Tela Inox é uma solução indispensável para a proteção e longevidade de sistemas hidráulicos residenciais, prediais e industriais.
+
+Instalada antes de equipamentos sensíveis — como bombas d'água, hidrômetros, válvulas reguladoras de pressão e aquecedores —, sua estrutura em formato "Y" direciona o fluxo do fluido através de um cesto/tela interna em aço inoxidável, retendo ferrugem, areia, incrustações e detritos sólidos.
+
+Seu corpo metálico robusto suporta variações de pressão e temperatura, enquanto a tampa de limpeza rosqueável permite a remoção rápida do cesto interno para higienização e manutenção sem a necessidade de desacoplar a válvula da tubulação.
+
+Diferenciais da Válvula Filtro Y:
+- Elemento filtrante interno fabricado em malha de aço inox de alta durabilidade e imunidade à corrosão
+- Corpo resistente em liga metálica usinada com roscas padrão BSP (disponível em 1/2", 3/4" e 1")
+- Manutenção simplificada por meio de tampa rosqueável no bujão inferior
+- Preserva a vida útil de bombas, válvulas solenoides e dispositivos de medição
+- Adequada para sistemas de água fria, água quente e redes de ar comprimido
