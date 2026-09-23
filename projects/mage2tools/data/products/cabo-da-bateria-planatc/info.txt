@@ -1,0 +1,25 @@
+sku: FER-AUT-ELE-CAB-BAT-PLA
+nome: Cabo de Transferência de Carga para Bateria Automotiva Planatc
+slug: cabo-da-bateria-planatc
+tipo: simples
+categoria: Ferramentas Automotivas > Elétrica e Diagnóstico > Cabos de Transferência e Socorro
+marca: Planatc
+modelo_referencia: Cabo de Bateria / Profissional
+
+--- DESCRICAO CURTA ---
+Cabo profissional de transferência de carga para bateria automotiva Planatc (cabo de chupeta). Equipado com garras jacaré reforçadas e totalmente isoladas para partidas de emergência com máxima segurança e alta condutividade.
+
+--- DESCRICAO LONGA ---
+O Cabo para Bateria da Planatc é uma ferramenta de socorro automotivo e suporte de oficina indispensável para transferência segura de carga entre baterias de veículos (partida auxiliar).
+
+Desenvolvido para suportar picos de elevada corrente elétrica exigidos pelo motor de partida no momento da ignição, possui cabos condutores multifilamentos flexíveis de altíssima condutividade, revestidos por camada espessa de isolamento térmico e elétrico.
+
+Suas garras tipo jacaré de pressão reforçada são 100% isoladas por empunhadura emborrachada de segurança, prevenindo faíscas acidentais ou curtos-circuitos por contato inadvertido na lataria do veículo.
+
+Diferenciais do Cabo de Bateria Planatc:
+- Cabos condutores de alta bitola que suportam elevada amperagem de partida sem aquecer
+- Garras jacaré com mola de alta pressão para fixação firme nos bornes da bateria
+- Revestimento totalmente isolado para maior segurança do operador
+- Identificação clara por cores (Vermelho para Polo Positivo / Preto para Polo Negativo)
+- Acompanha bolsa ou embalagem prática para armazenamento no porta-malas ou oficina
+- Indicado para carros de passeio, SUVs, utilitários leves e pickups
