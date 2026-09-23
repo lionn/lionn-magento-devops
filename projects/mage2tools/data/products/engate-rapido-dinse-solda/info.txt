@@ -1,0 +1,25 @@
+sku_matriz: SOL-ACC-ENG-DINSE
+nome: Engate Rápido para Cabo de Solda Tipo Dinse
+slug: engate-rapido-dinse-solda
+tipo: configuravel
+atributos_configuracao: genero, medida_pino_cabo
+categoria: Solda e Corte > Acessórios de Solda > Conectores e Engates Rápidos
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: SOL-ACC-ENG-M09-1025 | Gênero: Macho | Pino: 9mm  | Cabo: 10 a 25mm² | Padrão: Dinse 10-25
+SKU: SOL-ACC-ENG-F09-1025 | Gênero: Fêmea | Pino: 9mm  | Cabo: 10 a 25mm² | Padrão: Dinse 10-25
+SKU: SOL-ACC-ENG-M13-3550 | Gênero: Macho | Pino: 13mm | Cabo: 35 a 50mm² | Padrão: Dinse 35-50
+SKU: SOL-ACC-ENG-F13-3550 | Gênero: Fêmea | Pino: 13mm | Cabo: 35 a 50mm² | Padrão: Dinse 35-50
+SKU: SOL-ACC-ENG-M13-5070 | Gênero: Macho | Pino: 13mm | Cabo: 50 a 70mm² | Padrão: Dinse 50-70
+SKU: SOL-ACC-ENG-F13-5070 | Gênero: Fêmea | Pino: 13mm | Cabo: 50 a 70mm² | Padrão: Dinse 50-70
+
+--- DESCRICAO CURTA ---
+Linha de engates rápidos padrão Dinse para conexão e extensão de cabos de solda em máquinas MIG/MAG, TIG, MMA e Corte Plasma. Opções em 9mm e 13mm para cabos de 10mm² a 70mm².
+
+--- DESCRICAO LONGA ---
+Os Conectores de Engate Rápido para Solda (Padrão Dinse) são desenvolvidos para garantir conexões elétricas de alta condutividade e segurança em máquinas e extensores de soldagem.
+
+Fabricados com corpo sólido em latão e isolamento externo em borracha térmica vulcanizada, evitam perdas de tensão e aquecimento excessivo nos pontos de contato.
+
+O travamento por baioneta (meio-giro) impede o desconectamento acidental dos cabos durante o trabalho em oficina ou canteiro de obras.
