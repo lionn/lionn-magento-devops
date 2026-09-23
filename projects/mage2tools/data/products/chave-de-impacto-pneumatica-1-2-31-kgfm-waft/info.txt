@@ -1,0 +1,25 @@
+sku: FER-PNE-IMP-12-31K-WAF
+nome: Chave de Impacto Pneumática 1/2" 31 kgfm Waft
+slug: chave-de-impacto-pneumatica-1-2-31-kgfm-waft
+tipo: simples
+categoria: Ferramentas Pneumáticas > Chaves de Impacto > Chaves de Impacto 1/2"
+marca: Waft
+modelo_referencia: Chave de Impacto 1/2" 31 kgfm / 310 Nm
+
+--- DESCRICAO CURTA ---
+Chave de impacto pneumática com encaixe de 1/2" e torque máximo de 31 kgfm Waft. Ideal para aperto e desaperto rápido de parafusos pesados em borracharias, oficinas mecânicas e manutenção industrial.
+
+--- DESCRICAO LONGA ---
+A Chave de Impacto Pneumática de 1/2" Waft com torque de 31 kgfm foi desenvolvida para oferecer alto rendimento e torque potente no manuseio de fixadores pesados em oficinas automotivas, borracharias e indústrias.
+
+Acionada por ar comprimido, possui mecanismo interno reforçado de impacto que gera golpes contínuos e de alto torque, permitindo soltar parafusos e porcas emperrados, oxidados ou com alto torque de aperto com mínimo esforço do operador.
+
+Sua estrutura metálica robusta com empunhadura tipo pistola garante durabilidade extrema em ambientes de uso diário rigoroso. Conta ainda com regulador de torque e seletor de sentido de rotação (reversível) de fácil acionamento.
+
+Diferenciais da Chave de Impacto Pneumática 1/2" Waft:
+- Elevado torque máximo de 31 kgfm para trabalhos pesados de fixação
+- Encaixe quadrado de 1/2" compatível com soquetes de impacto padronizados
+- Sistema de reversão rápido para aperto e desaperto
+- Controle de velocidade/torque integrado
+- Corpo reforçado resistente a quedas e vibração continuada
+- Indispensável para troca de rodas, manutenção de suspensão e montagens mecânicas
