@@ -1,0 +1,27 @@
+sku: FER-MED-TRE-LAS-TLM50-STA
+nome: Trena Laser De Precisão 15 Metros Tlm50 Stanley
+slug: trena-laser-de-precisao-15-metros-tlm50-stanley
+tipo: simples
+categoria: Ferramentas > Ferramentas de Medição > Trenas Laser e Níveis
+marca: Stanley
+modelo_referencia: TLM50 (STHT77425)
+
+--- DESCRICAO CURTA ---
+Trena laser digital de precisão Stanley modelo TLM50 com alcance de até 15 metros. Design ultracompacto operado por botão único, medição contínua e tela LCD retroiluminada para leituras rápidas e exatas.
+
+--- DESCRICAO LONGA ---
+A Trena Laser De Precisão 15 Metros Modelo TLM50 Stanley oferece praticidade e velocidade para medições de ambientes internos sem a necessidade de trena manual de fita.
+
+Com alcance de medição de até 15 metros e margem de erro de apenas ± 3 mm, ela é a ferramenta perfeita para calcular distâncias em reformas, instalação de móveis, pintura, gesso e decoração.
+
+Seu funcionamento com botão único (*Point & Shoot*) simplifica a operação: basta apontar o feixe de laser vermelho e pressionar o botão para obter a leitura imediata na tela LCD digital retroiluminada.
+
+A TLM50 também conta com função de medição contínua (que atualiza o valor conforme o usuário se movimenta no espaço), carcaça emborrachada resistente a quedas leves e desligamento automático para preservação das pilhas.
+
+Diferenciais da Trena Laser Stanley TLM50:
+- Alcance de até 15 metros com precisão de ± 3,0 mm
+- Operação extremamente simples através de um único botão
+- Função de medição contínua (rastreamento de distância em tempo real)
+- Visor LCD retroiluminado em preto e branco para fácil visualização em locais escuros
+- Formato de bolso ultracompacto com revestimento emborrachado para pegada segura
+- Desligamento automático para economia de energia das pilhas
