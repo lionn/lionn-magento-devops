@@ -1,0 +1,33 @@
+sku_matriz: ROL-MAN-UCF-CFG
+nome: Mancal Quadrado de Flange com Rolamento Série UCF
+slug: mancal-com-rolamento-ucf-flange-quadrada
+tipo: configuravel
+atributos_configuracao: modelo_eixo
+categoria: Indústria e Comércio > Componentes Mecânicos > Rolamentos e Mancais > Mancais
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: ROL-MAN-UCF-204-20M | Modelo: UCF 204 | Eixo: 20mm | Caixa: F 204 | Rolamento: UC 204
+SKU: ROL-MAN-UCF-205-25M | Modelo: UCF 205 | Eixo: 25mm | Caixa: F 205 | Rolamento: UC 205
+SKU: ROL-MAN-UCF-206-30M | Modelo: UCF 206 | Eixo: 30mm | Caixa: F 206 | Rolamento: UC 206
+SKU: ROL-MAN-UCF-207-35M | Modelo: UCF 207 | Eixo: 35mm | Caixa: F 207 | Rolamento: UC 207
+SKU: ROL-MAN-UCF-208-40M | Modelo: UCF 208 | Eixo: 40mm | Caixa: F 208 | Rolamento: UC 208
+SKU: ROL-MAN-UCF-209-45M | Modelo: UCF 209 | Eixo: 45mm | Caixa: F 209 | Rolamento: UC 209
+SKU: ROL-MAN-UCF-210-50M | Modelo: UCF 210 | Eixo: 50mm | Caixa: F 210 | Rolamento: UC 210
+
+--- DESCRICAO CURTA ---
+Linha de mancais de flange quadrada de 4 furos com rolamento auto-compensador série UCF (204 a 210) para eixos de 20mm a 50mm. Corpo reforçado em ferro fundido e rolamento relubrificável.
+
+--- DESCRICAO LONGA ---
+Os Conjuntos de Mancal com Rolamento da Série UCF são componentes essenciais para sustentação de eixos em sistemas de transmissão mecânica, esteiras transportadoras, máquinas agrícolas e equipamentos industriais.
+
+O design em flange quadrada com 4 furos proporciona alinhamento preciso e fixação extremamente rígida em estruturas planas e chassis metálicos.
+
+Cada conjunto é composto por uma caixa externa de ferro fundido cinzento com bico graxeiro e um rolamento auto-alinhável em aço cromo temperado (série UC). O rolamento conta com vedação dupla e fixação ao eixo por meio de parafusos Allen no anel interno.
+
+Diferenciais da Linha UCF:
+- Variedade de medidas de eixo
+- Construção em ferro fundido de alta resistência estrutural
+- Rolamento auto-compensador que tolera pequenas variações de alinhamento
+- Sistema relubrificável via graxeira externa
+- Fixação rápida e segura no eixo por parafusos Allen
