@@ -1,0 +1,26 @@
+sku_pai: HID-VAL-VRP
+nome: Válvula Redutora de Pressão de Água em Latão
+slug: valvula-redutora-pressao-latao
+tipo: configuravel
+atributo_configuracao: bitola_rosca
+categoria: Hidráulica > Válvulas e Registros > Válvulas Redutoras de Pressão
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: HID-VAL-VRP-12 | Bitola: 1/2" (DN15) | Conexão: Rosca Fêmea BSP | Material: Latão
+SKU: HID-VAL-VRP-34 | Bitola: 3/4" (DN20) | Conexão: Rosca Fêmea BSP | Material: Latão
+
+--- DESCRICAO CURTA ---
+Válvula redutora de pressão para redes de água potável em latão forjado. Protege encanamentos, torneiras e eletrodomésticos contra picos e excesso de pressão da rede pública. Disponível em 1/2" e 3/4".
+
+--- DESCRICAO LONGA ---
+A Válvula Redutora de Pressão de Água em Latão é projetada para estabilizar e controlar a pressão do fluxo hidráulico em instalações residenciais, prediais e comerciais.
+
+Fabricada em latão de alta resistência e durabilidade, ela previne vazamentos, estouros de mangueiras de máquinas de lavar, desgaste precoce de reparos de torneiras e ruídos (golpe de aríete) causados pela alta pressão vinda da concessionária de água.
+
+Diferenciais do Produto:
+- Corpo robusto em latão forjado niquelado/polido resistente à corrosão
+- Mola interna de ajuste em aço inoxidável
+- Parafuso superior de regulagem manual da pressão de saída
+- Entrada auxiliar para acoplamento de manômetro (medidor de pressão)
+- Proteção contra variações bruscas e sobrepressão na rede hidráulica
