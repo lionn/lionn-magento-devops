@@ -1,0 +1,27 @@
+sku: FER-MAN-ALI-PRE-RET-10-STA
+nome: Alicate De Pressão Reto 10 Crv Stanley
+slug: alicate-de-pressao-reto-10-crv-stanley
+tipo: simples
+categoria: Ferramentas > Ferramentas Manuais > Alicates
+marca: Stanley
+modelo_referencia: 84-371 (10" Mordente Reto Cr-V)
+
+--- DESCRICAO CURTA ---
+Alicate de pressão Stanley de 10 polegadas com mordentes retos fabricado em aço Cromo-Vanádio (Cr-V). Proporciona travamento de alta força em peças planas, chapas e superfícies retas, ideal para trabalhos pesados de caldeiraria, solda e mecânica.
+
+--- DESCRICAO LONGA ---
+O Alicate De Pressão Reto 10 Crv Stanley é uma ferramenta indispensável para profissionais da indústria mecânica, serralherias, oficinas e construção civil que necessitam de agarre firme e seguro em materiais retos e planos.
+
+Construído em liga de aço Cromo-Vanádio (Cr-V) forjado e tratado termicamente, garante máxima durabilidade, imunidade à deformação sob torque elevado e alta resistência contra desgaste contínuo.
+
+Seus mordentes retos foram desenhados para distribuir a pressão uniformemente ao longo da superfície de contato, sendo a escolha perfeita para segurar chapas metálicas, cantoneiras, perfis quadrados, porcas de grande porte ou manter peças unidas durante processos de soldagem e perfuração.
+
+Possui parafuso recartilhado de regulagem no cabo para ajuste preciso da abertura da mandíbula e da força de aperto, além de alavanca de liberação rápida revestida para maior conforto e segurança do operador.
+
+Diferenciais do Alicate de Pressão Reto 10" Stanley:
+- Forjado em aço Cromo-Vanádio (Cr-V) de alta performance e durabilidade
+- Mordentes retilíneos projetados para máxima área de contato em peças planas e hexagonais
+- Mecanismo de travamento robusto que mantém a pressão de aperto ajustada
+- Parafuso inferior para ajuste fino da pressão e abertura das mandíbulas
+- Alavanca de destravamento rápido de fácil manuseio
+- Acabamento niquelado resistente à corrosão e ferrugem
