@@ -1,0 +1,31 @@
+sku_pai: FIX-PAR-SEX-IN304-M8
+nome: Parafuso Cabeça Sextavada Inox 304 Rosca M8
+slug: parafuso-cabeca-sextavada-inox-304-m8
+tipo: configuravel
+atributo_configuracao: comprimento_mm
+categoria: Fixadores e Parfuso > Parafusos > Parafusos Sextavados
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: FIX-PAR-SEX-IN304-M8X20 | Diâmetro: M8 (8mm) | Comprimento: 20mm | Passo: 1,25mm | Rosca: Total
+SKU: FIX-PAR-SEX-IN304-M8X25 | Diâmetro: M8 (8mm) | Comprimento: 25mm | Passo: 1,25mm | Rosca: Total
+SKU: FIX-PAR-SEX-IN304-M8X30 | Diâmetro: M8 (8mm) | Comprimento: 30mm | Passo: 1,25mm | Rosca: Total
+SKU: FIX-PAR-SEX-IN304-M8X35 | Diâmetro: M8 (8mm) | Comprimento: 35mm | Passo: 1,25mm | Rosca: Total
+SKU: FIX-PAR-SEX-IN304-M8X40 | Diâmetro: M8 (8mm) | Comprimento: 40mm | Passo: 1,25mm | Rosca: Total
+SKU: FIX-PAR-SEX-IN304-M8X45 | Diâmetro: M8 (8mm) | Comprimento: 45mm | Passo: 1,25mm | Rosca: Parcial/Total
+SKU: FIX-PAR-SEX-IN304-M8X50 | Diâmetro: M8 (8mm) | Comprimento: 50mm | Passo: 1,25mm | Rosca: Parcial
+SKU: FIX-PAR-SEX-IN304-M8X60 | Diâmetro: M8 (8mm) | Comprimento: 60mm | Passo: 1,25mm | Rosca: Parcial
+
+--- DESCRICAO CURTA ---
+Parafuso de cabeça sextavada em aço inoxidável AISI 304 (A2-70) bitola M8 (8mm). Alta resistência à corrosão e oxidação, ideal para ambientes marinhos, indústrias alimentícias e químicas.
+
+--- DESCRICAO LONGA ---
+Os Parafusos de Cabeça Sextavada em Aço Inox 304 (Série A2) são elementos de fixação de altíssima qualidade desenvolvidos para aplicações que exigem máxima resistência contra ferrugem, umidade e agentes químicos agressivos.
+
+Projetados com rosca métrica de passo 1,25mm (MA), atendem às normas DIN 933 (rosca total) e DIN 931 (rosca parcial). São amplamente utilizados na indústria naval, estruturas náuticas, equipamentos alimentícios, usinas, montagens de energia solar e arquitetura exposta.
+
+Diferenciais da Linha Inox 304:
+- Composição em Aço Inoxidável 18/8 (AISI 304) não magnético ou levemente magnético
+- Excelente resistência à corrosão atmosférica e produtos químicos leves
+- Acabamento polido limpo e estético
+- Encaixe para chave/soquete métrico de 13mm
