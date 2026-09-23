@@ -1,0 +1,32 @@
+sku_matriz: IND-ROL-LM-OP
+nome: Rolamento Linear Aberto Série LM...UU-OP
+slug: rolamento-linear-aberto-lmuu-op
+tipo: configuravel
+atributo_configuracao: diametro_eixo
+categoria: Automação e CNC > Guias e Rolamentos Lineares > Rolamentos Lineares
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: IND-ROL-LM12UU-OP | Eixo: 12mm | Externa: 21mm | Comprimento: 30mm | Modelo: LM12UU-OP
+SKU: IND-ROL-LM16UU-OP | Eixo: 16mm | Externa: 28mm | Comprimento: 37mm | Modelo: LM16UU-OP
+SKU: IND-ROL-LM20UU-OP | Eixo: 20mm | Externa: 32mm | Comprimento: 42mm | Modelo: LM20UU-OP
+SKU: IND-ROL-LM25UU-OP | Eixo: 25mm | Externa: 40mm | Comprimento: 59mm | Modelo: LM25UU-OP
+SKU: IND-ROL-LM30UU-OP | Eixo: 30mm | Externa: 45mm | Comprimento: 64mm | Modelo: LM30UU-OP
+SKU: IND-ROL-LM35UU-OP | Eixo: 35mm | Externa: 52mm | Comprimento: 70mm | Modelo: LM35UU-OP
+SKU: IND-ROL-LM40UU-OP | Eixo: 40mm | Externa: 60mm | Comprimento: 80mm | Modelo: LM40UU-OP
+SKU: IND-ROL-LM50UU-OP | Eixo: 50mm | Externa: 75mm | Comprimento: 100mm | Modelo: LM50UU-OP
+
+--- DESCRICAO CURTA ---
+Rolamento linear tipo aberto (Série OP) para eixos retificados com suporte de apoio contínuo. Possui gaiola interna em polímero e dupla vedação em borracha (UU). Disponível para eixos de 12mm a 50mm.
+
+--- DESCRICAO LONGA ---
+Os Rolamentos Lineares Abertos da Série LM...UU-OP são projetados para movimentação linear de alta precisão e baixo atrito sobre eixos de aço temperado e retificado que possuem suportes de sustentação ao longo de toda a sua extensão.
+
+A abertura longitudinal (rasgo tipo OP) permite que a bucha passe livremente pelos suportes do eixo sem colisão. Equipados com retenção dupla de borracha (-UU) que impede a entrada de poeira e cavacos nos circuitos de esferas de aço.
+
+Diferenciais da Série LM...UU-OP:
+- Design aberto (Open Type) para eixos apoiados/suportados (SBR / TBR)
+- Dupla vedação em borracha tipo UU contra poeira e contaminação
+- Circuito fechado de recirculação de esferas em aço cromo
+- Suporta altas velocidades de translação e movimentos suaves
+- Ampla utilização em máquinas CNC, roteadores de corte, impressoras 3D industriais e automação
