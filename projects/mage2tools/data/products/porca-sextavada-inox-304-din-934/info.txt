@@ -1,0 +1,31 @@
+sku_matriz: FIX-POR-SEX-INOX304
+nome: Porca Sextavada Aço Inox 304 DIN 934
+slug: porca-sextavada-inox-304-din-934
+tipo: configuravel
+atributos_configuracao: diametro_rosca
+categoria: Parafusos e Fixadores > Porcas > Porcas Sextavadas
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: FIX-POR-SEX-I304-M03 | Bitola: M3 x 0,5mm | Chave: 5.5mm | Altura: 2.4mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M04 | Bitola: M4 x 0,7mm | Chave: 7.0mm | Altura: 3.2mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M05 | Bitola: M5 x 0,8mm | Chave: 8.0mm | Altura: 4.0mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M06 | Bitola: M6 x 1,0mm | Chave: 10.0mm | Altura: 5.0mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M08 | Bitola: M8 x 1,25mm | Chave: 13.0mm | Altura: 6.5mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M10 | Bitola: M10 x 1,5mm | Chave: 17.0mm | Altura: 8.0mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M12 | Bitola: M12 x 1,75mm | Chave: 19.0mm | Altura: 10.0mm | Norma: DIN 934
+SKU: FIX-POR-SEX-I304-M16 | Bitola: M16 x 2,0mm | Chave: 24.0mm | Altura: 13.0mm | Norma: DIN 934
+
+--- DESCRICAO CURTA ---
+Porca sextavada métrica em aço inoxidável AISI 304 conforme norma DIN 934. Excelente resistência à corrosão, oxidação e maresia em montagens industriais e náuticas.
+
+--- DESCRICAO LONGA ---
+As Porcas Sextavadas em Aço Inox 304 (Série Métrica / DIN 934) foram projetadas para garantir travamento e fixação de alta segurança em conjuntos roscados expostos a ambientes agressivos.
+
+Fabricadas em aço inoxidável austenítico AISI 304 (18/8), oferecem elevada imunidade contra ferrugem, oxidação, umidade, agentes químicos leves e atmosfera marinha.
+
+Diferenciais da Linha Inox 304:
+- Norma dimensional ABNT / DIN 934 com rosca métrica ISO
+- Passo de rosca padronizado para montagem suave com parafusos e barras roscadas
+- Alta resistência mecânica e durabilidade prolongada sem necessidade de banhos galvanizados
+- Ideal para indústrias alimentícias, químicas, náuticas, usinas e instalações externas
