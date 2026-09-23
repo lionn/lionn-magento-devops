@@ -1,0 +1,29 @@
+sku_matriz: SOL-ACC-BIC-M6-COP
+nome: Bico de Contato M6 em Cobre para Tocha de Solda MIG/MAG
+slug: bico-de-contato-m6-solda-mig-mag-cobre
+tipo: configuravel
+atributos_configuracao: diametro_arame
+categoria: Solda e Corte > Consumíveis de Solda > Bicos de Contato
+marca: Generico
+
+--- VARIATION MATRIX ---
+SKU: SOL-ACC-BIC-M6-08 | Rosca: M6 | Diâmetro Arame: 0,8mm | Comprimento: 25mm | Material: Cobre
+SKU: SOL-ACC-BIC-M6-09 | Rosca: M6 | Diâmetro Arame: 0,9mm | Comprimento: 25mm | Material: Cobre
+SKU: SOL-ACC-BIC-M6-10 | Rosca: M6 | Diâmetro Arame: 1,0mm | Comprimento: 25mm | Material: Cobre
+SKU: SOL-ACC-BIC-M6-12 | Rosca: M6 | Diâmetro Arame: 1,2mm | Comprimento: 25mm | Material: Cobre
+
+--- DESCRICAO CURTA ---
+Linha de bicos de contato M6 fabricados em cobre puro de alta condutividade para tochas de solda MIG/MAG padrão SBME/AK-15/MB-15. Disponíveis para arames de 0,8mm, 0,9mm, 1,0mm e 1,2mm.
+
+--- DESCRICAO LONGA ---
+Os Bicos de Contato M6 em Cobre são consumíveis indispensáveis para tochas de soldagem MIG/MAG (compatíveis com as linhas AK15, MB15, Suportas e similares).
+
+Fabricados em cobre ETP de alta pureza e condutividade elétrica, eles garantem a perfeita transferência de corrente para o arame de solda, minimizando a formação de respingos, instabilidade no arco elétrico e travamento do condutor.
+
+Sua usinagem de precisão no furo passante assegura um guia suave e constante para o arame, prolongando a vida útil do bico e garantindo cordões de solda homogêneos.
+
+Diferenciais do Produto:
+- Rosca M6 padrão universal para tochas MIG/MAG leves e médias
+- Corpo usinado em liga de cobre de alta condutividade elétrica e térmica
+- Excelente dissipação do calor do arco elétrico
+- Guia interno preciso que previne o engastalhamento do arame
