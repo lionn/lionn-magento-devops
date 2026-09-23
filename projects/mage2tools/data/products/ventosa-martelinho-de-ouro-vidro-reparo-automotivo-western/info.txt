@@ -1,0 +1,24 @@
+sku: FER-AUT-VEN-DSP-WES
+nome: Ventosa Martelinho de Ouro Vidro e Reparo Automotivo Western
+slug: ventosa-martelinho-de-ouro-vidro-reparo-automotivo-western
+tipo: simples
+categoria: Ferramentas Automotivas > Funilaria e Pintura > Ventosas e Puxadores DSP
+marca: Western
+modelo_referencia: Ventosa de Sucção a Vácuo
+
+--- DESCRICAO CURTA ---
+Ventosa de sucção a vácuo com alavanca rápida Western. Ideal para puxamento de amassados suaves em lataria (Martelinho de Ouro) e manuseio seguro de vidros, espelhos e chapas lisas.
+
+--- DESCRICAO LONGA ---
+A Ventosa para Martelinho de Ouro e Reparo Automotivo da Western é uma ferramenta prática, versátil e indispensável para oficinas de funilaria expressa, estéticas automotivas e manutenção geral.
+
+Desenvolvida com base de borracha de alta aderência e mecanismo de trava/sucção por alavanca de rápido acionamento, ela cria um vácuo potente em superfícies lisas e não porosas.
+
+Sua aplicação dupla permite puxar e desamassar pequenos e médios amassados em portas, capôs e teto de veículos sem danificar a pintura original, além de servir como mancal/puxador seguro para transporte e instalação de parabrisas, vidros planos, espelhos e chapas plásticas ou metálicas.
+
+Diferenciais da Ventosa Western:
+- Estrutura resistente com cabo ergonômico reforçado
+- Base de borracha sintética macia que previne riscos e marcas na pintura
+- Trava de vácuo rápida acionada por alavanca simples
+- Elevação e puxamento seguro de peças com superfície plana e lisa
+- Ferramenta leve e portátil indispensável em oficinas e estéticas
