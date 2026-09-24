@@ -1,0 +1,26 @@
+sku: INF-RED-KEY-FEM-CAT5E-FUR
+nome: Keystone Conector Fêmea U/utp Multilan Cat5e Furukawa
+slug: keystone-conector-femea-u-utp-multilan-cat5e-furukawa
+tipo: simples
+categoria: Informática e Redes > Cabeamento Estruturado > Connectores e Keystones
+marca: Furukawa
+modelo_referencia: Conector Fêmea RJ-45 Cat.5e U/UTP MultiLan Furukawa (35052001)
+
+--- DESCRICAO CURTA ---
+Conector fêmea Keystone RJ-45 Cat.5e U/UTP da linha MultiLan Furukawa. Projetado para redes de voz, dados e imagem até 1 Gbps, com padrão de conectorização 110 IDC T568A/T568B e encaixe universal em espelhos e patch panels.
+
+--- DESCRICAO LONGA ---
+O Keystone Conector Fêmea U/utp Multilan Cat5e - Furukawa é o componente essencial para terminação de cabos de rede par trançado em pontos de tomada de usuário, caixas de sobrepor e painéis de distribuição (patch panels).
+
+Desenvolvido com a tradição e confiabilidade da marca Furukawa, atende e excede os requisitos da norma ANSI/TIA/EIA-568.2-D para a categoria 5e, suportando transmissões de dados em alta velocidade de até 1000 Mbps (1 Gbps) com frequência de 100 MHz.
+
+Conta com contatos elétricos em liga de cobre com revestimento em ouro e níquel, garantindo altíssimo rendimento elétrico e mínima degradação de sinal ao longo dos anos. Seu bloco de engate rápido tipo 110 IDC aceita condutores de 22 AWG a 26 AWG com identificação colorida das normas T568A e T568B impressa no próprio corpo do conector.
+
+Acomoda-se perfeitamente em placas de parede, espelhos de tomada e calhas com encaixe padrão Keystone universal de 90° ou 180°.
+
+Diferenciais do Keystone Cat.5e MultiLan Furukawa:
+- Categoria 5e U/UTP (não blindado) para redes 10/100/1000 Mbps
+- Corpo em termoplástico de alto impacto e não propagante a chama (UL 94V-0)
+- Terminação rápida e segura no padrão 110 IDC
+- Guia de fiação colorida (T568A e T568B) para evitar erros de crimpagem
+- Compatível com alimentação Power over Ethernet (PoE / PoE+)
