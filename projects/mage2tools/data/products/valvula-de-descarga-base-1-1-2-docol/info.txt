@@ -1,0 +1,26 @@
+sku: MAT-CRA-VAL-DES-BAS-1-1-2-DOC
+nome: Valvula De Descarga Base 1.1/2 Docol
+slug: valvula-de-descarga-base-1-1-2-docol
+tipo: simples
+categoria: Materiais de Construção > Louças e Metais Sanitários > Válvulas de Descarga
+marca: Docol
+modelo_referencia: Base de Válvula de Descarga DocolBase 1.1/2" (DN40)
+
+--- DESCRICAO CURTA ---
+Base bruta de válvula de descarga Docol com bitola de 1.1/2" (DN40) para embutir em paredes sanitárias. Fabricada em liga de cobre resistente, oferece registro integrado e compatibilidade com acabamentos Docol e acionamentos convencionais ou Salvágua®.
+
+--- DESCRICAO LONGA ---
+A Valvula De Descarga Base 1.1/2 Docol (DocolBase) é o elemento bruto fundamental para o funcionamento do sistema de descarga de banheiros residenciais, comerciais e públicos.
+
+Com bitola de entrada de 1.1/2" (DN40), esta base é instalada diretamente no interior da parede e conectada à tubulação de água limpa e à bacia sanitária.
+
+Desenvolvida com o rigor técnico da Docol, é produzida em ligas de cobre (latão de alta densidade) e elastômeros de vedação que garantem estanqueidade absoluta, durabilidade superior e resistência ao desgaste contínuo provocado pela pressão da água.
+
+Conta com registro integrado para regulagem precisa da vazão e fechamento para eventuais manutenções sem a necessidade de desligar o registro geral do banheiro. É totalmente compatível com a ampla variedade de acabamentos monocomando, convencionais e com sistema Salvágua® de duplo acionamento da Docol.
+
+Diferenciais da Base de Válvula de Descarga 1.1/2" Docol:
+- Bitola de 1.1/2" (DN40) adequada para baixa e alta pressão de água
+- Registro de regulagem e manutenção embutido na própria estrutura da base
+- Corpo em liga de cobre (latão) anticorrosivo de altíssima longevidade
+- Vedação estanque de alta sensibilidade com fechamento suave
+- Total compatibilidade com a linha de acabamentos para válvula Docol
