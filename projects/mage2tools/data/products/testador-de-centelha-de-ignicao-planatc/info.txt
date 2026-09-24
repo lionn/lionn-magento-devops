@@ -1,0 +1,26 @@
+sku: FER-AUT-TES-CEN-IGN-PLA
+nome: Testador de Centelha de Ignição Planatc
+slug: testador-de-centelha-de-ignicao-planatc
+tipo: simples
+categoria: Ferramentas > Ferramentas Automotivas > Diagnóstico Elétrico Automotivo
+marca: Planatc
+modelo_referencia: Centelhador Ajustável de Ignição Planatc (TC-100 / TCI)
+
+--- DESCRICAO CURTA ---
+Testador e centelhador ajustável de ignição Planatc. Ferramenta de diagnóstico rápido para testar a faísca e eficiência de bobinas, cabos de vela e sistemas de ignição em motores de carros, motos e náutica.
+
+--- DESCRICAO LONGA ---
+O Testador de Centelha de Ignição Planatc (Centelhador) é uma ferramenta essencial de diagnóstico para mecânicos, eletricistas automotivos e hobbystas que buscam identificar falhas no sistema de ignição de forma rápida, precisa e segura.
+
+Sua função principal é avaliar visualmente a qualidade, intensidade e constância da faísca elétrica gerada pelas bobinas de ignição e transmitida pelos cabos de vela, sem a necessidade de remover as velas de ignição do motor.
+
+O equipamento possui um manipulador de regulagem com escala milimétrica que permite ajustar a distância do eletrodo (gap). Isso possibilita simular a alta pressão da câmara de combustão e determinar se a potência da bobina está adequada ou deficiente.
+
+Construído em corpo isolado de alta resistência elétrica e cabo com garras totalmente revestidas, o testador garante total segurança contra choques para o operador durante os testes de ignição em veículos flex, gasolina, etanol e motocicletas.
+
+Diferenciais do Testador de Centelha Planatc:
+- Diagnóstico rápido de falhas em bobinas simples, duplas, dinâmicas e cabos de vela
+- Escala de ajuste graduada para simulação de salto de faísca sob pressão
+- Corpo com isolamento dielétrico reforçado para segurança do operador
+- Garras de aterramento e conectores isolados de alta durabilidade
+- Compatível com sistemas de ignição de carros, motos, barcos e motores 2T/4T
