@@ -1,0 +1,26 @@
+sku: MAT-CRA-VAL-ANT-RET-12-DOC
+nome: Válvula Anti Retrossifonagem 1/2 Polegada Docol
+slug: valvula-anti-retrossifonagem-1-2-docol
+tipo: simples
+categoria: Materiais de Construção > Encanamentos e Hidráulica > Válvulas e Conexões
+marca: Docol
+modelo_referencia: Válvula Anti-Retrossifonagem 1/2" (DN15) Docol
+
+--- DESCRICAO CURTA ---
+Válvula anti retrossifonagem Docol com bitola de 1/2" para proteção de redes de água potável. Impede a sucção e o refluxo de água contaminada em sistemas hidráulicos residenciais e prediais, garantindo total segurança sanitária.
+
+--- DESCRICAO LONGA ---
+A Válvula Anti Retrossifonagem 1/2 Polegada Docol é um dispositivo de proteção e segurança hidráulica indispensável para preservar a pureza da água na rede de distribuição residencial e comercial.
+
+Sua função principal é impedir a ocorrência do fenômeno de retrossifonagem — refluxo gerado por queda rápida ou perda de pressão na tubulação principal, que pode aspirar fluidos e águas servidas de volta para a rede de água limpa.
+
+Projetada com bitola padrão de 1/2" (DN15), ela possui mecanismo obturador automático de alta sensibilidade. Quando ocorre uma variação brusca de pressão, a válvula bloqueia instantaneamente a passagem, evitando a contaminação cruzada.
+
+Produzida em liga de cobre e polímeros de engenharia de alta durabilidade, oferece resistência à corrosão, funcionamento silencioso e baixa perda de carga no fluxo de água.
+
+Diferenciais da Válvula Anti Retrossifonagem 1/2" Docol:
+- Bitola padrão de 1/2" (DN15) para integração em instalações hidráulicas de água fria
+- Proteção sanitária eficiente contra a contaminação da rede de água potável
+- Fechamento mecânico automático e instantâneo ao detectar queda de pressão
+- Construção em latão/liga de cobre de alta resistência mecânica e durabilidade
+- Qualidade e confiabilidade de engenharia Docol
