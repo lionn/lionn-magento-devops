@@ -1,0 +1,28 @@
+sku: AUTO-ELE-AUX-PAR-350A-COM
+nome: Auxiliar De Partida 350a Bivolt Com Compressor
+slug: auxiliar-de-partida-350a-bivolt-com-compressor
+tipo: simples
+categoria: Automotivo > Elétrica Automotiva > Auxiliares de Partida e Carregadores
+marca: Genérico / Universal
+modelo_referencia: Auxiliar de Partida Automotivo 350A com Compressor Integrado Bivolt
+
+--- DESCRICAO CURTA ---
+Estação de emergência automotiva 2 em 1: Auxiliar de partida de 350A para motores a gasolina/flex e compressor de ar integrado para calibragem de pneus e infláveis. Acompanha recarregador bivolt (110V/220V) e garras jacaré reforçadas.
+
+--- DESCRICAO LONGA ---
+O Auxiliar De Partida 350a Bivolt Com Compressor é um equipamento portátil indispensável para socorro mecânico, viagens, oficinas e uso preventivo em veículos de passeio, utilitários leves, motocicletas e embarcações.
+
+Sua função de auxiliar de partida com corrente de pico de 350A permite dar partida em motores que estejam com a bateria descarregada, dispensando a necessidade de outro veículo para a famosa "chupeta".
+
+Além do sistema elétrico de partida, o equipamento conta com compressor de ar embutido de alta pressão, ideal para calibragem emergencial de pneus de carros, motos, bicicletas, bem como bolas e brinquedos infláveis (acompanha bicos adaptadores).
+
+Equipado com bateria interna selada recarregável através de fonte Bivolt automática (110V/220V) ou tomada 12V do próprio veículo, o dispositivo também possui lanterna LED de emergência e saída de 12V DC tipo acendedor para alimentação de eletrônicos portáteis.
+
+Diferenciais do Auxiliar de Partida 350A com Compressor:
+- Sistema multifuncional 2 em 1: Auxiliar de partida + Compressor de ar
+- Corrente de pico de 350 Amperes adequada para motores a gasolina, etanol e flex
+- Compressor de ar integrado com manômetro para verificação contínua da pressão
+- Recarga versátil: Fonte Bivolt Automática (110V / 220V) e adaptador 12V para acendedor de cigarros
+- Garras jacaré com cabos de alta condutividade e proteção contra inversão de polaridade
+- Lanterna de LED integrada para operações noturnas de emergência
+- Saída 12V DC (tomada veicular) para carregar acessórios e dispositivos móveis
