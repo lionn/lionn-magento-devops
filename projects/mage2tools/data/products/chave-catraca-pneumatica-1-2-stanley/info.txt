@@ -1,0 +1,27 @@
+sku: FER-PNE-CHA-CAT-12IN-STA
+nome: Chave Catraca Pneumática 1/2 Stanley
+slug: chave-catraca-pneumatica-1-2-stanley
+tipo: simples
+categoria: Ferramentas > Ferramentas Pneumáticas > Chaves de Impacto e Catracas
+marca: Stanley
+modelo_referencia: Chave Catraca Pneumática de Encaixe 1/2" Stanley (STMT70221 / STMT74911)
+
+--- DESCRICAO CURTA ---
+Chave catraca pneumática com encaixe quadrado de 1/2 polegada Stanley. Ferramenta de alta produtividade acionada por ar comprimido para montagem, desmontagem e manutenção mecânica e industrial.
+
+--- DESCRICAO LONGA ---
+A Chave Catraca Pneumática 1/2" Stanley foi projetada para oferecer máxima agilidade e eficiência em apertos e desapertos de porcas e parafusos em locais de difícil acesso, onde o uso de chaves manuais seria moroso e desgastante.
+
+Alimentada por compressor de ar comprimido, possui encaixe quadrado padrão de 1/2 polegada, permitindo acoplamento direto com uma ampla gama de soquetes manuais e de impacto.
+
+Seu corpo de alumínio de alta resistência combina leveza com extrema durabilidade em ambientes severos de oficina. Conta com acionador de alavanca com velocidade variável e seletor de sentido (reversível) posicionado na cabeça da catraca para alternar entre aperto e desaperto com apenas uma mão.
+
+A exaustão de ar traseira direciona o fluxo de ar para longe do operador e da superfície de trabalho, garantindo um ambiente operacional limpo e seguro.
+
+Diferenciais da Chave Catraca Pneumática Stanley 1/2":
+- Encaixe quadrado universal de 1/2" reforçado
+- Corpo ergonômico em alumínio leve e resistente ao desgaste mecânico
+- Mecanismo de catraca com reversão simples e rápida no cabeçote
+- Gatilho com controle de velocidade por pressão na alavanca
+- Saída de ar traseira com direcionador para maior conforto no manuseio
+- Ideal para mecânica automotiva, motores, refrigeração e manutenção industrial
