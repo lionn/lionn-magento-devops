@@ -1,0 +1,27 @@
+sku: JARD-IRR-ASP-AGR-02-1IN-2B
+nome: Aspersor Agricola 1 Polegada Agri/02 Irrigador 2 Bicos
+slug: aspersor-agricola-1-polegada-agri-02-irrigador-2-bicos
+tipo: simples
+categoria: Jardim e Irrigação > Irrigação Agrícola > Aspersores e Canhões
+marca: Genérico / Universal
+modelo_referencia: Aspersor Agrícola de Impacto Agri/02 1" Rosca Macho/Fêmea 2 Bicos
+
+--- DESCRICAO CURTA ---
+Aspersor agrícola de impacto modelo Agri/02 com rosca de 1 polegada e sistema de 2 bicos irrigadores. Proporciona irrigação circular de 360° com alta uniformidade e longo alcance para lavouras, pastagens e horticultura.
+
+--- DESCRICAO LONGA ---
+O Aspersor Agricola 1 Polegada Agri/02 Irrigador 2 Bicos é um equipamento de alta performance e grande alcance, desenvolvido para sistemas de irrigação por aspersão convencional e automatizada no campo.
+
+Possui conexão padrão de 1 polegada e opera com sistema de rotação completa (360°), garantindo precipitação homogênea de água sobre a área cultivada.
+
+O principal diferencial do modelo Agri/02 é o seu sistema duplo de bicos (bico principal de longo alcance + bico secundário de preenchimento de área próxima). Essa combinação elimina áreas secas perto da base do aspersor e maximiza o raio de cobertura em médias e grandes lavouras.
+
+Construído em termoplásticos de engenharia de alta resistência com aditivos UV e componentes de mola/eixo em aço inoxidável e latão, apresenta excelente resistência ao desgaste pelo atrito com a água, intempéries e produtos químicos solúveis (fertirrigação).
+
+Diferenciais do Aspersor Agrícola Agri/02 1" com 2 Bicos:
+- Sistema de 2 bicos de vazão complementar (cobertura próxima e de longo alcance)
+- Conexão de 1" de alta vazão para grande raio de irrigação
+- Rotação contínua de 360° por sistema de impacto de braço oscilante balanceado
+- Material com proteção UV e eixos em aço inox anticorrosivo
+- Excelente distribuição de gota sem erosão do solo nem danos às plantas
+- Ideal para milho, feijão, hortaliças, cafezais, pastagens e viveiros
