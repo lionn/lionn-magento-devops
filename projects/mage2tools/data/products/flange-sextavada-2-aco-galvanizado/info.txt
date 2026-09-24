@@ -1,0 +1,28 @@
+sku: MAT-TUB-FLA-SEX-2IN-GAL
+nome: Flange Sextavada 2 Polegada Aço Galvanizado
+slug: flange-sextavada-2-polegada-aco-galvanizado
+tipo: simples
+categoria: Materiais de Construção > Tubos e Conexões > Conexões Galvanizadas e Flanges
+marca: Genérico / Universal
+modelo_referencia: Flange Sextavada Galvanizada com Rosca BSP/NPT 2"
+
+--- DESCRICAO CURTA ---
+Flange sextavada com rosca de 2 polegadas produzida em aço galvanizado a fogo. Altamente resistente à corrosão e pressões elevadas, indicada para fixação, ancoragem e travamento de tubulações industriais, hidráulicas e estruturas metálicas.
+
+--- DESCRICAO LONGA ---
+A Flange Sextavada 2 Polegada Aço Galvanizado é uma conexão robusta projetada para união, alinhamento e fixação de tubos metálicos usinados com rosca de 2 polegadas (DN50) em instalações hidráulicas, industriais e construtivas.
+
+Seu corpo em aço carbono passa por um rigoroso processo de galvanização a quente (zincagem a fogo), que cria uma camada protetora externa altamente resistente à ferrugem, oxidação e intempéries.
+
+O perfil sextavado externo permite o uso de chaves fixas, de grifo ou ajustáveis para aplicar o torque exato durante o aperto, garantindo montagem firme, segura e estanque contra vazamentos sob pressão.
+
+Aplicações recomendadas:
+- Redes de água fria e quente, ar comprimido, combate a incêndio e fluídos industriais
+- Ancoragem de colunas, suportes, corrimãos e estruturas tubulares metálicas
+- Passagem de tubulações em paredes, caixas d'água e reservatórios metálicos
+
+Diferenciais da Flange Sextavada 2" Galvanizada:
+- Bitola nominal de 2 polegadas com rosca precisa para vedação segura
+- Aço galvanizado com proteção anticorrosiva de longa durabilidade
+- Geometria sextavada reforçada para fácil manuseio com ferramentas padrão
+- Suporta altas pressões mecânicas e variações térmicas
