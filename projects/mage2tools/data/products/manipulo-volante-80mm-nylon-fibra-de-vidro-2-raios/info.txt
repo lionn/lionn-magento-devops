@@ -1,0 +1,27 @@
+sku: FER-IND-MAN-VOL-80MM-NYL
+nome: Manipulo Volante 80mm Nylon Fibra De Vidro 2 Raios
+slug: manipulo-volante-80mm-nylon-fibra-de-vidro-2-raios
+tipo: simples
+categoria: Ferramentas > Acessórios Industriais > Manípulos e Volantes de Manobra
+marca: Genérico / Universal
+modelo_referencia: Volante Manípulo 2 Raios V2R-80mm Nylon PA6 + FV
+
+--- DESCRICAO CURTA ---
+Manípulo volante de manobra e regulagem com diâmetro de 80 mm e design de 2 raios. Injetado em nylon (poliamida) reforçado com fibra de vidro, oferece altíssima resistência mecânica e acabamento ergonômico para máquinas industriais e equipamentos.
+
+--- DESCRICAO LONGA ---
+O Manípulo Volante 80mm Nylon Fibra De Vidro 2 Raios é um componente industrial de alta precisão desenvolvido para o acionamento manual, posicionamento e regulagem de eixos em máquinas operadoras e dispositivos mecânicos.
+
+Com diâmetro externo de 80 mm e formato anatômico de 2 raios (V2R), este volante permite manuseio confortável e aplicação de torque manual sem fadiga para o operador.
+
+Sua estrutura é injetada em poliamida 6 (nylon) aditivada com fibra de vidro, combinação que confere rigidez estrutural superior, excelente resistência ao impacto, imunidade à corrosão e alta tolerância ao contato contínuo com óleos lubrificantes, graxas, combustíveis e reagentes químicos suaves.
+
+Possui bucha central sólida (geralmente em aço ou latão) que facilita a usinagem do furo central, rasgos de chaveta ou furos para pino de fixação conforme a necessidade da aplicação.
+
+Diferenciais do Volante Manípulo 80mm Nylon + Fibra de Vidro:
+- Injetado em Termoplástico de Engenharia (Nylon PA6 + Fibra de Vidro)
+- Design ergonômico de 2 raios com excelente aderência para o operador
+- Bucha metálica central reforçada para fixação segura no eixo
+- Alta resistência a impactos, vibrações mecânicas e variações térmicas
+- Isolamento elétrico natural e imunidade completa à oxidação/ferrugem
+- Indicado para tornos, fresadoras, mesas lineares, válvulas e máquinas da indústria alimentícia e embalagens
