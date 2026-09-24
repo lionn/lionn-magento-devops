@@ -1,0 +1,32 @@
+sku: EXT-SONDA-LAMBDA
+nome: Extensor Prolongador Sonda Lambda em L Universal
+slug: extensor-prolongador-sonda-lambda-em-l
+tipo: simples
+categoria: Ferramentas Automotivas > Injeção Eletrônica > Acessórios de Escapamento e Sensores
+
+--- DESCRICAO CURTA ---
+Extensor prolongador para sonda lambda em "L" fabricado em aço usinado de alta durabilidade. Desenvolvido para afastar o sensor do fluxo direto de gases no escapamento, ideal para veículos com catalisador removido ou alterado.
+
+--- DESCRICAO LONGA ---
+O Extensor Prolongador para Sonda Lambda em "L" é uma solução mecânica desenvolvida para ajustar o posicionamento do sensor de oxigênio (sonda lambda pós-catalisador) no sistema de escapamento do veículo. 
+
+Produzido em aço usinado com rosca padrão M18x1.5, o acessório recua o elemento sensor para fora do fluxo direto de gases, auxiliando na estabilização das leituras enviadas à central de injeção eletrônica (ECU) em veículos que passaram por modificações no sistema de exaustão ou substituição de catalisadores.
+
+Diferenciais do Produto:
+- Rosca padrão universal M18 x 1.5 compatível com a maioria das sondas do mercado
+- Usinado em aço de alta resistência mecânica e térmica
+- Acabamento zincado para proteção contra corrosão e oxidação
+- Instalação simples e direta sem necessidade de adaptações elétricas
+
+--- ESPECIFICACOES ---
+Atributo: Rosca
+Especificacao: M18 x 1.5 (Padrão Universal)
+
+Atributo: Material
+Especificacao: Aço Usinado com Acabamento Zincado
+
+Atributo: Comprimento
+Especificacao: não informado
+
+Atributo: Sextavado
+Especificacao: 22 mm (Sextavado de Aperto)
