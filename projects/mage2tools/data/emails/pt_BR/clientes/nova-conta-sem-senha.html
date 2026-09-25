@@ -1,0 +1,23 @@
+{{template config_path="design/email/header_template"}}
+
+<p class="greeting">{{trans "%name," name=$customer.name}}</p>
+<p>{{trans "Bem-vindo a %store_name." store_name=$store.frontend_name}}</p>
+<p>
+    {{trans
+        'Para entrar em nossa Loja e definir uma senha, clique no <a href="%create_password_url">link</a>:'
+
+        create_password_url="$this.getUrl($store,'customer/account/createPassword/',[_query:[id:$customer.id,token:$customer.rp_token],_nosid:1])"
+    |raw}}
+</p>
+<ul>
+    <li><strong>{{trans "Email:"}}</strong> {{var customer.email}}</li>
+</ul>
+<p>{{trans "Ao conectar em sua conta, você será capaz de:"}}</p>
+<ul>
+    <li>{{trans "Prosseguir com a finalização de compra mais rápida"}}</li>
+    <li>{{trans "Verificar o status dos pedidos"}}</li>
+    <li>{{trans "Ver pedidos anteriores"}}</li>
+    <li>{{trans "Armazenar endereços alternativos (para envio a vários membros da família e amigos, por exemplo.)"}}</li>
+</ul>
+
+{{template config_path="design/email/footer_template"}}
