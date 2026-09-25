@@ -1,0 +1,44 @@
+<h1>{{trans "Falha na Transação de Pagamento"}}</h1>
+
+<ul>
+    <li>
+        <strong>{{trans "Motivo:"}}</strong><br />
+        {{var reason}}
+    </li>
+    <li>
+        <strong>{{trans "Tipo de Checkout:"}}</strong><br />
+        {{var checkoutType}}
+    </li>
+    <li>
+        <strong>{{trans "Cliente:"}}</strong><br />
+        <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+    </li>
+    <li>
+        <strong>{{trans "Itens:"}}</strong><br />
+        {{var items|raw}}
+    </li>
+    <li>
+        <strong>{{trans "Total:"}}</strong><br />
+        {{var total}}
+    </li>
+    <li>
+        <strong>{{trans "Endereço de Cobrança:"}}</strong><br />
+        {{var billingAddressHtml|raw}}
+    </li>
+    <li>
+        <strong>{{trans "Endereço de Entrega:"}}</strong><br />
+        {{var shippingAddressHtml|raw}}
+    </li>
+    <li>
+        <strong>{{trans "Forma de Envio:"}}</strong><br />
+        {{var shippingMethod}}
+    </li>
+    <li>
+        <strong>{{trans "Forma de Pagamento:"}}</strong><br />
+        {{var paymentMethod}}
+    </li>
+    <li>
+        <strong>{{trans "Data e Hora:"}}</strong><br />
+        {{var dateAndTime}}
+    </li>
+</ul>
