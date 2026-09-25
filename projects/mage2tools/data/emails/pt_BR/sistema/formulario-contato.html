@@ -1,0 +1,38 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<style type="text/css">
+<!--
+.estilo-fonte-verde {color: #009900; }
+-->
+</style>
+
+
+{{template config_path="design/email/header_template"}}
+
+<table class="message-details">
+    <tr>
+      <td colspan="3" align="center" class="estilo-fonte-verde"><strong>Atenção!</strong></td>
+        <td align="center"> Alguém enviou uma mensagem através do formulário de contato da Loja Virtual. Segue as informações:</td>
+    </tr>
+    <tr>
+        <td><p> </p></td>
+        <td><p> </p></td>
+    </tr>
+     <tr>
+        <td><strong>{{trans "Nome"}}</strong></td>
+        <td>{{var data.name}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "E-mail"}}</strong></td>
+        <td>{{var data.email}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Telefone"}}</strong></td>
+        <td>{{var data.telephone}}</td>
+    </tr>
+</table>
+<p><strong>{{trans "Mensagem"}}</strong></p>
+<p>{{var data.comment}}</p>
+
+{{template config_path="design/email/footer_template"}}
