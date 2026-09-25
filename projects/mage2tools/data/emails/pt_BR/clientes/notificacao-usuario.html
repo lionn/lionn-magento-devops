@@ -1,0 +1,7 @@
+{{trans "Olá,"}}
+
+{{trans "Recebemos um pedido para alterar as seguintes informações associadas à sua conta em %store_name: %changes." store_name=$store.frontend_name changes=$changes}}
+{{trans "Se você não autorizou esta ação, entre em contato conosco imediatamente em %store_email" store_email=$store_email |escape}}{{depend store_phone}} {{trans "ou ligue para nós em %store_phone" store_phone=$store_phone |escape}}{{/depend}}.
+
+{{trans "Agradecemos,"}}
+{{var store.frontend_name}}
