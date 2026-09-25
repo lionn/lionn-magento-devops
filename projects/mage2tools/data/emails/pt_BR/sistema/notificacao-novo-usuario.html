@@ -1,0 +1,7 @@
+{{trans "Olá,"}}
+
+{{trans "Uma nova conta de administrador foi criada para %first_name, %last_name utilizando o e-mail %email." first_name=$user.first_name last_name=$user.last_name email=$user.email}}
+{{trans "Se você não autorizou esta ação, entre em contato conosco imediatamente em %store_email" store_email=$store_email |escape}}{{depend store_phone}} {{trans "ou ligue para nós em %store_phone" store_phone=$store_phone |escape}}{{/depend}}.
+
+{{trans "Agradecemos,"}}
+{{var store.frontend_name}}
