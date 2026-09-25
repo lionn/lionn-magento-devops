@@ -1,0 +1,12 @@
+{{trans "%name," name=$username}}
+
+{{trans "Recentemente, houve uma solicitação para alterar a senha de sua conta."}}
+
+{{trans "Se você solicitou essa alteração, redefina sua senha aqui:"}}
+
+{{store url="admin/auth/resetpassword/" _query_id=$user.id _query_token=$user.rp_token _nosid=1}}
+
+{{trans "Se você não fez esta solicitação, você pode ignorar este e-mail e sua senha permanecerá a mesma."}}
+
+{{trans "Obrigado,"}}
+{{var store.frontend_name}}
