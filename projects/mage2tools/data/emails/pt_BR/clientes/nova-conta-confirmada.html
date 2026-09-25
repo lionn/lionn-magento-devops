@@ -1,0 +1,36 @@
+{{template config_path="design/email/header_template"}}
+
+<p class="greeting">{{trans "%name," name=$customer.name}}</p>
+<p>{{trans "Obrigado por confirmar a sua conta em nossa %store_name." store_name=$store.frontend_name}}</p>
+<p>
+    {{trans
+        'Para entrar na Loja, use essas credenciais durante a finalização da compra ou na pagina
+        <a href="%customer_url" title="%customer_page_title" aria-label="%customer_page_title">Minha Conta</a> '
+
+        customer_url=$this.getUrl($store,'customer/account/',[_nosid:1])
+        customer_page_title="Página da Conta do Cliente"
+    |raw}}
+</p>
+<ul>
+    <li><strong>{{trans "Email:"}}</strong> {{var customer.email}}</li>
+    <li><strong>{{trans "Senha:"}}</strong> <span>{{trans "Senha que você definiu ao criar sua conta"}}</span></li>
+</ul>
+<p>
+    {{trans
+        'Esqueceu a senha da sua conta? <a href="%reset_url" title="%reset_title" aria-label="%reset_title">Clique Aqui</a> para redefini-la.'
+
+        reset_url="$this.getUrl($store,'customer/account/createPassword/',[_query:[id:$customer.id,token:$customer.rp_token],_nosid:1])"
+        reset_title="Redefinir Senha"
+    |raw}}
+    <br>
+    <br>
+</p>
+<p>{{trans "Ao fazer o acesso em sua conta, você será capaz de:"}}</p>
+<ul>
+    <li>{{trans "Prosseguir com a finalização de compra mais rápida"}}</li>
+    <li>{{trans "Verificar o status dos pedidos"}}</li>
+    <li>{{trans "Ver pedidos anteriores"}}</li>
+    <li>{{trans "Armazenar endereços alternativos (para envio a vários membros da família e amigos, por exemplo.)"}}</li>
+</ul>
+
+{{template config_path="design/email/footer_template"}}
