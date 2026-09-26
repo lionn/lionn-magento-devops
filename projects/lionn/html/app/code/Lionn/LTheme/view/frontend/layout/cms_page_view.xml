@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Adiar CSS com truque de mídia -->
+        <css src="Lionn_LTheme::css/anchors/anchors.css"/>
+        <css src="Lionn_LTheme::css/prism/prism.css"/>
+
+        <!-- Adiar JS com defer -->
+        <script src="Lionn_LTheme::js/anchors/anchors.js" defer="defer"/>
+        <script src="Lionn_LTheme::js/prism/prism.js" defer="defer"/>
+
+
+
+
+    </head>
+</page>
