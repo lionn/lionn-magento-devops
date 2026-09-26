@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <!-- Substitui parâmetro para list_limit -->
+    <type name="Magento\Catalog\Block\Product\ProductList\Toolbar">
+        <plugin name="lionn_toolbar_param_plugin"
+                type="Lionn\ToolbarFix\Plugin\ToolbarParamPlugin"/>
+        <plugin name="lionn_toolbar_afterlimit_plugin"
+                type="Lionn\ToolbarFix\Plugin\ToolbarAfterGetLimitPlugin"/>
+        <plugin name="lionn_toolbar_plugin"
+                type="Lionn\ToolbarFix\Plugin\ToolbarPlugin"/>
+    </type>
+
+    <!-- Corrige paginação da coleção -->
+    <type name="Magento\Catalog\Model\ResourceModel\Product\Collection">
+        <plugin name="lionn_toolbar_collection_fix"
+                type="Lionn\ToolbarFix\Plugin\ProductCollectionPlugin"/>
+    </type>
+
+    <!-- ADICIONA NAME COMO OPÇÃO DE ORDENAÇÃO -->
+    <type name="Magento\Catalog\Model\Config">
+        <plugin name="lionn_toolbar_catalog_config"
+                type="Lionn\ToolbarFix\Plugin\CatalogConfigPlugin"/>
+    </type>
+
+</config>
