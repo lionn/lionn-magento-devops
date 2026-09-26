@@ -1,0 +1,396 @@
+<?php
+// ========== REDIRECIONAMENTO AUTOMÁTICO PARA URLs DUPLICADAS ==========
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$request = $objectManager->get(\Magento\Framework\App\RequestInterface::class);
+$currentUrl = $request->getRequestUri();
+
+// Detecta URLs com segmentos duplicados (ex: /artigos/artigos/)
+if (preg_match('#^/([^/]+)/\1/#', $currentUrl, $matches)) {
+    $correctUrl = preg_replace('#^/([^/]+)/\1/#', '/$1/', $currentUrl);
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $correctUrl);
+    exit;
+}
+// ========== FIM DO REDIRECIONAMENTO ==========
+
+// Pega a URL atual (já corrigida)
+$currentUrl = $request->getRequestUri();
+$currentUrl = ltrim($currentUrl, '/');
+$currentUrl = explode('?', $currentUrl)[0];
+$currentUrl = rtrim($currentUrl, '/');
+
+$fullActionName = $request->getFullActionName();
+
+// ---------- PÁGINAS DA CATEGORIA ----------
+if ($fullActionName == 'catalog_category_view') {
+    $categoryId = $request->getParam('id');
+    if ($categoryId) {
+        $category = $objectManager->create(\Magento\Catalog\Model\Category::class)->load($categoryId);
+        
+        if ($category->getId()) {
+            $pathIds = explode('/', $category->getPath());
+            $pathIds = array_diff($pathIds, ['1', '2']);
+            
+            $categories = [];
+            foreach ($pathIds as $id) {
+                $cat = $objectManager->create(\Magento\Catalog\Model\Category::class)->load($id);
+                if ($cat->getId()) {
+                    $categories[] = $cat;
+                }
+            }
+            ?>
+            
+            <div class="container">
+                <div class="breadcrumbs">
+                    <ul class="items">
+                        <li class="item home">
+                            <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                        </li>
+                        
+                        <?php foreach ($categories as $cat): ?>
+                            <?php if ($cat->getId() == $category->getId()): ?>
+                                <li class="item category<?= $cat->getId() ?>">
+                                    <strong><?= $cat->getName() ?></strong>
+                                </li>
+                            <?php else: ?>
+                                <li class="item category<?= $cat->getId() ?>">
+                                    <a href="<?= $cat->getUrl() ?>"><?= $cat->getName() ?></a>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+            
+            <?php
+            return;
+        }
+    }
+}
+
+// ---------- PÁGINAS DO PRODUTO / INFOBASE ----------
+if ($fullActionName == 'catalog_product_view') {
+    $productId = $request->getParam('id');
+    if ($productId) {
+        $product = $objectManager->create(\Magento\Catalog\Model\Product::class)->load($productId);
+        
+        if ($product->getId()) {
+            $categoryIds = $product->getCategoryIds();
+            
+            if (!empty($categoryIds)) {
+                $deepestCategory = null;
+                $deepestLevel = 0;
+                
+                foreach ($categoryIds as $catId) {
+                    $cat = $objectManager->create(\Magento\Catalog\Model\Category::class)->load($catId);
+                    if ($cat->getId() && $cat->getLevel() > $deepestLevel) {
+                        $deepestLevel = $cat->getLevel();
+                        $deepestCategory = $cat;
+                    }
+                }
+                
+                if ($deepestCategory) {
+                    $pathIds = explode('/', $deepestCategory->getPath());
+                    $pathIds = array_diff($pathIds, ['1', '2']);
+                    ?>
+                    
+                    <div class="container">
+                        <div class="breadcrumbs">
+                            <ul class="items">
+                                <li class="item home">
+                                    <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                                </li>
+                                
+                                <?php foreach ($pathIds as $id): 
+                                    $cat = $objectManager->create(\Magento\Catalog\Model\Category::class)->load($id);
+                                    if ($cat->getId()):
+                                ?>
+                                <li class="item category<?= $cat->getId() ?>">
+                                    <a href="<?= $cat->getUrl() ?>"><?= $cat->getName() ?></a>
+                                </li>
+                                <?php endif; endforeach; ?>
+                                
+                                <li class="item product">
+                                    <strong><?= $product->getName() ?></strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <?php
+                    return;
+                }
+            }
+        }
+    }
+}
+
+// ---------- PÁGINAS DO AMASTY FAQ ----------
+if (strpos($fullActionName, 'faq') !== false || $fullActionName == 'amasty_faq_question_view') {
+    
+    $questionId = $request->getParam('id');
+    $questionTitle = __('FAQ');
+    
+    if ($questionId) {
+        try {
+            $faqQuestion = $objectManager->create(\Amasty\Faq\Model\Question::class)->load($questionId);
+            if ($faqQuestion && $faqQuestion->getId()) {
+                $questionTitle = $faqQuestion->getTitle();
+            }
+        } catch (\Exception $e) {
+            $urlParts = explode('/', $currentUrl);
+            $urlParts = array_filter($urlParts);
+            if (count($urlParts) == 2) {
+                $questionTitle = ucwords(str_replace('-', ' ', $urlParts[1]));
+            }
+        }
+    }
+    ?>
+    
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="items">
+                <li class="item home">
+                    <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                </li>
+                
+                <li class="item">
+                    <a href="<?= $block->getUrl('faq') ?>"><?= __('FAQ') ?></a>
+                </li>
+                
+                <li class="item">
+                    <strong><?= $questionTitle ?></strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <?php
+    return;
+}
+
+// ---------- PÁGINAS CMS (ARTIGOS) ----------
+if (strpos($fullActionName, 'cms') !== false || $fullActionName == 'cms_page_view') {
+    
+    $pageId = $request->getParam('page_id');
+    $pageTitle = '';
+    
+    if ($pageId) {
+        try {
+            $cmsPage = $objectManager->create(\Magento\Cms\Model\Page::class)->load($pageId);
+            if ($cmsPage && $cmsPage->getId()) {
+                $pageTitle = $cmsPage->getTitle();
+            }
+        } catch (\Exception $e) {
+            $pageTitle = '';
+        }
+    }
+    
+    $urlParts = explode('/', $currentUrl);
+    $urlParts = array_filter($urlParts);
+    
+    if (count($urlParts) == 1) {
+        $displayTitle = $pageTitle ?: ucwords(str_replace('-', ' ', $currentUrl));
+        ?>
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="items">
+                    <li class="item home">
+                        <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                    </li>
+                    <li class="item">
+                        <strong><?= $displayTitle ?></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <?php
+        return;
+    }
+    
+    if (count($urlParts) >= 2) {
+        $parentSlug = $urlParts[0];
+        $parentTitle = __(ucwords(str_replace('-', ' ', $parentSlug)));
+        $articleTitle = $pageTitle ?: ucwords(str_replace('-', ' ', end($urlParts)));
+        ?>
+        
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="items">
+                    <li class="item home">
+                        <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                    </li>
+                    
+                    <li class="item">
+                        <a href="<?= $block->getUrl($parentSlug) ?>"><?= $parentTitle ?></a>
+                    </li>
+                    
+                    <li class="item">
+                        <strong><?= $articleTitle ?></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <?php
+        return;
+    }
+}
+
+// ---------- PÁGINA DO SITEMAP (Amasty) ----------
+if ($fullActionName == 'amasty_seo_html_sitemap_page' || 
+    strpos($currentUrl, 'sitemap.html') !== false || 
+    $request->getControllerName() == 'sitemap') {
+    ?>
+    
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="items">
+                <li class="item home">
+                    <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                </li>
+                <li class="item">
+                    <strong><?= __('Mapa do Site') ?></strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <?php
+    return;
+}
+
+// ---------- PÁGINAS DO AMASTY BLOG (SOLUÇÃO RADICAL) ----------
+if (strpos($fullActionName, 'blog') !== false || 
+    $fullActionName == 'amasty_blog_post_view' || 
+    $fullActionName == 'amasty_blog_category_view' ||
+    $request->getModuleName() == 'amasty_blog') {
+    
+    // Verifica se é a página principal do blog
+    $isBlogHome = ($currentUrl == 'blog' || $currentUrl == 'blog/');
+    
+    if ($isBlogHome) {
+        ?>
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="items">
+                    <li class="item home">
+                        <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                    </li>
+                    <li class="item">
+                        <strong><?= __('Blog') ?></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <?php
+        return;
+    }
+    
+    // Pega o slug da URL (ex: fundamentos-de-redes)
+    $urlParts = explode('/', $currentUrl);
+    $urlParts = array_filter($urlParts);
+    $slug = end($urlParts);
+    
+    $postTitle = '';
+    $categoryTitle = '';
+    $categoryUrl = '';
+    
+    // ========== MÉTODO 1: TENTAR PELO POST VIA URL_KEY ==========
+    try {
+        // Tenta encontrar o post pelo url_key
+        $connection = $objectManager->get(\Magento\Framework\App\ResourceConnection::class)->getConnection();
+        
+        // Primeiro, descobre qual tabela o Amasty Blog usa para posts
+        $tabelas = ['amasty_blog_post', 'amasty_blog_posts', 'blog_post', 'blog_posts'];
+        
+        foreach ($tabelas as $tabela) {
+            try {
+                $result = $connection->fetchRow("SELECT post_id, title, url_key FROM {$tabela} WHERE url_key = ?", [$slug]);
+                if ($result && isset($result['title'])) {
+                    $postTitle = $result['title'];
+                    
+                    // Se encontrou, tenta a categoria
+                    $catTabelas = ['amasty_blog_category', 'amasty_blog_categories', 'blog_category', 'blog_categories'];
+                    foreach ($catTabelas as $catTabela) {
+                        try {
+                            $catResult = $connection->fetchRow("SELECT category_id, name, url_key FROM {$catTabela} WHERE category_id IN (SELECT category_id FROM {$tabela}_category WHERE post_id = ?)", [$result['post_id']]);
+                            if ($catResult && isset($catResult['name'])) {
+                                $categoryTitle = $catResult['name'];
+                                $categoryUrl = $block->getUrl('blog/' . $catResult['url_key']);
+                                break;
+                            }
+                        } catch (\Exception $e) {}
+                    }
+                    break;
+                }
+            } catch (\Exception $e) {}
+        }
+    } catch (\Exception $e) {
+        $postTitle = '';
+    }
+    
+    // ========== MÉTODO 2: SE NÃO ACHOU, TENTA PELO TÍTULO FORMATADO ==========
+    if (empty($postTitle)) {
+        // Converte o slug para um título legível (ex: fundamentos-de-redes -> Fundamentos de Redes)
+        $postTitle = mb_convert_case(str_replace('-', ' ', $slug), MB_CASE_TITLE, "UTF-8");
+    }
+    
+    // ========== PÁGINA DE CATEGORIA ==========
+    if ($fullActionName == 'amasty_blog_category_view' && empty($categoryTitle)) {
+        try {
+            $connection = $objectManager->get(\Magento\Framework\App\ResourceConnection::class)->getConnection();
+            $catTabelas = ['amasty_blog_category', 'amasty_blog_categories', 'blog_category', 'blog_categories'];
+            
+            foreach ($catTabelas as $catTabela) {
+                try {
+                    $result = $connection->fetchRow("SELECT category_id, name, url_key FROM {$catTabela} WHERE url_key = ?", [$slug]);
+                    if ($result && isset($result['name'])) {
+                        $categoryTitle = $result['name'];
+                        $categoryUrl = $block->getUrl('blog/' . $result['url_key']);
+                        break;
+                    }
+                } catch (\Exception $e) {}
+            }
+        } catch (\Exception $e) {}
+    }
+    ?>
+    
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul class="items">
+                <li class="item home">
+                    <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+                </li>
+                <li class="item">
+                    <a href="<?= $block->getUrl('blog') ?>"><?= __('Blog') ?></a>
+                </li>
+                <?php if (!empty($categoryTitle)): ?>
+                <li class="item">
+                    <a href="<?= $categoryUrl ?>"><?= $categoryTitle ?></a>
+                </li>
+                <?php endif; ?>
+                <?php if (!empty($postTitle)): ?>
+                <li class="item">
+                    <strong><?= $postTitle ?></strong>
+                </li>
+                <?php endif; ?>
+            </ul>
+        </div>
+    </div>
+    
+    <?php
+    return;
+}
+
+// Fallback
+?>
+<div class="container">
+    <div class="breadcrumbs">
+        <ul class="items">
+            <li class="item home">
+                <a href="<?= $block->getUrl('') ?>"><?= __('Home') ?></a>
+            </li>
+        </ul>
+    </div>
+</div>
