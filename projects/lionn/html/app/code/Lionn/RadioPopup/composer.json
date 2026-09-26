@@ -1,0 +1,15 @@
+{
+  "name": "lionn/radio-popup",
+  "description": "Módulo para abrir modais de vídeos do YouTube",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lionn\\RadioPopup\\": "app/code/Lionn/RadioPopup/"
+    }
+  }
+}

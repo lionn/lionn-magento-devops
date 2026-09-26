@@ -1,0 +1,12 @@
+<?php 
+$someObject = $block->getSomeObject(); 
+
+if ($someObject && $someObject->getData('youtube_url') && $someObject->getData('video_title')): ?>
+    <a href="#" class="open-youtube-modal" 
+       data-youtube-url="<?php echo htmlspecialchars($someObject->getData('youtube_url')); ?>" 
+       title="<?php echo htmlspecialchars($someObject->getData('video_title')); ?>">
+        <?php echo htmlspecialchars($someObject->getData('video_title')); ?>
+    </a>
+<?php else: ?>
+    <p>Vídeo não disponível.</p>
+<?php endif; ?>
