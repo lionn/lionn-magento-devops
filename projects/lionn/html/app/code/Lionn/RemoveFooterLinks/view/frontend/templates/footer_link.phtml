@@ -1,0 +1,99 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$localeResolver = $objectManager->get(\Magento\Framework\Locale\Resolver::class);
+$locale = $localeResolver->getLocale();
+
+$links = [
+    'Default' => [
+        'privacyPolicy' => 'politica-de-privacidade-e-cookies',
+        'termsOfUse' => 'termos-de-uso',
+        'aboutUs' => 'sobre-nos',
+        'siteMap' => 'sitemap.html'
+    ],
+    'pt_BR' => [
+        'privacyPolicy' => 'politica-de-privacidade-e-cookies',
+        'termsOfUse' => 'termos-de-uso',
+        'aboutUs' => 'sobre-nos',
+        'siteMap' => 'sitemap.html'
+    ],
+    'en_US' => [
+        'privacyPolicy' => 'privacy-policy-and-cookies-en-us',
+        'termsOfUse' => 'terms-of-use',
+        'aboutUs' => 'about-us',
+        'siteMap' => 'sitemap.html'
+    ],
+    'es_ES' => [
+        'privacyPolicy' => 'politica-de-privacidad-y-cookies-es',
+        'termsOfUse' => 'terminos-de-uso',
+        'aboutUs' => 'sobre-nosotros',
+        'siteMap' => 'sitemap.html'
+    ],
+    'ja_JP' => [
+        'privacyPolicy' => 'privacy-policy-and-cookies-ja-jp',
+        'termsOfUse' => 'terms-of-use-ja-jp',
+        'aboutUs' => 'about-us-ja-jp',
+        'siteMap' => 'sitemap.html'
+    ],
+    'zh_Hans_CN' => [ // Chines Simplificado
+        'privacyPolicy' => 'privacy-policy-and-cookies-zh-cn',
+        'termsOfUse' => 'terms-of-use-zh-cn',
+        'aboutUs' => 'about-us-zh-cn',
+        'siteMap' => 'sitemap.html'
+    ]
+];
+
+$texts = [
+    'Default' => [
+        'privacyPolicy' => 'Política de Privacidade e Cookies',
+        'termsOfUse' => 'Termos de Uso',
+        'aboutUs' => 'Sobre Nós',
+        'siteMap' => 'Mapa do Site'
+    ],
+    'pt_BR' => [
+        'privacyPolicy' => 'Política de Privacidade e Cookies',
+        'termsOfUse' => 'Termos de Uso',
+        'aboutUs' => 'Sobre Nós',
+        'siteMap' => 'Mapa do Site'
+    ],
+    'en_US' => [
+        'privacyPolicy' => 'Privacy Policy and Cookies',
+        'termsOfUse' => 'Terms of Use',
+        'aboutUs' => 'About Us',
+        'siteMap' => 'Site Map'
+    ],
+    'es_ES' => [
+        'privacyPolicy' => 'Política de Privacidad y Cookies',
+        'termsOfUse' => 'Términos de Uso',
+        'aboutUs' => 'Sobre Nosotros',
+        'siteMap' => 'Mapa del Sitio'
+    ],
+    'ja_JP' => [
+        'privacyPolicy' => 'プライバシーポリシーとクッキー',
+        'termsOfUse' => '利用規約',
+        'aboutUs' => '私たちについて',
+        'siteMap' => 'サイトマップ'
+    ],
+    'zh_Hans_CN' => [ // Chines Simplificado
+        'privacyPolicy' => '隐私政策与Cookies',
+        'termsOfUse' => '使用条款',
+        'aboutUs' => '关于我们',
+        'siteMap' => '网站地图'
+    ]
+];
+
+$currentLinks = isset($links[$locale]) ? $links[$locale] : $links['Default'];
+$currentTexts = isset($texts[$locale]) ? $texts[$locale] : $texts['Default'];
+?>
+
+<br><br><br>
+<ul class="nav" style="list-style: none; padding-left: 0;">
+    <?php foreach (['privacyPolicy', 'termsOfUse', 'siteMap', 'aboutUs'] as $key): ?>
+        <li class="nav-item" style="margin-bottom: 12px;">
+            <a href="<?php echo $block->getUrl($currentLinks[$key]); ?>"
+               style="display: inline-block; min-height: 44px; line-height: 44px; padding: 0 12px; font-size: 16px; text-decoration: none; color: #000;">
+                <?php echo $block->escapeHtml(__($currentTexts[$key])); ?>
+            </a>
+        </li>
+    <?php endforeach; ?>
+</ul>
+<br><br><br>
