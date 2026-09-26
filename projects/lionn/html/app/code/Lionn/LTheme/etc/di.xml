@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework/ObjectManager/etc/config.xsd">
+
+    <preference for="Magento\Theme\Block\Html\Breadcrumbs" type="Lionn\LTheme\Block\Html\Breadcrumbs"/>
+    
+    <!-- Configurações existentes -->
+    <type name="Magento\Framework\View\Page\Config">
+        <plugin name="lionn_async_css" type="Lionn\LTheme\Plugin\Framework\View\Page\Config"/>
+    </type>
+    
+    <type name="Magento\Framework\View\Asset\MergeService">
+        <plugin name="lionn_css_merge" type="Lionn\LTheme\Plugin\Framework\View\Asset\MergeService"/>
+    </type>
+    
+    <!-- Aqui entra o plugin da Algolia -->
+    <type name="Algolia\AlgoliaSearch\Helper\Config">
+        <plugin name="lionn_algolia_translate"
+                type="Lionn\LTheme\Plugin\AlgoliaConfigPlugin"/>
+    </type>
+    
+    <!-- Novas configurações -->
+    <type name="Magento\Framework\Stdlib\CookieManagerInterface">
+        <arguments>
+            <argument name="sameSite" xsi:type="string">Lax</argument>
+        </arguments>
+    </type>
+    
+    <type name="Magento\Framework\App\StaticResource">
+        <arguments>
+            <argument name="cacheable" xsi:type="boolean">true</argument>
+        </arguments>
+    </type>
+    
+    <type name="Magento\Framework\View\Asset\Repository">
+        <arguments>
+            <argument name="allowSymlinks" xsi:type="boolean">true</argument>
+        </arguments>
+    </type>
+
+    <!-- OVERRIDE DO MODEL SITEMAP -->
+    <preference for="Amasty\SeoHtmlSitemap\Model\Sitemap"
+                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Model\Sitemap"/>
+    
+    <!-- OVERRIDE DO HELPER DATA -->
+    <preference for="Amasty\SeoHtmlSitemap\Helper\Data"
+                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Helper\Data"/>
+    
+    <!-- REWRITE PARA ORDENAÇÃO COM ACENTOS -->
+    <preference for="Amasty\SeoHtmlSitemap\Helper\Renderer"
+                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Helper\Renderer"/>
+
+</config>
