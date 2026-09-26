@@ -1,0 +1,5 @@
+<referenceBlock name="widget.catalog.product.carousel">
+    <arguments>
+        <argument name="template" xsi:type="string">LTheme::product/widget/content/slider.phtml</argument>
+    </arguments>
+</referenceBlock>
