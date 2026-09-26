@@ -12,8 +12,7 @@
     "version": "100.4.6",
     "require": {
         "php": "~8.1.0||~8.2.0",
-        "magento/framework": "103.0.*",
-        "magento/lionn-theme": "100.4.*"
+        "magento/framework": "103.0.*"
     },
     "autoload": {
         "files": [
@@ -21,4 +20,3 @@
         ]
     }
 }
-
