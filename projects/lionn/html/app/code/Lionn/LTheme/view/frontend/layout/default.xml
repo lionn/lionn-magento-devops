@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <remove src="Lionn_LTheme::css/form-builder.min.css"/>
+        <remove src="Lionn_LTheme::css/form-render.min.css"/>
+        <remove src="Lionn_LTheme::css/styles-l.min.css"/>
+
+        <css src="Lionn_LTheme::css/fontawesome/css/all.css"/>
+        <script src="Lionn_LTheme::js/prism/prism.js"/>
+        <css src="Lionn_LTheme::css/prism/prism.css"/>
+        <css src="Lionn_LTheme::css/modalyt.css"/>
+       
+
+        <!-- Anti-FOUC, roda antes do CSS pintar -->
+        <script src="Lionn_LTheme::js/theme-init.js"/>
+
+        <!-- Theme Switcher, igual aos outros scripts do tema -->
+        <script src="Lionn_LTheme::js/theme-switcher.js"/>
+    </head>
+
+    <body>
+        <referenceContainer name="main" htmlTag="main" htmlId="maincontent"/>
+        <referenceContainer name="page.wrapper"/>
+
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="img_attributes" xsi:type="string">style="width:180px;height:auto;aspect-ratio:300/122"</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceContainer name="header.panel">
+            <block class="Lionn\LTheme\Block\ThemeSwitcher"
+                   name="lionn.theme.switcher"
+                   as="lionnThemeSwitcher"
+                   template="Lionn_LTheme::theme-switcher.phtml"
+                   before="store_language"/>
+        </referenceContainer>
+
+    </body>
+</page>
