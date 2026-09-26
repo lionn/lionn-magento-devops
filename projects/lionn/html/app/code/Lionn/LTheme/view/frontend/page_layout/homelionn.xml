@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="empty"/>
+
+    <!-- Container principal da página -->
+    <referenceContainer name="page.wrapper">
+        <!-- Container para os links do topo -->
+        <container name="header.container" as="header_container" label="Page Header Container" htmlTag="header" htmlClass="page-header">
+            <!-- Adicionar links do topo -->
+            <block class="Magento\Framework\View\Element\Html\Links" name="header.links" before="-">
+                <arguments>
+                    <argument name="css_class" xsi:type="string">header links</argument>
+                </arguments>
+                <!-- Adicionar links individuais aqui -->
+                <block class="Magento\Framework\View\Element\Html\Link\Current" name="my-account-link">
+                    <arguments>
+                        <argument name="label" xsi:type="string" translate="true">Minha Conta</argument>
+                        <argument name="path" xsi:type="string">customer/account</argument>
+                    </arguments>
+                </block>
+                <block class="Magento\Framework\View\Element\Html\Link\Current" name="authorization-link">
+                    <arguments>
+                        <argument name="label" xsi:type="string" translate="true">Entrar</argument>
+                        <argument name="path" xsi:type="string">customer/account/login</argument>
+                    </arguments>
+                </block>
+            </block>
+        </container>
+
+        <!-- Container principal para o conteúdo -->
+        <container name="content" label="Main Content Container">
+            <!-- Incluir conteúdo principal da página aqui -->
+            <block class="Magento\Cms\Block\Page" name="cms_page" template="Magento_Cms::page/view.phtml"/>
+        </container>
+
+        <!-- Container para o rodapé -->
+        <container name="footer" as="footer" label="Page Footer Container" htmlTag="footer" htmlClass="page-footer">
+            <!-- Incluir conteúdo do rodapé aqui -->
+        </container>
+
+        <!-- Remover completamente o header.content (incluindo logo, carrinho e campo de pesquisa) -->
+        <referenceContainer name="header-wrapper" remove="true"/>
+
+    </referenceContainer>
+
+    <!-- Mover header.container para o topo da página -->
+    <move element="header.container" destination="page.wrapper" before="-"/>
+
+</layout>
