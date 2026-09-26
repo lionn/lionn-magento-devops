@@ -1,0 +1,17 @@
+<?php
+$currentYear = date('Y');
+?>
+
+<div style="text-align: left; margin-bottom: 20px;">
+    <a href="https://lionn.net/" style="display: inline-block; margin-bottom: 15px;">
+        <img src="https://lionn.net/media/wysiwyg/logo/lionn-logo-inicial-img001-300x122.webp" 
+             alt="Lionn Logo" 
+             style="max-width: 100%; height: auto; display: block;">
+    </a>
+    <div style="margin-top: 10px; margin-bottom: 20px;">
+        <?php echo __(
+            "Copyright © 2000-%1 Lionn - Tecnologia.<br>Todos os Direitos Reservados.",
+            $currentYear
+        ); ?>
+    </div>
+</div>
