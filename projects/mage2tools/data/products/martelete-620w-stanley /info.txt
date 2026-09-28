@@ -1,1 +1,33 @@
+sku: FER-ELE-MAR-SDS-620W-STA
+nome: Martelete Perfurador SDS-Plus 620W STHR202K Stanley
+slug: martelete-perfurador-sds-plus-620w-sthr202k-stanley
+tipo: simples
+categoria: Ferramentas > Ferramentas Elétricas > Marteletes e Rompedores
+marca: Stanley
+modelo_referencia: STHR202K
 
+--- DESCRICAO CURTA ---
+Martelete perfurador SDS-Plus Stanley 620W modelo STHR202K com energia de impacto de 1,34 Joules. Possui seletor de 2 modos (perfuração com e sem impacto), gatilho de velocidade variável com trava para uso contínuo e acompanha maleta rígida para transporte.
+
+--- DESCRICAO LONGA ---
+O Martelete Perfurador SDS-Plus 620W Modelo STHR202K Stanley traz a força e durabilidade necessárias para perfurações em estruturas de concreto, alvenaria, madeira e aço em obras e reformas.
+
+Com motor potente de 620W e energia de impacto de 1,34 Joules, ele entrega rendimento muito superior ao de furadeiras de impacto convencionais ao perfurar superfícies rígidas. Seu encaixe do tipo SDS-Plus garante a troca rápida e segura de brocas sem a necessidade de chaves de mandril.
+
+O equipamento conta com seletor de 2 modos operacionais, permitindo alternar entre perfuração sem impacto (para madeira e metais) e perfuração com impacto (para concreto e tijolos). Seu gatilho eletrônico possui velocidade variável e trava para trabalhos contínuos, proporcionando total controle durante a aplicação.
+
+Projetado para oferecer ergonomia, possui cabo emborrachado, empunhadura lateral ajustável com guia de profundidade e motor na posição horizontal para melhor equilíbrio do peso da ferramenta.
+
+Diferenciais do Martelete Perfurador Stanley STHR202K:
+
+Potência de 620W com até 5.200 impactos por minuto (IPM)
+
+Encaixe SDS-Plus para fixação rápida de brocas
+
+Seletor de 2 funções: perfuração com impacto e sem impacto
+
+Capacidade de perfuração em concreto de até 20 mm
+
+Empunhadura lateral orientável com limitador de profundidade metálico
+
+Acompanha maleta plástica rígida para armazenamento e proteção da ferramenta
