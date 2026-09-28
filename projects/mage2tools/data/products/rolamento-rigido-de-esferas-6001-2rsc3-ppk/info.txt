@@ -1,0 +1,29 @@
+sku: ROL-IND-RIG-6001-2RS-C3-PPK
+nome: Rolamento Rígido De Esferas 6001-2RSC3 PPK
+slug: rolamento-rigido-de-esferas-6001-2rsc3-ppk
+tipo: simples
+categoria: Rolamentos > Rolamentos Rígidos de Esferas
+marca: PPK
+modelo_referencia: 6001-2RSC3
+
+--- DESCRICAO CURTA ---
+Rolamento rígido de esferas PPK modelo 6001-2RSC3 com dimensões de 12 mm x 28 mm x 8 mm. Possui vedação de borracha em ambos os lados (2RS) para proteção contra poeira e umidade, além de folga interna C3 para aplicações em altas rotações e temperaturas.
+
+--- DESCRICAO LONGA ---
+O Rolamento Rígido De Esferas Modelo 6001-2RSC3 PPK é uma componente de alta precisão projetado para suportar cargas radicais e axiais leves em uma ampla gama de equipamentos industriais, ferramentas elétricas, motores e veículos automotivos.
+
+Fabricado em aço cromo de alta resistência, este rolamento possui o sufixo 2RS (Rubber Seals), o que indica vedação de borracha sintética reforçada nos dois lados. Essa vedação impede a entrada de sujeira, poeira e água, mantendo a graxa lubrificante protegida no interior do rolamento por mais tempo.
+
+A especificação C3 representa uma folga interna radial maior que o padrão normal (CN). Essa folga extra previne o travamento e reduz o desgaste prematuro quando a peça trabalha em altas velocidades, sob forte atrito ou em ambiente sujeito a expansão térmica.
+
+Diferenciais do Rolamento 6001-2RSC3 PPK:
+
+Dimensões padrão industrial: 12 mm (furo/eixo) x 28 mm (diâmetro externo) x 8 mm (largura)
+
+Dupla vedação de borracha (2RS) resistente à sujeira, água e contaminações externas
+
+Folga interna radial C3 ideal para regimes de alta rotação e variação de temperatura
+
+Pré-lubrificado de fábrica pronto para instalação
+
+Baixo nível de ruído e atrito reduzido durante a operação
