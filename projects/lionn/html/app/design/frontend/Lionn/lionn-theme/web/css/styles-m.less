@@ -1,1 +1,1646 @@
+/** 
+ * Copyright © Magento, Inc. All rights reserved. 
+ * See COPYING.txt for license details. 
+ */
 
+// 
+// Blank theme mobile styles 
+// _____________________________________________ 
+// These mobile styles are mandatory and will be used as basis according to the mobile first design 
+
+// 
+// Global lib + theme styles + theme extends 
+// --------------------------------------------- 
+@import 'source/_reset.less';
+@import '_styles.less';
+
+// 
+// Magento Import instructions 
+// --------------------------------------------- 
+//@magento_import 'source/_module.less'; // Theme modules 
+//@magento_import 'source/_widgets.less'; // Theme widgets 
+
+// 
+// Media queries collector 
+// --------------------------------------------- 
+@import 'source/lib/_responsive.less';
+@media-target: 'mobile'; // Sets target device for this file 
+
+// 
+// Global variables override 
+// --------------------------------------------- 
+@import 'source/_theme.less';
+
+// 
+// Extend for minor customisation 
+// --------------------------------------------- 
+//@magento_import 'source/_extend.less';
+
+/* ============================================== */
+/* ============== VARIÁVEIS DO TEMA ============= */
+/* ============================================== */
+:root,
+html[data-theme="light"] {
+    --lionn-background: #ffffff;
+    --lionn-text:       #111111;
+    --lionn-header:     #ffffff;
+    --lionn-border:     #e0e0e0;
+    --lionn-link:       #0066cc;
+    --lionn-hover:      #ffb01c;
+}
+
+html[data-theme="dark"] {
+    --lionn-background: #000000;
+    --lionn-text:       #eeeeee;
+    --lionn-header:     #000000;
+    --lionn-border:     #333333;
+    --lionn-link:       #66b3ff;
+    --lionn-hover:      #ffb01c;
+}
+
+/* ============================================== */
+/* ============== ESTILOS GERAIS =============== */
+/* ============================================== */
+body#html-body {
+    background-color: var(--lionn-background) !important;
+    color: var(--lionn-text) !important;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.menu-link.-current,
+.menu-link.-current span {
+    color: #ff8800 !important;
+    font-weight: bold;
+}
+
+/* Ajustando o cabeçalho onde fica o Logo a barra de pesquisa e o carrinho... */
+/* Layout para cabeçalho em telas pequenas (até 700px) */
+@media (max-width: 700px) {
+    .header.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        position: relative;
+    }
+
+    .menu-button.-hamburger.-trigger {
+        position: absolute;
+        left: 10px;
+        top: -10px;
+        z-index: 2;
+    }
+
+    .minicart-wrapper {
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        z-index: 2;
+    }
+
+    .logo,
+    .menu-logo {
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .block.block-search {
+        width: 100%;
+        order: 3;
+    }
+}
+
+.minicart-wrapper .block-minicart {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none none;
+    background: #fff;
+    border: 1px solid #bbb;
+    margin-top: 10px;
+    min-width: 100%;
+    width: 320px;
+    z-index: 777;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.block.block-search input[type="text"],
+.block.block-search input[type="search"] {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+    width: 100%;
+}
+
+.block.block-search input[type="text"]:focus,
+.block.block-search input[type="search"]:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.40);
+    border-color: transparent;
+}
+
+.block.block-search input[type=text], .block.block-search input[type=search] {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    outline: none;
+    transition: box-shadow .2s ease-in-out;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #switcher-language {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto 40px auto !important;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    #switcher-language .switcher-label {
+        margin-bottom: 8px;
+    }
+
+    #switcher-language .switcher-trigger {
+        margin: 0 auto;
+        position: relative;
+        z-index: 10000;
+    }
+
+    #switcher-language .dropdown {
+        position: absolute !important;
+        top: 100%;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        z-index: 9999 !important;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        min-width: 220px;
+        padding: 0.5rem 0;
+    }
+}
+
+.menu-nav-sections.-sidebar {
+    transition: .3s all ease-in;
+    bottom: 0;
+    left: -100%;
+    max-width: 500px;
+    overflow: auto;
+    padding: 0 0 48px;
+    position: fixed;
+    top: 0;
+    width: 95vw;
+    z-index: 9999 !important;
+}
+
+.menu-button.-close:after,
+.menu-button.-close:before {
+    background-color: currentColor;
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 18px;
+    color: #fff !important;
+}
+
+.menu-button.-icon.-close {
+    color: #fff !important;
+}
+
+.menu-nav-sections {
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    display: block !important;
+    justify-content: flex-end;
+}
+
+/* ============================================== */
+/* ============== FONTES ======================== */
+/* ============================================== */
+
+@font-face {
+    font-family: 'Blank-Theme-Icons';
+    src: url('../fonts/Blank-Theme-Icons.woff2') format('woff2'),
+         url('../fonts/Blank-Theme-Icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ============================================== */
+/* ================ HEADER/MENU ================ */
+/* ============================================== */
+.menu-nav-sections.-topmenu .menu-items {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-nav-sections.-topmenu:not(.-hamburger) .menu-main-container .menu-items.-root {
+    margin: 0 auto;
+    max-width: 1240px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-nav-sections {
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-sticky,
+.menu-header-container.-sticky .header.content,
+.menu-nav-sections.-topmenu.-sticky .menu-main-container {
+    left: 0;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 500;
+}
+
+.menu-button.-close:after,
+.menu-button.-close:before {
+    background-color: currentColor;
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 18px;
+    color: #fff;
+}
+
+.menu-button.-close:after {
+    transform: rotate(-45deg);
+    color: #000;
+}
+
+.menu-greetings {
+    display: none;
+}
+
+.switcher {
+    margin-right: 10px;
+    float: right;
+    order: inherit;
+}
+
+.switcher li {
+    background: #f8f8f8;
+    border: 1px solid #000000;
+}
+
+// ==============================================
+// Layout base
+// ==============================================
+main#maincontent {
+    min-height: 80vh;
+    position: relative;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+// ==============================================
+// Theme Switcher (sol/lua)
+// ==============================================
+.lionn-theme-switcher {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    float: right;
+    margin-right: 6px;
+    margin-left: 6px;
+    line-height: 1;
+
+    &__btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        color: inherit;
+        font: inherit;
+        line-height: 1;
+        border-radius: 50%;
+        position: relative;
+        transition: background-color .2s ease;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .06);
+        }
+
+        &:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 2px;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transform-origin: center center;
+        transition: opacity .25s ease, transform .35s ease;
+        will-change: opacity, transform;
+
+        svg {
+            display: block;
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: currentColor;
+        }
+
+        &--sun {
+            opacity: 1;
+            transform: translate(-50%, -50%) rotate(0deg) scale(1);
+        }
+        &--moon {
+            opacity: 0;
+            transform: translate(-50%, -50%) rotate(-90deg) scale(.6);
+        }
+    }
+}
+
+html[data-theme="dark"] {
+    .lionn-theme-switcher__btn:hover {
+        background-color: rgba(255, 255, 255, .08);
+    }
+
+    .lionn-theme-switcher__icon--sun {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(90deg) scale(.6);
+    }
+
+    .lionn-theme-switcher__icon--moon {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+}
+
+/* ============================================== */
+/* ============== ESTILOS DO BLOG ============== */
+/* ============================================== */
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fa-solid-900.woff2') format('woff2'),
+        url('../fonts/fa-solid-900.ttf') format('truetype');
+}
+
+body[class*="blog-index-"],
+body[class*="blog-index-"] aside[class*="blog-aside-"] {
+    background: #fff;
+}
+
+.blog-element-block:not(.widget) > div:not(.blog-overlay),
+.blog-element-block.widget,
+.blog-grid-list .list-item,
+.blog-post-container,
+.blog-widget-container {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(84, 95, 125, 0.12),
+        0 5px 8px rgba(155, 159, 174, 0.1);
+    margin-bottom: 20px;
+}
+
+.blog-title,
+.blog-post-title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    line-height: 1.3;
+}
+
+.blog-post-list .post-title {
+    color: #006bb4;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.blog-dates {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.blog-date,
+.blog-views,
+.blog-minread {
+    display: inline-flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog-tag {
+    background: #ebebeb;
+    border-radius: 80px;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 8px 15px;
+    margin: 0 10px 10px 0;
+    color: #006bb4;
+    transition: none;
+}
+
+.blog-read {
+    background: #e6f5ff;
+    border-radius: 3px;
+    color: #006bb4;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 12px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 25px 0;
+}
+
+.blog-read:hover {
+    background: #f4f4f4;
+    color: #353535;
+    text-decoration: none;
+}
+
+.blog-post-container .blog-read,
+.blog-grid-list .slick-slide .blog-item .blog-read {
+    background: #333 !important;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: background 0.2s ease;
+}
+
+.blog-post-container .blog-read:hover,
+.blog-grid-list .slick-slide .blog-item .blog-read:hover {
+    background: #000 !important;
+}
+
+.blog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 25px 25px;
+}
+
+.blog-list .post-item-info {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-related-post .blog-headline {
+    color: #006bb4;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .blog-dates {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .blog-title,
+    .blog-post-title {
+        font-size: 1.8rem;
+    }
+}
+
+.blog-related-post .blog-image-wrapper {
+    display: none;
+}
+
+/* ============================================
+   ESTILOS GERAIS BLOG
+   ============================================ */
+
+.blog-date {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    color: #555;
+    gap: 8px;
+}
+
+.blog-date > span,
+.blog-date > i,
+.blog-dates .blog-date,
+.blog-dates .blog-post-date,
+.blog-dates .blog-minread {
+    display: inline-flex;
+    align-items: center;
+}
+
+.blog-dates .blog-date:has(> i.far.fa-edit) {
+    display: flex !important;
+}
+
+.blog-dates {
+    gap: 12px !important;
+}
+
+.blog-dates i {
+    font-size: 1.4rem !important;
+    margin-right: 6px !important;
+    color: #222 !important;
+}
+
+.post-item-details .blog-dates {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.post-item-details .blog-post-date,
+.post-item-details .blog-minread,
+.post-item-details .blog-date {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+}
+
+.post-item-details .blog-dates i {
+    margin-right: 5px;
+    font-size: 13px;
+    color: #222;
+}
+
+.blog-date .blog-minread {
+    margin-left: 5px !important;
+}
+
+.blog-date i {
+    margin-right: 5px;
+    font-size: 13px;
+    color: #222;
+}
+
+.post-item-details .blog-date i.fa-calendar-edit:before,
+.post-item-details .blog-date i[class*="calendar-edit"]:before {
+    content: "\f044" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+.blog-date span:first-child:before,
+.blog-date:before {
+    content: none !important;
+}
+
+.blog-post-date,
+.blog-date,
+.blog-minread {
+    margin: 0 !important;
+}
+
+.blog-dates {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post-item-details .blog-minread:before {
+    content: "\f251" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    margin-right: 5px;
+    color: #222;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.post-item-details .blog-minread i {
+    display: none !important;
+}
+
+.blog-date .blog-date:first-of-type {
+    position: relative;
+    padding-left: 20px;
+}
+
+.blog-date .blog-date:first-of-type:before {
+    content: "\f044" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: #222;
+}
+
+.blog-date .blog-date:first-of-type i {
+    display: none !important;
+}
+
+.blog-date > i.fa-calendar-alt,
+.blog-date > i.fas.fa-calendar-alt {
+    display: inline-flex !important;
+    margin-right: 5px;
+    color: #222;
+}
+
+.blog-date .blog-minread {
+    margin-left: 5px !important;
+}
+
+.blog-date {
+    gap: 8px;
+}
+
+.post-item-details .blog-post-date i {
+    display: inline-flex !important;
+    color: #222;
+}
+
+.post-item-details .blog-date i {
+    display: inline-flex !important;
+    color: #222;
+}
+
+.post-item-details .blog-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blog-dates {
+    margin-bottom: 25px !important;
+}
+
+.post-item-details .blog-dates {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+}
+
+.post-item-details .blog-post-date,
+.post-item-details .blog-minread,
+.post-item-details .blog-date {
+    display: inline-flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+}
+
+/* =============================================================== */
+/* ============= BOTÃO AVANÇAR OU VOLTAR DO BLOG (LIST) ========== */
+/* =============================================================== */
+
+.blog-pager-container .blog-link {
+    background: #000;
+    border-radius: 50%;
+    display: block;
+    height: 35px;
+    position: relative;
+    width: 35px;
+}
+
+/* ============================================== */
+/* ============== PÁGINA DO PRODUTO ============= */
+/* ============================================== */
+.product-info-main .product.attribute.sku {
+    display: none;
+    vertical-align: top;
+    color: #7d7d7d;
+}
+
+
+
+
+/* ============================================== */
+/* ============== LISTAGEM DE PRODUTOS ========== */
+/* ============================================== */
+.action.tocompare {
+    display: none;
+}
+
+.product-item-name {
+    text-align: center;
+}
+
+/* ============================================== */
+/* ==================== FOOTER ================== */
+/* ============================================== */
+.page-footer {
+    margin-top: auto;
+    text-align: right;
+}
+
+.footer .copyright,
+.footer .bugs {
+    display: block;
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+/* ============================================== */
+/* ================ BREADCRUMBS ================ */
+/* ============================================== */
+.breadcrumbs .items {
+    font-size: 1.2rem;
+    color: #111111;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+/* ============================================== */
+/* ================ ALGOLIA SEARCH ============= */
+/* ============================================== */
+.algolia-autocomplete-container .aa-dropdown-menu,
+.aa-Panel {
+    position: absolute;
+    margin-top: -1px;
+    right: 0;
+    width: 100%;
+    z-index: 1000 !important;
+    border: 1px solid #BBB;
+    border-top: 3px solid #F9AB73;
+    border-radius: 1px;
+    background: white;
+}
+
+.page-header .search-button.-loupe-trigger {
+    display: none;
+}
+
+/* ============================================== */
+/* ================ COMPARE BLOCK =============== */
+/* ============================================== */
+.block-compare link {
+    display: none;
+}
+
+.block.block-compare {
+    display: none;
+    visibility: hidden;
+}
+
+/* ============================================== */
+/* ============ PRISM CODE HIGHLIGHTER ========== */
+/* ============================================== */
+.copy-to-clipboard {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.copy-to-clipboard:hover {
+    background-color: #ff6f00;
+    color: #fff;
+    border-color: #ff6f00;
+}
+
+.copy-to-clipboard:active {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+/* ============================================== */
+/* ============================================== */
+.menu-header-container .header.content .menu-logo {
+    display: block;
+    margin: 0 auto 0 0;
+    min-width: 110px;
+}
+
+@media (max-width: 768px) {
+    .menu-header-container .header.content .menu-logo {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+/* ================================================ */
+/* ============ PEQUENOS AJUSTES NO TEMA ========== */
+/* ================================================ */
+
+.products-list .product-item-details .action.more {
+    display: block;
+    text-align: right;
+}
+
+.menu-link:hover {
+    color: #ffb01c !important;
+}
+
+.product-full-width-section {
+    display: none !important;
+}
+
+.header.panel > .header.links {
+    float: right;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+    margin-left: auto;
+    display: none;
+}
+
+.minicart-wrapper .action.showcart {
+    white-space: nowrap;
+    display: none;
+}
+
+.footer .copyright, .footer .bugs {
+    display: none;
+}
+
+.block-subtitle {
+    display: none;
+}
+
+.footer_algolia img {
+    display: none;
+}
+
+.with-grid .footer_algolia {
+    display: none;
+}
+
+.footer_algolia .algolia-search-by-label {
+    display: none;
+}
+
+.aa-Panel .algoliasearch-autocomplete-price {
+    display: none;
+}
+
+.aa-Panel {
+    border-top: 3px solid #ff5501 !important;
+}
+
+
+.sidebar.sidebar-main {
+    width: 280px;
+}
+
+.filter-options-content .item a {
+    white-space: nowrap;
+}
+
+.back-to-product-widget.widget-right {
+    display: none !important;
+}
+.back-button {
+    float: right;
+    margin-left: 15px;
+    display: none !important;
+}
+
+a[href*="elfsight.com"] {
+    display: none !important;
+}
+
+a[href*="youtube-channel-plugin-yottie"] {
+    display: none !important;
+}
+
+/* ================================================ */
+/* ============ PÁGINA INICIAL PERSONALIZADA ===== */
+/* ================================================ */
+.ClBtns input[type="submit"],
+.btbotao {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* ================================================ */
+/* ============ FIXA LOGO NA MESMA POSIÇÃO ======== */
+/* ================================================ */
+.menu-header-container .header.content .menu-logo {
+    display: inline-flex !important;
+    align-items: center !important;
+    vertical-align: middle !important;
+    margin: 0 auto 0 0 !important;
+    padding: 0 !important;
+    min-width: 110px;
+    line-height: 1 !important;
+    transition: none !important;
+}
+
+.menu-header-container .header.content .menu-logo img {
+    display: block !important;
+    vertical-align: middle !important;
+    margin: 0 !important;
+}
+
+/* ================================================ */
+/* ============ DARK MODE - REGRAS GLOBAIS ======== */
+/* ================================================ */
+html[data-theme="dark"] {
+
+    /* ============================================ */
+    /* SCROLLBAR                                    */
+    /* ============================================ */
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1a1a1a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #4a4a4a;
+        border-radius: 6px;
+        border: 2px solid #1a1a1a;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #666666;
+    }
+
+    html {
+        scrollbar-color: #4a4a4a #1a1a1a;
+        scrollbar-width: thin;
+    }
+
+    /* ============================================ */
+    /* HEADER / MENU                                */
+    /* ============================================ */
+    .page-header,
+    .panel.header,
+    .panel.wrapper,
+    .menu-header-container,
+    .menu-nav-sections,
+    .menu-nav-sections.-topmenu,
+    .menu-main-container {
+        background-color: var(--lionn-header) !important;
+        color: var(--lionn-text);
+    }
+
+    .menu-main-container,
+    nav.menu-main-container,
+    .menu-nav-sections.-topmenu,
+    .menu-header-container .menu-nav-sections,
+    .menu-header-container .menu-nav-sections.-topmenu {
+        background-color: #333 !important;
+    }
+
+    @media (min-width: 768px), print {
+        .page-header .panel.wrapper {
+            border-bottom: 1px solid #333;
+        }
+    }
+
+    .header.links a,
+    .menu-link,
+    .menu-link span {
+        color: var(--lionn-text);
+    }
+
+    .switcher,
+    .switcher li,
+    #switcher-language,
+    #switcher-language .switcher-trigger,
+    #switcher-language .switcher-dropdown {
+        background-color: var(--lionn-header);
+        color: var(--lionn-text);
+        border-color: var(--lionn-border);
+    }
+
+    .block.block-search input[type="text"],
+    .block.block-search input[type="search"] {
+        background-color: var(--lionn-header);
+        color: var(--lionn-text);
+        border-color: var(--lionn-border);
+    }
+
+    /* ============================================ */
+    /* CORPO DAS PÁGINAS                            */
+    /* ============================================ */
+    .page-main,
+    .page-wrapper,
+    .columns,
+    .column.main,
+    .sidebar-main,
+    .page-title-wrapper,
+    .page-title-wrapper .page-title,
+    .page-title-wrapper .page-title .base,
+    .page.messages,
+    .page.messages .messages,
+    .message,
+    .block,
+    .box,
+    .widget,
+    .card,
+    .product-item,
+    .product-item-info {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text) !important;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .page-title,
+    .page-title .base {
+        color: var(--lionn-text) !important;
+    }
+
+    a {
+        color: var(--lionn-link);
+    }
+    a:hover {
+        color: var(--lionn-link);
+        opacity: .85;
+    }
+
+    .breadcrumbs,
+    .breadcrumbs .items,
+    .breadcrumbs .items a,
+    .breadcrumbs .items strong {
+        color: var(--lionn-text) !important;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="number"],
+    textarea,
+    select {
+        background-color: var(--lionn-header);
+        color: var(--lionn-text);
+        border-color: var(--lionn-border);
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: var(--lionn-text);
+        opacity: .6;
+    }
+
+    button,
+    .action,
+    .action.primary,
+    .btn {
+        background-color: var(--lionn-header);
+        color: var(--lionn-text);
+        border-color: var(--lionn-border);
+    }
+
+    .action.primary {
+        background-color: var(--lionn-link);
+        color: #fff;
+    }
+
+    table, thead, tbody, tr, th, td {
+        background-color: var(--lionn-background);
+        color: var(--lionn-text);
+        border-color: var(--lionn-border) !important;
+    }
+
+    .nav .nav-item a,
+    ul.nav a,
+    .nav a,
+    a[style*="color"],
+    [style*="color"] {
+        color: var(--lionn-text) !important;
+    }
+
+    /* ============================================ */
+    /* MARCAÇÕES EM TEXTOS (ampliado)               */
+    /* ============================================ */
+
+    [style*="background-color: #f"],
+    [style*="background-color:#f"],
+    [style*="background: #f"],
+    [style*="background:#f"],
+    [style*="background-color: #e"],
+    [style*="background-color:#e"],
+    [style*="background: #e"],
+    [style*="background:#e"],
+    [style*="background-color: #d"],
+    [style*="background-color:#d"],
+    [style*="background: #d"],
+    [style*="background:#d"],
+
+    [style*="background-color: rgb(2"],
+    [style*="background-color:rgb(2"],
+    [style*="background: rgb(2"],
+    [style*="background:rgb(2"],
+
+    [style*="background-color: yellow"],
+    [style*="background-color:yellow"],
+    [style*="background-color: #ffff00"],
+    [style*="background-color:#ffff00"],
+    [style*="background: yellow"],
+
+    mark,
+    mark.highlight,
+    .highlight {
+        background-color: #3c4043 !important;
+        color: #ffb01c !important;
+        font-weight: bold !important;
+    }
+
+    [data-content-type="text"] [style*="background-color: #f5f5f5"],
+    [data-content-type="text"] [style*="background-color:#f5f5f5"],
+    [data-content-type="text"] [style*="background: #f5f5f5"],
+    [data-content-type="text"] [style*="background:#f5f5f5"],
+    [data-content-type="text"] [style*="background-color: #fff"],
+    [data-content-type="text"] [style*="background-color:#fff"],
+    [data-content-type="text"] [style*="background-color: white"],
+    [data-content-type="text"] [style*="background-color:rgb(245"],
+    [data-content-type="text"] [style*="background-color: rgb(245"],
+    [data-content-type="text"] [style*="background-color: #f0f0f0"],
+    [data-content-type="text"] [style*="background-color: #ebebeb"],
+    [data-content-type="text"] [style*="background-color: yellow"] {
+        background-color: #1a1a1a !important;
+        color: var(--lionn-text) !important;
+    }
+
+    [data-content-type="text"] [style*="background-color: #f5f5f5"] p,
+    [data-content-type="text"] [style*="background-color: #f5f5f5"] span,
+    [data-content-type="text"] [style*="background-color: #f5f5f5"] div,
+    [data-content-type="text"] [style*="background: #f5f5f5"] p,
+    [data-content-type="text"] [style*="background: #f5f5f5"] span,
+    [data-content-type="text"] [style*="background: #f5f5f5"] div,
+    [data-content-type="text"] [style*="background-color: #fff"] p,
+    [data-content-type="text"] [style*="background-color: #fff"] span {
+        color: var(--lionn-text) !important;
+    }
+
+    .product.attribute.description [style*="background-color: #f5f5f5"],
+    .product.attribute.description [style*="background-color:#f5f5f5"],
+    .product.attribute.description [style*="background: #f5f5f5"],
+    .product.attribute.description [style*="background-color: #fff"],
+    .product.attribute.description [style*="background-color:#fff"],
+    .product.attribute.description [style*="background-color: white"] {
+        background-color: #1a1a1a !important;
+        color: var(--lionn-text) !important;
+    }
+
+    .product.attribute.description [style*="background-color: #f5f5f5"] p,
+    .product.attribute.description [style*="background-color: #f5f5f5"] span,
+    .product.attribute.description [style*="background-color: #f5f5f5"] div,
+    .product.attribute.description [style*="background: #f5f5f5"] p,
+    .product.attribute.description [style*="background: #f5f5f5"] span {
+        color: var(--lionn-text) !important;
+    }
+
+    /* ============================================ */
+    /* PÁGINA INICIAL PERSONALIZADA                 */
+    /* ============================================ */
+    .DivCBarraPesq {
+        background: var(--lionn-background) !important;
+        border-color: var(--lionn-border) !important;
+        color: var(--lionn-text) !important;
+    }
+
+    .ClBtns input[type="submit"],
+    .btbotao {
+        background-color: #303134;
+        border: 1px solid #303134;
+        color: #e8eaed;
+    }
+
+    .ClBtns input[type="submit"]:hover,
+    .btbotao:hover {
+        background-color: #3c4043;
+        border-color: #5f6368;
+        color: #ffffff;
+    }
+
+    /* ============================================ */
+    /* TECLADO VIRTUAL                              */
+    /* ============================================ */
+    .ita-container,
+    body .ita-container,
+    #html-body .ita-container,
+    html[data-theme="dark"] .ita-container {
+        background: #000 !important;
+        background-color: #000 !important;
+    }
+
+    .ita-container button,
+    .ita-container .ita-key,
+    .ita-container [class*="ita-key"],
+    .ita-container [class*="shift"],
+    .ita-container [class*="Shift"],
+    .ita-container kbd,
+    .ita-container input,
+    .ita-container span {
+        color: var(--lionn-text) !important;
+    }
+
+    /* ============================================ */
+    /* GALLERY ITEM                                 */
+    /* ============================================ */
+    .gallery-item {
+        border-color: var(--lionn-border) !important;
+    }
+
+    /* ============================================ */
+    /* BLOG                                         */
+    /* ============================================ */
+    .blog-dates i,
+    .blog-date i,
+    .blog-minread i,
+    .blog-views i,
+    .blog-date > i,
+    .blog-date > i.fa-calendar-alt,
+    .blog-date > i.fas.fa-calendar-alt,
+    .blog-views > i,
+    .blog-views > i.fa-calendar-alt,
+    .blog-views > i.fas.fa-calendar-alt,
+    .blog-minread > i,
+    .blog-minread > i.fa-calendar-alt,
+    .blog-minread > i.fas.fa-calendar-alt {
+        color: var(--lionn-text) !important;
+    }
+
+    .blog-post-title .post-title,
+    .blog-post-title .post-title:active,
+    .blog-post-title .post-title:visited {
+        color: var(--lionn-text) !important;
+    }
+
+    .blog-title,
+    .blog-post-title,
+    .blog-related-post .blog-headline {
+        color: var(--lionn-text) !important;
+    }
+
+  
+    
+
+  
+
+    /* ============================================ */
+    /* HOVER LARANJA                                */
+    /* ============================================ */
+
+    .page-footer .nav .nav-item a:hover,
+    .page-footer ul.nav a:hover,
+    .page-footer .nav a:hover,
+    ul.nav .nav-item a:hover {
+        color: #ffb01c !important;
+        text-decoration: none;
+    }
+
+    /* ============================================ */
+    /* FOOTER                                       */
+    /* ============================================ */
+    .page-footer,
+    .page-footer .footer.content,
+    .page-footer .nav,
+    .page-footer .nav-item,
+    .footer.content {
+        background-color: var(--lionn-header) !important;
+        color: var(--lionn-text) !important;
+    }
+
+    .page-footer a,
+    .page-footer .nav-item a,
+    .page-footer small,
+    .page-footer small a,
+    .page-footer span,
+    .page-footer div {
+        color: var(--lionn-text) !important;
+    }
+
+    /* ============================================ */
+    /* BLOG - textos e metadados                    */
+    /* ============================================ */
+    .blog-shot,
+    .blog-post-container .blog-shot,
+    .blog-grid-list .slick-slide .blog-item .blog-shot,
+    .blog-minread,
+    .blog-views,
+    .blog-date,
+    .blog-dates,
+    .blog-dates span,
+    .blog-date span,
+    .blog-minread span,
+    .blog-views span {
+        color: var(--lionn-text) !important;
+    }
+
+ 
+    /* ============================================ */
+    /* TABS (produto)                               */
+    /* ============================================ */
+    .tabs-view .product.data.items > .item.title.active > .switch,
+    .tabs-view .product.data.items > .item.title.active > .switch:focus,
+    .tabs-view .product.data.items > .item.title.active > .switch:hover,
+    .product.data.items > .item.title > .switch,
+    .product.data.items > .item.title > .switch:focus,
+    .product.data.items > .item.title > .switch:hover,
+    .product.data.items .data.switch,
+    .product.data.items .data.switch:focus,
+    .product.data.items .data.switch:hover {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text) !important;
+        border-color: var(--lionn-border) !important;
+    }
+
+    .product.data.items > .item.content,
+    .product.data.items .data.item.content {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text) !important;
+        border-color: var(--lionn-border) !important;
+    }
+
+    /* ============================================ */
+    /* ALGOLIA AUTOCOMPLETE                         */
+    /* ============================================ */
+    .aa-Panel,
+    .aa-PanelLayout,
+    .aa-Panel--scrollable,
+    .aa-Source,
+    .aa-SourceHeader,
+    .aa-SourceFooter,
+    .aa-SourceNoResults,
+    .aa-List,
+    .aa-Item,
+    .algoliasearch-autocomplete-hit,
+    .algolia-autocomplete-container .aa-dropdown-menu {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text) !important;
+        border-color: var(--lionn-border) !important;
+    }
+
+    .aa-Panel a,
+    .aa-Panel .algoliasearch-autocomplete-hit,
+    .aa-Panel .algoliasearch-autocomplete-hit .info,
+    .aa-Panel .algoliasearch-autocomplete-hit .info-without-thumb,
+    .aa-Panel .algoliasearch-autocomplete-hit .details,
+    .aa-Panel .algoliasearch-autocomplete-hit .algoliasearch-autocomplete-category,
+    .aa-Panel .algoliasearch-autocomplete-hit .algoliasearch-autocomplete-price,
+    .aa-Panel .algoliasearch-autocomplete-hit .after_special,
+    .aa-Panel #autocomplete-products-footer,
+    .aa-Panel #autocomplete-products-footer a {
+        color: var(--lionn-text) !important;
+    }
+
+    .aa-Panel mark,
+    .algoliasearch-autocomplete-hit mark {
+        background-color: transparent !important;
+        color: var(--lionn-hover) !important;
+        font-weight: bold;
+    }
+
+    .aa-Panel .algoliasearch-autocomplete-hit:hover,
+    .aa-Panel .aa-Item:hover {
+        background-color: rgba(255, 255, 255, .06) !important;
+    }
+
+    .aa-Panel .aa-SourceHeader {
+        color: var(--lionn-text) !important;
+        border-color: var(--lionn-border) !important;
+    }
+
+    #autocomplete-products-footer {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text) !important;
+    }
+
+    #autocomplete-products-footer a,
+    #autocomplete-products-footer span {
+        color: var(--lionn-text) !important;
+    }
+
+    #autocomplete-products-footer a:hover {
+        color: var(--lionn-hover) !important;
+    }
+
+    /* ============================================ */
+    /* Cookie Bar                                   */
+    /* ============================================ */
+    .cookie-bar-container,
+    .cookie-bar-container .cookie-bar-block {
+        background-color: #333 !important;
+        color: var(--lionn-text) !important;
+    }
+
+    .cookie-bar-container a,
+    .cookie-bar-container .cookie-button,
+    .cookie-bar-container button {
+        color: var(--lionn-text);
+    }
+
+    .cookie-buttons-block .cookie-button,
+    .cookie-button.-allow.-save,
+    .cookie-button.-settings,
+    .cookie-button.-decline {
+        background-color: #333 !important;
+        color: var(--lionn-text) !important;
+        border-color: var(--lionn-border) !important;
+    }
+
+    .cookie-buttons-block .cookie-button:hover,
+    .cookie-button.-allow.-save:hover,
+    .cookie-button.-settings:hover,
+    .cookie-button.-decline:hover {
+        background-color: #3c4043 !important;
+        color: var(--lionn-hover) !important;
+        border-color: var(--lionn-hover) !important;
+    }
+
+    /* ============================================ */
+    /* ANCHOR MENU                                  */
+    /* ============================================ */
+    .anchor-menu-container {
+        background-color: #1a1a1a !important;
+        border-left-color: #ff6f00 !important;
+        color: var(--lionn-text) !important;
+    }
+
+    .anchor-menu-container a,
+    .anchor-menu-container li,
+    .anchor-menu-container .anchor-menu-item {
+        color: var(--lionn-text) !important;
+        transition: color .2s ease, background-color .2s ease, padding-left .2s ease;
+        padding: 4px 6px;
+        border-radius: 4px;
+        display: block;
+    }
+
+    .anchor-menu-container a:hover,
+    .anchor-menu-container li:hover,
+    .anchor-menu-container .anchor-menu-item:hover {
+        color: #ffb01c !important;
+        background-color: rgba(255, 176, 28, .08);
+        padding-left: 10px;
+    }
+
+    .anchor-menu a.active,
+    .anchor-menu a:hover,
+    .anchor-menu-container a.active,
+    .anchor-menu-container a:hover {
+        background-color: #ff6f00 !important;
+        color: #ffffff !important;
+        font-weight: bold !important;
+        border-left-color: #ff6f00 !important;
+        border-radius: 4px;
+    }
+
+    /* ============================================ */
+    /* BANNER CENTRALIZADO                          */
+    /* ============================================ */
+    .banner-lionn-centralizado,
+    .banner-lionn-centralizado .conteudo-banner {
+        background-color: var(--lionn-background) !important;
+        color: var(--lionn-text);
+    }
+
+    /* ============================================ */
+    /* BLOG                                         */
+    /* ============================================ */
+    body[class*="blog-index-"],
+    body[class*="blog-index-"] aside[class*="blog-aside-"],
+    .blog-element-block:not(.widget) > div:not(.blog-overlay),
+    .blog-element-block.widget,
+    .blog-grid-list .list-item,
+    .blog-post-container,
+    .blog-widget-container {
+        background: var(--lionn-background) !important;
+        color: var(--lionn-text);
+    }
+
+    .blog-title,
+    .blog-post-title,
+    .blog-related-post .blog-headline {
+        color: var(--lionn-text);
+    }
+
+    .blog-dates,
+    .blog-date {
+        color: var(--lionn-text);
+    }
+
+    .blog-tag {
+        background: var(--lionn-header);
+        color: var(--lionn-link);
+    }
+
+    /* ============================================ */
+    /* SIDEBAR / PRODUTOS                           */
+    /* ============================================ */
+    .sidebar.sidebar-main,
+    .filter-options-content .item a {
+        color: var(--lionn-text);
+    }
+
+    .product-info-main,
+    .product-item-name,
+    .product-item-name a {
+        color: var(--lionn-text);
+    }
+}
+
+/* ================================================ */
+/* SOBRESCREVE ÍCONES DO BLOG NO DARK MODE          */
+/* ================================================ */
+html[data-theme="dark"] .blog-dates i,
+html[data-theme="dark"] .blog-date i,
+html[data-theme="dark"] .blog-minread i,
+html[data-theme="dark"] .blog-views i,
+html[data-theme="dark"] .blog-dates i.fa,
+html[data-theme="dark"] .blog-dates i.fas,
+html[data-theme="dark"] .blog-dates i.far,
+html[data-theme="dark"] .blog-dates i.fa-calendar-alt,
+html[data-theme="dark"] .blog-dates i.fa-calendar-edit,
+html[data-theme="dark"] .blog-dates i.fa-hourglass,
+html[data-theme="dark"] .blog-dates i.fa-hourglass-half,
+html[data-theme="dark"] .blog-date i.fa-calendar-alt,
+html[data-theme="dark"] .blog-date i.fa-calendar-edit,
+html[data-theme="dark"] .blog-minread i.fa-hourglass,
+html[data-theme="dark"] .blog-minread i.fa-hourglass-half,
+html[data-theme="dark"] .blog-minread i::before,
+html[data-theme="dark"] .blog-date i::before,
+html[data-theme="dark"] .blog-views i::before,
+html[data-theme="dark"] .post-item-details .blog-dates i,
+html[data-theme="dark"] .post-item-details .blog-minread:before,
+html[data-theme="dark"] .post-item-details .blog-date:first-of-type:before,
+html[data-theme="dark"] .blog-date .blog-date:first-of-type:before,
+html[data-theme="dark"] .blog-list .blog-date:first-of-type:before {
+    color: var(--lionn-text) !important;
+}
+
+/* ================================================ */
+/* ============ FIM =============================== */
+/* ================================================ */
