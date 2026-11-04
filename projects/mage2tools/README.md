@@ -87,6 +87,8 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 🟡 Em Desenvolvimento
 - [x] Estruturação da pasta de produtos (projects/mage2tools/data/products/)
 - [x] Organização da árvore de e-mails transacionais em pt_BR
+- [ ] Inserção de dados de exemplo dos produtos, imagens e descrições
+- [ ] Criação dos módulos para o Mage2Tools
 - [ ] Implementação das rotinas de importação automática via API REST
 - [ ] Ajustes finos nos fluxos de checkout e pagamentos
 
