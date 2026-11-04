@@ -5,6 +5,7 @@ O **Mage2Tools** é um ambiente de e-commerce e desenvolvimento baseado em **Mag
 O projeto atua como ambiente de testes para arquitetura em containers, integração de dados de catálogo (PIM), estruturação de produtos simples e configuráveis, além do gerenciamento de templates de e-mails transacionais.
 
 ---
+<br></br>
 
 ## 🎯 Objetivo
 
@@ -15,6 +16,8 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ---
 
+<br></br>
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Magento 2 Community Edition**
@@ -24,6 +27,8 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 - **YAML / Bash / Python** (Scripts de dados)
 
 ---
+
+<br></br>
 
 ## 📂 Estrutura do Repositório
 
@@ -54,6 +59,8 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ---
 
+<br></br>
+
 ## 🚀 Como Executar o Ambiente
 
 ### Pré-requisitos
@@ -73,6 +80,8 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ---
 
+<br></br>
+
 ## 📌 Status do Projeto
 
 🟡 Em Desenvolvimento
@@ -83,6 +92,7 @@ Prover uma estrutura ágil e em containers Docker para o gerenciamento de catál
 
 ---
 
+<br></br>
 
 ⚠️ Aviso de Isenção de Responsabilidade (Disclaimer):
 
@@ -91,7 +101,11 @@ As descrições, especificações técnicas, imagens e dados contidos neste repo
 
 ---
 
+<br></br>
 
 ## 📄 Licença
 
 Este projeto está sob a licença [MIT](LICENSE.md).
+
+<br></br>
+
