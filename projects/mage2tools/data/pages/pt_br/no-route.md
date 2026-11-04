@@ -14,6 +14,8 @@
 
   </div>
 
+<br></br>
+
 <div class="mage2tools-image"><picture> <source srcset="{{view url='images/pages/404.png'}} 1x,{{view url='images/pages/404-x2.png'}} 2x" media="(min-width: 1440px)"> <img src="{{view url='images/pages/404.jpg'}}" alt="Erro 404"> </picture></div>
 </div>
 
