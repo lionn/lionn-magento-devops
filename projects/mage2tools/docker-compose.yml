@@ -95,5 +95,5 @@ services:
       - no-new-privileges:true
 
 networks:
-  magento_net:
+  magento_rede:
     driver: bridge
