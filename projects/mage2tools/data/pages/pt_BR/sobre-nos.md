@@ -4,6 +4,8 @@
 
 <img src="{{view url='images/pages/sobrenos-img002.png'}}" alt="Sobre o Mage2Tools">
 
+<br></br>
+
 <h2>Nossa Missão</h2>
 
 <p>Desenvolver ferramentas e soluções que tornem o trabalho com Magento 2 mais eficiente, acessível e produtivo. Buscamos aplicar boas práticas de desenvolvimento, automação e DevOps para reduzir tarefas repetitivas, simplificar operações e facilitar a administração de ambientes Magento.</p>
