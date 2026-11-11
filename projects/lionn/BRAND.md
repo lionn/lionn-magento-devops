@@ -6,6 +6,10 @@ O código-fonte deste projeto é disponibilizado sob a licença MIT. Essa licen�
 
 A licença MIT não concede autorização para uso da marca, do logotipo ou da identidade visual da Lionn Tecnologia.
 
+---
+
+<br></br>
+
 ## Restrições de uso da marca
 
 Não é permitido utilizar o nome, o logotipo ou outros elementos de identidade visual da Lionn de maneira que:
@@ -16,6 +20,10 @@ Não é permitido utilizar o nome, o logotipo ou outros elementos de identidade 
 - Utilize a identidade visual da Lionn para promover produtos ou serviços de terceiros sem autorização.
 
 Projetos derivados podem utilizar o código-fonte conforme a licença MIT, mas devem adotar nome e identidade visual próprios.
+
+---
+
+<br></br>
 
 ## Referência ao projeto original
 
