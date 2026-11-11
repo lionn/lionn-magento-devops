@@ -19,7 +19,7 @@ Não é permitido utilizar o nome, o logotipo ou outros elementos de identidade 
 - Apresente um projeto derivado como produto oficial da Lionn.
 - Utilize a identidade visual da Lionn para promover produtos ou serviços de terceiros sem autorização.
 
-
+<br></br>
 <p>Projetos derivados podem utilizar o código-fonte conforme a licença MIT, mas devem adotar nome e identidade visual próprios.</p>
 
 ---
