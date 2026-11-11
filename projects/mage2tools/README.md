@@ -109,7 +109,8 @@ Não nos responsabilizamos pela exatidão, atualização ou veracidade das infor
 
 ## 📄 Licença
 
-Este projeto está sob a licença [MIT](LICENSE.md).
+Este projeto está licenciado sob a **Licença MIT**. Consulte [`LICENSE.md`](LICENSE.md).
 
-<br></br>
+---
 
+**© Lionn** - [ **https://www.lionn.net** ]
