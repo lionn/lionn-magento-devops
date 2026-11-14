@@ -37,16 +37,4 @@
         </arguments>
     </type>
 
-    <!-- OVERRIDE DO MODEL SITEMAP -->
-    <preference for="Amasty\SeoHtmlSitemap\Model\Sitemap"
-                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Model\Sitemap"/>
-    
-    <!-- OVERRIDE DO HELPER DATA -->
-    <preference for="Amasty\SeoHtmlSitemap\Helper\Data"
-                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Helper\Data"/>
-    
-    <!-- REWRITE PARA ORDENAÇÃO COM ACENTOS -->
-    <preference for="Amasty\SeoHtmlSitemap\Helper\Renderer"
-                type="Lionn\LTheme\Rewrite\Amasty\SeoHtmlSitemap\Helper\Renderer"/>
-
 </config>
