@@ -1,9 +1,12 @@
+
 FROM php:8.3-fpm
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TERM=xterm-256color
 
+# ============================================================
 # Dependências do sistema
+# ============================================================
 RUN apt update && apt install -y \
     bash \
     bash-completion \
@@ -30,12 +33,16 @@ RUN apt update && apt install -y \
     coreutils \
     && rm -rf /var/lib/apt/lists/*
 
+# ============================================================
 # Configurar GD do PHP
+# ============================================================
 RUN docker-php-ext-configure gd \
     --with-freetype \
     --with-jpeg
 
+# ============================================================
 # Extensões necessárias para Magento 2
+# ============================================================
 RUN docker-php-ext-install \
     bcmath \
     ftp \
@@ -54,21 +61,33 @@ RUN docker-php-ext-install \
     pcntl \
     gmp
 
-# Ajustar limites do PHP
+# ============================================================
+# Extensão do Redis para comunicação com Valkey
+# ============================================================
+RUN pecl install redis \
+    && docker-php-ext-enable redis
+
+# ============================================================
+# Ajustar os limites do PHP
+# ============================================================
 RUN echo "memory_limit=2G" > /usr/local/etc/php/conf.d/zz-memory-limit.ini \
     && echo "upload_max_filesize=2G" >> /usr/local/etc/php/conf.d/zz-memory-limit.ini \
     && echo "post_max_size=2200M" >> /usr/local/etc/php/conf.d/zz-memory-limit.ini \
     && echo "max_execution_time=1800" >> /usr/local/etc/php/conf.d/zz-memory-limit.ini
 
-# Criar usuário e grupo do Magento
-RUN groupadd -g 1001 magentogroup \
-    && useradd -u 1001 \
+# ============================================================
+# Criar o usuário e grupo do Magento 2
+# ============================================================
+RUN groupadd -g 1003 magentogroup \
+    && useradd -u 1003 \
         -g magentogroup \
         -m \
         -s /bin/bash \
         magentouser
 
-# Configurar terminal, aliases e prompt
+# ============================================================
+# Configurar o terminal, aliases e prompt
+# ============================================================
 RUN echo "export TERM=xterm-256color" >> /home/magentouser/.bashrc \
     && echo "export CLICOLOR=1" >> /home/magentouser/.bashrc \
     && echo "alias ll='ls -lah --color=auto'" >> /home/magentouser/.bashrc \
@@ -79,18 +98,25 @@ RUN echo "export TERM=xterm-256color" >> /home/magentouser/.bashrc \
     && echo "alias magr='php bin/magento indexer:reindex'" >> /home/magentouser/.bashrc \
     && echo "PS1='\\[\\033[01;32m\\]\\u@\\h:\\w \\$\\[\\033[00m\\] '" >> /home/magentouser/.bashrc
 
-# Permissões do Magento
+# ============================================================
+# Permissões do Magento 2
+# ============================================================
 RUN chown -R magentouser:magentogroup /var/www/html \
     && chown -R magentouser:magentogroup /home/magentouser
 
-# Instalar Composer
+# ============================================================
+# Instalar o Composer
+# ============================================================
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Ambiente do Magento
+# ============================================================
+# Ambiente do Magento 2
+# ============================================================
 WORKDIR /var/www/html
 
-# Executar como usuário não-root
+# Usuário padrão do container
 USER magentouser
 
-# Shell usado durante o build
+# Shell padrão
 SHELL ["/bin/bash", "-c"]
+
